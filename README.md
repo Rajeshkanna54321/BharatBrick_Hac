@@ -1,4 +1,3 @@
-
 graph TD
     %% Define Styles
     classDef user fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
@@ -8,33 +7,33 @@ graph TD
     classDef output fill:#ffebee,stroke:#b71c1c,stroke-width:3px;
 
     %% Flowchart Nodes
-    Input([User Query: Layman Description]) ::: user
+    Input([User Query: Layman Description]):::user
     
-    subgraph Stage 1: Translation
-        LLM1[Phi-3.5-mini GGUF] ::: model
-        Rewrite[Generate 3 Formal Legal Variations] ::: process
+    subgraph Stage_1 [Stage 1: Translation]
+        LLM1[Phi-3.5-mini GGUF]:::model
+        Rewrite[Generate 3 Formal Legal Variations]:::process
     end
 
-    subgraph Stage 2: Hybrid Search
-        BM25[BM25 Index Search] ::: process
-        SBERT[SBERT Semantic Search] ::: process
-        DB[(BNS Sections CSV)] ::: data
-        Group[Identify Best Chapter_Subtype Group] ::: process
+    subgraph Stage_2 [Stage 2: Hybrid Search]
+        BM25[BM25 Index Search]:::process
+        SBERT[SBERT Semantic Search]:::process
+        DB[(BNS Sections CSV)]:::data
+        Group[Identify Best Chapter_Subtype Group]:::process
     end
 
-    subgraph Stage 3: Decision Tree
-        JSON[(Pre-generated JSON Trees)] ::: data
-        Walk[Auto-walk / Interactive Walk] ::: process
-        Section[Exact BNS Section Identified] ::: data
+    subgraph Stage_3 [Stage 3: Decision Tree]
+        JSON[(Pre-generated JSON Trees)]:::data
+        Walk[Auto-walk / Interactive Walk]:::process
+        Section[Exact BNS Section Identified]:::data
     end
 
-    subgraph Stage 4: RAG & Summary
-        DDG[DuckDuckGo Web Search] ::: process
-        LLM2[Phi-3.5-mini GGUF] ::: model
-        Summ[Summarize Case Law Precedents] ::: process
+    subgraph Stage_4 [Stage 4: RAG & Summary]
+        DDG[DuckDuckGo Web Search]:::process
+        LLM2[Phi-3.5-mini GGUF]:::model
+        Summ[Summarize Case Law Precedents]:::process
     end
 
-    Output(((Final WhatsApp / Web UI Response))) ::: output
+    Output((Final WhatsApp / Web UI Response)):::output
 
     %% Connections
     Input --> LLM1
