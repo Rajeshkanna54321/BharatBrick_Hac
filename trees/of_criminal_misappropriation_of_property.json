@@ -1,0 +1,42 @@
+{
+  "question": "Was the property taken out of the deceased person's possession?",
+  "yes": {
+    "question": "Has the property not been in the possession of any person legally entitled to it since the deceased person's death?",
+    "yes": {
+      "section": 315,
+      "name": "Dishonest misappropriation of property possessed by deceased person at the time of his death"
+    },
+    "no": {
+      "section": 315,
+      "name": "Dishonest misappropriation of property possessed by deceased person at the time of his death"
+    }
+  },
+  "no": {
+    "question": "Did the person take the property in good faith believing it was not stolen?",
+    "yes": {
+      "section": 314,
+      "name": "Dishonest misappropriation of property"
+    },
+    "no": {
+      "section": 314,
+      "name": "Dishonest misappropriation of property"
+    }
+  },
+  "group": "Of criminal misappropriation of property",
+  "_meta": {
+    "chapter_subtype": "Of criminal misappropriation of property",
+    "slug": "of_criminal_misappropriation_of_property",
+    "section_count": 2,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 314,
+        "name": "Dishonest misappropriation of property."
+      },
+      {
+        "section": 315,
+        "name": "Dishonest misappropriation of property possessed by deceased person at the time of his death."
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "question": "Is the document or electronic record a record of a Court or a public register?",
+  "yes": {
+    "question": "Is the document or electronic record an identity document issued by Government including voter identity card or Aadhaar Card?",
+    "yes": {
+      "section": 337,
+      "name": "Forgery of record of Court or of public register, etc."
+    },
+    "no": {
+      "section": 337,
+      "name": "Forgery of record of Court or of public register, etc."
+    }
+  },
+  "no": {
+    "question": "Is the document or electronic record a will, or an authority to adopt a son, or a valuable security?",
+    "yes": {
+      "question": "Is the document or electronic record a will, or an authority to adopt a son?",
+      "yes": {
+        "section": 338,
+        "name": "Forgery of valuable security, will, etc."
+      },
+      "no": {
+        "section": 338,
+        "name": "Forgery of valuable security, will, etc."
+      }
+    },
+    "no": {
+      "question": "Is the document or electronic record a security, or a register of birth, marriage or burial, or a register kept by a public servant?",
+      "yes": {
+        "section": 337,
+        "name": "Forgery of record of Court or of public register, etc."
+      },
+      "no": {
+        "question": "Is the document or electronic record a false document or false electronic record?",
+        "yes": {
+          "question": "Is the intention to cause damage or injury to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud?",
+          "yes": {
+            "section": 336,
+            "name": "Forgery"
+          },
+          "no": {
+            "section": 335,
+            "name": "Making a false document"
+          }
+        },
+        "no": {
+          "question": "Is the document or electronic record a document or part of a document, or an electronic record or part of an electronic record?",
+          "yes": {
+            "section": 335,
+            "name": "Making a false document"
+          },
+          "no": {
+            "section": 335,
+            "name": "Making a false document"
+          }
+        }
+      }
+    }
+  },
+  "group": "OF OFFENCES RELATING TO DOCUMENTS AND TO PROPERTY MARKS",
+  "_meta": {
+    "chapter_subtype": "OF OFFENCES RELATING TO DOCUMENTS AND TO PROPERTY MARKS",
+    "slug": "of_offences_relating_to_documents_and_to_property_marks",
+    "section_count": 10,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 335,
+        "name": "Making a false document."
+      },
+      {
+        "section": 336,
+        "name": "Forgery"
+      },
+      {
+        "section": 337,
+        "name": "Forgery of record of Court or of public register, etc."
+      },
+      {
+        "section": 338,
+        "name": "Forgery of valuable security, will, etc."
+      },
+      {
+        "section": 339,
+        "name": "Having possession of document described in section 337 or section 338, knowing it to be forged and intending to use it as genuine."
+      },
+      {
+        "section": 340,
+        "name": "Forged document or electronic record and using it as genuine."
+      },
+      {
+        "section": 341,
+        "name": "Making or possessing counterfeit seal, etc., with intent to commit forgery punishable under section 338."
+      },
+      {
+        "section": 342,
+        "name": "Counterfeiting device or mark used for authenticating documents described in section 338, or possessing counterfeit marked material."
+      },
+      {
+        "section": 343,
+        "name": "Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security."
+      },
+      {
+        "section": 344,
+        "name": "Falsification of accounts."
+      }
+    ]
+  }
+}

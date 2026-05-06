@@ -1,0 +1,97 @@
+{
+  "question": "Was the death caused with the intention of causing death?",
+  "yes": {
+    "question": "Was the act done with the intention of causing death of the person who died?",
+    "yes": {
+      "section": 101,
+      "name": "Murder"
+    },
+    "no": {
+      "section": 100,
+      "name": "Culpable homicide"
+    }
+  },
+  "no": {
+    "question": "Was the act done with the intention of causing bodily injury likely to cause death?",
+    "yes": {
+      "section": 100,
+      "name": "Culpable homicide"
+    },
+    "no": {
+      "question": "Was the act done with knowledge that it was likely to cause death?",
+      "yes": {
+        "section": 102,
+        "name": "Culpable homicide by causing death of person other than person whose death was intended"
+      },
+      "no": {
+        "section": 105,
+        "name": "Punishment for culpable homicide not amounting to murder"
+      }
+    }
+  },
+  "group": "Of offences affecting life",
+  "_meta": {
+    "chapter_subtype": "Of offences affecting life",
+    "slug": "of_offences_affecting_life",
+    "section_count": 14,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 100,
+        "name": "Culpable homicide."
+      },
+      {
+        "section": 101,
+        "name": "Murder."
+      },
+      {
+        "section": 102,
+        "name": "Culpable homicide by causing death of person other than person whose death was intended."
+      },
+      {
+        "section": 103,
+        "name": "Punishment for murder."
+      },
+      {
+        "section": 104,
+        "name": "Punishment for murder by life-convict"
+      },
+      {
+        "section": 105,
+        "name": "Punishment for culpable homicide not amounting to murder."
+      },
+      {
+        "section": 106,
+        "name": "Causing death by negligence."
+      },
+      {
+        "section": 107,
+        "name": "Abetment of suicide of child or person of unsound mind."
+      },
+      {
+        "section": 108,
+        "name": "Abetment of suicide."
+      },
+      {
+        "section": 109,
+        "name": "Attempt to murder."
+      },
+      {
+        "section": 110,
+        "name": "Attempt to commit culpable homicide."
+      },
+      {
+        "section": 111,
+        "name": "Organised crime."
+      },
+      {
+        "section": 112,
+        "name": "Petty organised crime."
+      },
+      {
+        "section": 113,
+        "name": "Terrorist act."
+      }
+    ]
+  }
+}

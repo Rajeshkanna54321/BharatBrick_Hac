@@ -1,0 +1,752 @@
+{
+  "generated_at": "2026-04-18T12:29:18.262785",
+  "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "csv_path": "/home/ranveer/rajesh/zzzzzzzzhackathon/bns_sections.csv",
+  "groups": [
+    {
+      "name": "Preliminary",
+      "slug": "preliminary",
+      "section_count": 3,
+      "has_error": false,
+      "file": "preliminary.json",
+      "sections": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Of punishments",
+      "slug": "of_punishments",
+      "section_count": 10,
+      "has_error": false,
+      "file": "of_punishments.json",
+      "sections": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "name": "General exceptions",
+      "slug": "general_exceptions",
+      "section_count": 20,
+      "has_error": false,
+      "file": "general_exceptions.json",
+      "sections": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "name": "Of right of private defence",
+      "slug": "of_right_of_private_defence",
+      "section_count": 11,
+      "has_error": false,
+      "file": "of_right_of_private_defence.json",
+      "sections": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "name": "of abetment",
+      "slug": "of_abetment",
+      "section_count": 16,
+      "has_error": false,
+      "file": "of_abetment.json",
+      "sections": [
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "name": "Of criminal conspiracy",
+      "slug": "of_criminal_conspiracy",
+      "section_count": 1,
+      "has_error": false,
+      "file": "of_criminal_conspiracy.json",
+      "sections": [
+        61
+      ]
+    },
+    {
+      "name": "Of attempt",
+      "slug": "of_attempt",
+      "section_count": 1,
+      "has_error": false,
+      "file": "of_attempt.json",
+      "sections": [
+        62
+      ]
+    },
+    {
+      "name": "Of sexual offences",
+      "slug": "of_sexual_offences",
+      "section_count": 11,
+      "has_error": false,
+      "file": "of_sexual_offences.json",
+      "sections": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "name": "Of criminal force and assault against woman",
+      "slug": "of_criminal_force_and_assault_against_woman",
+      "section_count": 6,
+      "has_error": false,
+      "file": "of_criminal_force_and_assault_against_woman.json",
+      "sections": [
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ]
+    },
+    {
+      "name": "Of offences relating to marriage",
+      "slug": "of_offences_relating_to_marriage",
+      "section_count": 8,
+      "has_error": false,
+      "file": "of_offences_relating_to_marriage.json",
+      "sections": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "name": "Of causing miscarriage, etc",
+      "slug": "of_causing_miscarriage_etc",
+      "section_count": 5,
+      "has_error": false,
+      "file": "of_causing_miscarriage_etc.json",
+      "sections": [
+        88,
+        89,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "name": "Of offences against child",
+      "slug": "of_offences_against_child",
+      "section_count": 7,
+      "has_error": false,
+      "file": "of_offences_against_child.json",
+      "sections": [
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "name": "Of offences affecting life",
+      "slug": "of_offences_affecting_life",
+      "section_count": 14,
+      "has_error": false,
+      "file": "of_offences_affecting_life.json",
+      "sections": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ]
+    },
+    {
+      "name": "Of hurt",
+      "slug": "of_hurt",
+      "section_count": 12,
+      "has_error": false,
+      "file": "of_hurt.json",
+      "sections": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ]
+    },
+    {
+      "name": "Of wrongful restraint and wrongful confinement",
+      "slug": "of_wrongful_restraint_and_wrongful_confinement",
+      "section_count": 2,
+      "has_error": false,
+      "file": "of_wrongful_restraint_and_wrongful_confinement.json",
+      "sections": [
+        126,
+        127
+      ]
+    },
+    {
+      "name": "Of criminal force and assault",
+      "slug": "of_criminal_force_and_assault",
+      "section_count": 9,
+      "has_error": false,
+      "file": "of_criminal_force_and_assault.json",
+      "sections": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+      ]
+    },
+    {
+      "name": "Of kidnapping, abduction, slavery and forced labour",
+      "slug": "of_kidnapping_abduction_slavery_and_forced_labour",
+      "section_count": 10,
+      "has_error": false,
+      "file": "of_kidnapping_abduction_slavery_and_forced_labour.json",
+      "sections": [
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146
+      ]
+    },
+    {
+      "name": "OF OFFENCES AGAINST THE STATE",
+      "slug": "of_offences_against_the_state",
+      "section_count": 12,
+      "has_error": false,
+      "file": "of_offences_against_the_state.json",
+      "sections": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158
+      ]
+    },
+    {
+      "name": "OF OFFENCES RELATING TO THE ARMY, NAVY AND AIR FORCE",
+      "slug": "of_offences_relating_to_the_army_navy_and_air_force",
+      "section_count": 10,
+      "has_error": false,
+      "file": "of_offences_relating_to_the_army_navy_and_air_force.json",
+      "sections": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "name": "OF OFFENCES RELATING TO ELECTIONS",
+      "slug": "of_offences_relating_to_elections",
+      "section_count": 9,
+      "has_error": false,
+      "file": "of_offences_relating_to_elections.json",
+      "sections": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177
+      ]
+    },
+    {
+      "name": "OF OFFENCES RELATING TO COIN, CURRENCY-NOTES, BANK-NOTES, AND GOVERNMENT STAMPS",
+      "slug": "of_offences_relating_to_coin_currency_notes_bank_notes_and_government_stamps",
+      "section_count": 11,
+      "has_error": false,
+      "file": "of_offences_relating_to_coin_currency_notes_bank_notes_and_government_stamps.json",
+      "sections": [
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188
+      ]
+    },
+    {
+      "name": "OF OFFENCES AGAINST THE PUBLIC TRANQUILLITY",
+      "slug": "of_offences_against_the_public_tranquillity",
+      "section_count": 9,
+      "has_error": false,
+      "file": "of_offences_against_the_public_tranquillity.json",
+      "sections": [
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
+      ]
+    },
+    {
+      "name": "OF OFFENCES BY OR RELATING TO PUBLIC SERVANTS",
+      "slug": "of_offences_by_or_relating_to_public_servants",
+      "section_count": 8,
+      "has_error": false,
+      "file": "of_offences_by_or_relating_to_public_servants.json",
+      "sections": [
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "name": "OF CONTEMPTS OF THE LAWFUL AUTHORITY OF PUBLIC SERVANTS",
+      "slug": "of_contempts_of_the_lawful_authority_of_public_servants",
+      "section_count": 21,
+      "has_error": false,
+      "file": "of_contempts_of_the_lawful_authority_of_public_servants.json",
+      "sections": [
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226
+      ]
+    },
+    {
+      "name": "OF FALSE EVIDENCE AND OFFENCES AGAINST PUBLIC JUSTICE",
+      "slug": "of_false_evidence_and_offences_against_public_justice",
+      "section_count": 43,
+      "has_error": true,
+      "file": "of_false_evidence_and_offences_against_public_justice.json",
+      "sections": [
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269
+      ]
+    },
+    {
+      "name": "OF OFFENCES AFFECTING THE PUBLIC HEALTH, SAFETY, CONVENIENCE, DECENCY AND MORALS",
+      "slug": "of_offences_affecting_the_public_health_safety_convenience_decency_and_morals",
+      "section_count": 28,
+      "has_error": false,
+      "file": "of_offences_affecting_the_public_health_safety_convenience_decency_and_morals.json",
+      "sections": [
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297
+      ]
+    },
+    {
+      "name": "OF OFFENCES RELATING TO RELIGION",
+      "slug": "of_offences_relating_to_religion",
+      "section_count": 5,
+      "has_error": false,
+      "file": "of_offences_relating_to_religion.json",
+      "sections": [
+        298,
+        299,
+        300,
+        301,
+        302
+      ]
+    },
+    {
+      "name": "Of theft",
+      "slug": "of_theft",
+      "section_count": 5,
+      "has_error": false,
+      "file": "of_theft.json",
+      "sections": [
+        303,
+        304,
+        305,
+        306,
+        307
+      ]
+    },
+    {
+      "name": "Of extortion",
+      "slug": "of_extortion",
+      "section_count": 1,
+      "has_error": false,
+      "file": "of_extortion.json",
+      "sections": [
+        308
+      ]
+    },
+    {
+      "name": "Of robbery and dacoity",
+      "slug": "of_robbery_and_dacoity",
+      "section_count": 5,
+      "has_error": false,
+      "file": "of_robbery_and_dacoity.json",
+      "sections": [
+        309,
+        310,
+        311,
+        312,
+        313
+      ]
+    },
+    {
+      "name": "Of criminal misappropriation of property",
+      "slug": "of_criminal_misappropriation_of_property",
+      "section_count": 2,
+      "has_error": false,
+      "file": "of_criminal_misappropriation_of_property.json",
+      "sections": [
+        314,
+        315
+      ]
+    },
+    {
+      "name": "Of criminal breach of trust",
+      "slug": "of_criminal_breach_of_trust",
+      "section_count": 1,
+      "has_error": false,
+      "file": "of_criminal_breach_of_trust.json",
+      "sections": [
+        316
+      ]
+    },
+    {
+      "name": "Of receiving stolen property",
+      "slug": "of_receiving_stolen_property",
+      "section_count": 1,
+      "has_error": false,
+      "file": "of_receiving_stolen_property.json",
+      "sections": [
+        317
+      ]
+    },
+    {
+      "name": "Of cheating",
+      "slug": "of_cheating",
+      "section_count": 2,
+      "has_error": false,
+      "file": "of_cheating.json",
+      "sections": [
+        318,
+        319
+      ]
+    },
+    {
+      "name": "Of fraudulent deeds and dispositions of property",
+      "slug": "of_fraudulent_deeds_and_dispositions_of_property",
+      "section_count": 4,
+      "has_error": false,
+      "file": "of_fraudulent_deeds_and_dispositions_of_property.json",
+      "sections": [
+        320,
+        321,
+        322,
+        323
+      ]
+    },
+    {
+      "name": "Of mischief",
+      "slug": "of_mischief",
+      "section_count": 5,
+      "has_error": false,
+      "file": "of_mischief.json",
+      "sections": [
+        324,
+        325,
+        326,
+        327,
+        328
+      ]
+    },
+    {
+      "name": "Of criminal trespass",
+      "slug": "of_criminal_trespass",
+      "section_count": 6,
+      "has_error": false,
+      "file": "of_criminal_trespass.json",
+      "sections": [
+        329,
+        330,
+        331,
+        332,
+        333,
+        334
+      ]
+    },
+    {
+      "name": "OF OFFENCES RELATING TO DOCUMENTS AND TO PROPERTY MARKS",
+      "slug": "of_offences_relating_to_documents_and_to_property_marks",
+      "section_count": 10,
+      "has_error": false,
+      "file": "of_offences_relating_to_documents_and_to_property_marks.json",
+      "sections": [
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344
+      ]
+    },
+    {
+      "name": "Of property marks",
+      "slug": "of_property_marks",
+      "section_count": 6,
+      "has_error": false,
+      "file": "of_property_marks.json",
+      "sections": [
+        345,
+        346,
+        347,
+        348,
+        349,
+        350
+      ]
+    },
+    {
+      "name": "OF CRIMINAL INTIMIDATION, INSULT, ANNOYANCE, DEFAMATION, ETC.",
+      "slug": "of_criminal_intimidation_insult_annoyance_defamation_etc",
+      "section_count": 5,
+      "has_error": false,
+      "file": "of_criminal_intimidation_insult_annoyance_defamation_etc.json",
+      "sections": [
+        351,
+        352,
+        353,
+        354,
+        355
+      ]
+    },
+    {
+      "name": "Of defamation",
+      "slug": "of_defamation",
+      "section_count": 1,
+      "has_error": false,
+      "file": "of_defamation.json",
+      "sections": [
+        356
+      ]
+    },
+    {
+      "name": "Of breach of contract to attend on and supply wants of helpless person",
+      "slug": "of_breach_of_contract_to_attend_on_and_supply_wants_of_helpless_person",
+      "section_count": 1,
+      "has_error": false,
+      "file": "of_breach_of_contract_to_attend_on_and_supply_wants_of_helpless_person.json",
+      "sections": [
+        357
+      ]
+    },
+    {
+      "name": "REPEAL AND SAVINGS",
+      "slug": "repeal_and_savings",
+      "section_count": 1,
+      "has_error": false,
+      "file": "repeal_and_savings.json",
+      "sections": [
+        358
+      ]
+    }
+  ]
+}

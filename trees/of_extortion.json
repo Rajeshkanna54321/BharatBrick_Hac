@@ -1,0 +1,25 @@
+{
+  "group": "Of extortion",
+  "question": "Does the situation involve 'Extortion.' as described under Section 308?",
+  "yes": {
+    "section": 308,
+    "name": "Extortion."
+  },
+  "no": {
+    "section": 308,
+    "name": "Extortion.",
+    "note": "Only one section in this group -- it applies regardless."
+  },
+  "_meta": {
+    "chapter_subtype": "Of extortion",
+    "slug": "of_extortion",
+    "section_count": 1,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 308,
+        "name": "Extortion."
+      }
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "question": "Is the public servant legally competent to issue the summons, notice or order?",
+  "yes": {
+    "question": "Did the person intentionally omit to attend at the specified place or time?",
+    "yes": {
+      "section": 208,
+      "name": "Non-attendance in obedience to an order from public servant"
+    },
+    "no": {
+      "section": 206,
+      "name": "Absconding to avoid service of summons or other proceeding"
+    }
+  },
+  "no": {
+    "question": "Did the person intentionally prevent the serving on himself, or on any other person, of any summons, notice or order?",
+    "yes": {
+      "section": 207,
+      "name": "Preventing service of summons or other proceeding, or preventing publication thereof"
+    },
+    "no": {
+      "question": "Did the person intentionally omit to produce or deliver up any document or electronic record to any public servant?",
+      "yes": {
+        "section": 210,
+        "name": "Omission to produce document or electronic record to public servant by person legally bound to produce it"
+      },
+      "no": {
+        "question": "Did the person intentionally omit to give any notice or to furnish information on any subject to any public servant?",
+        "yes": {
+          "section": 211,
+          "name": "Omission to give notice or information to public servant by person legally bound to give it"
+        },
+        "no": {
+          "question": "Did the person furnish, as true, information on the subject which he knows or has reason to believe to be false?",
+          "yes": {
+            "section": 212,
+            "name": "Furnishing false information"
+          },
+          "no": {
+            "question": "Did the person refuse to bind himself by an oath or affirmation to state the truth?",
+            "yes": {
+              "section": 213,
+              "name": "Refusing oath or affirmation when duly required by public servant to make it"
+            },
+            "no": {
+              "question": "Did the person refuse to answer any question demanded of him touching that subject by such public servant?",
+              "yes": {
+                "section": 214,
+                "name": "Refusing to answer public servant authorised to question"
+              },
+              "no": {
+                "question": "Did the person refuse to sign any statement made by him?",
+                "yes": {
+                  "section": 215,
+                  "name": "Refusing to sign statement"
+                },
+                "no": {
+                  "question": "Did the person make, to such public servant or other person as aforesaid, touching that subject, any statement which is false?",
+                  "yes": {
+                    "section": 216,
+                    "name": "False statement on oath or affirmation to public servant or person authorised to administer an oath or affirmation"
+                  },
+                  "no": {
+                    "question": "Did the person give to any public servant any information which he knows or believes to be false?",
+                    "yes": {
+                      "section": 217,
+                      "name": "False information, with intent to cause public servant to use his lawful power to injury of another person"
+                    },
+                    "no": {
+                      "question": "Did the person offer any resistance to the taking of any property by the lawful authority of any public servant?",
+                      "yes": {
+                        "section": 218,
+                        "name": "Resistance to taking of property by lawful authority of a public servant"
+                      },
+                      "no": {
+                        "question": "Did the person offer any resistance to the taking of any property by the lawful authority of any public servant?",
+                        "yes": {
+                          "section": 219,
+                          "name": "Obstructing sale of property offered for sale by authority of public servant"
+                        },
+                        "no": {
+                          "question": "Did the person purchase or bid for any property on account of any person, whom he knows to be under a legal incapacity to purchase that property at that sale?",
+                          "yes": {
+                            "section": 220,
+                            "name": "Illegal purchase or bid for property offered for sale by authority of public servant"
+                          },
+                          "no": {
+                            "question": "Did the person voluntarily obstruct any public servant in the discharge of his public functions?",
+                            "yes": {
+                              "section": 221,
+                              "name": "Obstructing public servant in discharge of public functions"
+                            },
+                            "no": {
+                              "question": "Did the person intentionally omit to give assistance to any public servant in the execution of his public duty?",
+                              "yes": {
+                                "section": 222,
+                                "name": "Omission to assist public servant when bound by law to give assistance"
+                              },
+                              "no": {
+                                "question": "Did the person know that, by an order promulgated by a public servant lawfully empowered to promulgate such order, he is directed to abstain from a certain act?",
+                                "yes": {
+                                  "section": 223,
+                                  "name": "Disobedience to order duly promulgated by public servant"
+                                },
+                                "no": {
+                                  "question": "Did the person hold out any threat of injury to any public servant?",
+                                  "yes": {
+                                    "section": 224,
+                                    "name": "Threat of injury to public servant"
+                                  },
+                                  "no": {
+                                    "question": "Did the person hold out any threat of injury to induce any person to refrain or desist from making a legal application for protection against any injury to any public servant?",
+                                    "yes": {
+                                      "section": 225,
+                                      "name": "Threat of injury to induce person to refrain from applying for protection to public servant"
+                                    },
+                                    "no": {
+                                      "question": "Did the person attempt to commit suicide with the intent to compel or restrain any public servant from discharging his official duty?",
+                                      "yes": {
+                                        "section": 226,
+                                        "name": "Attempt to commit suicide to compel or restrain exercise of lawful power"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "group": "OF CONTEMPTS OF THE LAWFUL AUTHORITY OF PUBLIC SERVANTS",
+  "_meta": {
+    "chapter_subtype": "OF CONTEMPTS OF THE LAWFUL AUTHORITY OF PUBLIC SERVANTS",
+    "slug": "of_contempts_of_the_lawful_authority_of_public_servants",
+    "section_count": 21,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 206,
+        "name": "Absconding to avoid service of summons or other proceeding."
+      },
+      {
+        "section": 207,
+        "name": "Preventing service of summons or other proceeding, or preventing publication thereof."
+      },
+      {
+        "section": 208,
+        "name": "Non-attendance in obedience to an order from public servant."
+      },
+      {
+        "section": 209,
+        "name": "Non-appearance in response to a proclamation under section 84 of Bharatiya Nagarik Suraksha Sanhita, 2023."
+      },
+      {
+        "section": 210,
+        "name": "Omission to produce document or electronic record to public servant by person legally bound to produce it"
+      },
+      {
+        "section": 211,
+        "name": "Omission to give notice or information to public servant by person legally bound to give it."
+      },
+      {
+        "section": 212,
+        "name": "Furnishing false information."
+      },
+      {
+        "section": 213,
+        "name": "Refusing oath or affirmation when duly required by public servant to make it."
+      },
+      {
+        "section": 214,
+        "name": "Refusing to answer public servant authorised to question."
+      },
+      {
+        "section": 215,
+        "name": "Refusing to sign statement."
+      },
+      {
+        "section": 216,
+        "name": "False statement on oath or affirmation to public servant or person authorised to administer an oath or affirmation."
+      },
+      {
+        "section": 217,
+        "name": "False information, with intent to cause public servant to use his lawful power to injury of another person."
+      },
+      {
+        "section": 218,
+        "name": "Resistance to taking of property by lawful authority of a public servant."
+      },
+      {
+        "section": 219,
+        "name": "Obstructing sale of property offered for sale by authority of public servant."
+      },
+      {
+        "section": 220,
+        "name": "Illegal purchase or bid for property offered for sale by authority of public servant."
+      },
+      {
+        "section": 221,
+        "name": "Obstructing public servant in discharge of public functions."
+      },
+      {
+        "section": 222,
+        "name": "Omission to assist public servant when bound by law to give assistance."
+      },
+      {
+        "section": 223,
+        "name": "Disobedience to order duly promulgated by public servant."
+      },
+      {
+        "section": 224,
+        "name": "Threat of injury to public servant."
+      },
+      {
+        "section": 225,
+        "name": "Threat of injury to induce person to refrain from applying for protection to public servant."
+      },
+      {
+        "section": 226,
+        "name": "Attempt to commit suicide to compel or restrain exercise of lawful power."
+      }
+    ]
+  }
+}

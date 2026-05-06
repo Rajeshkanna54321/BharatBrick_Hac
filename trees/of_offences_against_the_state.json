@@ -1,0 +1,152 @@
+{
+  "question": "Is the offence committed against the Government of India?",
+  "yes": {
+    "question": "Is the offence related to waging war or attempting to wage war?",
+    "yes": {
+      "section": 147,
+      "name": "Waging, or attempting to wage war, or abetting waging of war, against Government of India"
+    },
+    "no": {
+      "question": "Is the offence related to conspiracy or overawing the Government?",
+      "yes": {
+        "section": 148,
+        "name": "Conspiracy to commit offences punishable by section 147"
+      },
+      "no": {
+        "question": "Is the offence related to collecting arms or preparing to wage war?",
+        "yes": {
+          "section": 149,
+          "name": "Collecting arms, etc., with intention of waging war against Government of India"
+        },
+        "no": {
+          "question": "Is the offence related to concealing a design to wage war?",
+          "yes": {
+            "section": 150,
+            "name": "Concealing with intent to facilitate design to wage war"
+          },
+          "no": {
+            "question": "Is the offence related to assaulting a President, Governor, etc.?",
+            "yes": {
+              "section": 151,
+              "name": "Assaulting President, Governor, etc., with intent to compel or restrain exercise of any lawful power"
+            },
+            "no": {
+              "question": "Is the offence related to endangering sovereignty, unity and integrity of India?",
+              "yes": {
+                "section": 152,
+                "name": "Act endangering sovereignty, unity and integrity of India"
+              },
+              "no": {
+                "question": "Is the offence related to waging war against a foreign State at peace with Government of India?",
+                "yes": {
+                  "section": 153,
+                  "name": "Waging war against Government of any foreign State at peace with Government of India"
+                },
+                "no": {
+                  "question": "Is the offence related to committing depredation on territories of a foreign State at peace with Government of India?",
+                  "yes": {
+                    "section": 154,
+                    "name": "Committing depredation on territories of foreign State at peace with Government of India"
+                  },
+                  "no": {
+                    "question": "Is the offence related to receiving property taken by war or depredation?",
+                    "yes": {
+                      "section": 155,
+                      "name": "Receiving property taken by war or depredation mentioned in sections 153 and 154"
+                    },
+                    "no": {
+                      "question": "Is the offender a public servant?",
+                      "yes": {
+                        "question": "Did the public servant voluntarily allow a prisoner to escape?",
+                        "yes": {
+                          "section": 156,
+                          "name": "Public servant voluntarily allowing prisoner of State or war to escape"
+                        },
+                        "no": {
+                          "question": "Did the public servant negligently suffer a prisoner to escape?",
+                          "yes": {
+                            "section": 157,
+                            "name": "Public servant negligently suffering such prisoner to escape"
+                          },
+                          "no": {
+                            "section": 158,
+                            "name": "Aiding escape of, rescuing or harbouring such prisoner"
+                          }
+                        }
+                      },
+                      "no": {
+                        "section": 158,
+                        "name": "Aiding escape of, rescuing or harbouring such prisoner"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "no": {
+    "section": 151,
+    "name": "Assaulting President, Governor, etc., with intent to compel or restrain exercise of any lawful power"
+  },
+  "group": "OF OFFENCES AGAINST THE STATE",
+  "_meta": {
+    "chapter_subtype": "OF OFFENCES AGAINST THE STATE",
+    "slug": "of_offences_against_the_state",
+    "section_count": 12,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 147,
+        "name": "Waging, or attempting to wage war, or abetting waging of war, against Government of India."
+      },
+      {
+        "section": 148,
+        "name": "Conspiracy to commit offences punishable by section 147."
+      },
+      {
+        "section": 149,
+        "name": "Collecting arms, etc., with intention of waging war against Government of India."
+      },
+      {
+        "section": 150,
+        "name": "Concealing with intent to facilitate design to wage war."
+      },
+      {
+        "section": 151,
+        "name": "Assaulting President, Governor, etc., with intent to compel or restrain exercise of any lawful power."
+      },
+      {
+        "section": 152,
+        "name": "Act endangering sovereignty, unity and integrity of India."
+      },
+      {
+        "section": 153,
+        "name": "Waging war against Government of any foreign State at peace with Government of India."
+      },
+      {
+        "section": 154,
+        "name": "Committing depredation on territories of foreign State at peace with Government of India."
+      },
+      {
+        "section": 155,
+        "name": "Receiving property taken by war or depredation mentioned in sections 153 and 154."
+      },
+      {
+        "section": 156,
+        "name": "Public servant voluntarily allowing prisoner of State or war to escape."
+      },
+      {
+        "section": 157,
+        "name": "Public servant negligently suffering such prisoner to escape."
+      },
+      {
+        "section": 158,
+        "name": "Aiding escape of, rescuing or harbouring such prisoner."
+      }
+    ]
+  }
+}

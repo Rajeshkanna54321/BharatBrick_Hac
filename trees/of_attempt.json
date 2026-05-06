@@ -1,0 +1,25 @@
+{
+  "group": "Of attempt",
+  "question": "Does the situation involve 'Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment.' as described under Section 62?",
+  "yes": {
+    "section": 62,
+    "name": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment."
+  },
+  "no": {
+    "section": 62,
+    "name": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment.",
+    "note": "Only one section in this group -- it applies regardless."
+  },
+  "_meta": {
+    "chapter_subtype": "Of attempt",
+    "slug": "of_attempt",
+    "section_count": 1,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 62,
+        "name": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment."
+      }
+    ]
+  }
+}

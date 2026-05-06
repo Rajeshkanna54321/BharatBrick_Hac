@@ -1,0 +1,105 @@
+{
+  "question": "Is the abetment done in India?",
+  "yes": {
+    "question": "Is the act abetted committed in consequence of the abetment?",
+    "yes": {
+      "section": 49,
+      "name": "Punishment of abetment if act abetted is committed in consequence and where no express provision is made for its punishment"
+    },
+    "no": {
+      "section": 50,
+      "name": "Punishment of abetment if person abetted does act with different intention from that of abettor"
+    }
+  },
+  "no": {
+    "question": "Is the abetment done outside India?",
+    "yes": {
+      "question": "Is the act abetted committed in India?",
+      "yes": {
+        "section": 47,
+        "name": "Abetment in India of offences outside India"
+      },
+      "no": {
+        "section": 48,
+        "name": "Abetment outside India for offence in India"
+      }
+    },
+    "no": {
+      "section": 55,
+      "name": "Abetment of offence punishable with death or imprisonment for life"
+    }
+  },
+  "group": "of abetment",
+  "_meta": {
+    "chapter_subtype": "of abetment",
+    "slug": "of_abetment",
+    "section_count": 16,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 45,
+        "name": "Abetment of a thing."
+      },
+      {
+        "section": 46,
+        "name": "Abettor."
+      },
+      {
+        "section": 47,
+        "name": "Abetment in India of offences outside India."
+      },
+      {
+        "section": 48,
+        "name": "Abetment outside India for offence in India."
+      },
+      {
+        "section": 49,
+        "name": "Punishment of abetment if act abetted is committed in consequence and where no express provision is made for its punishment."
+      },
+      {
+        "section": 50,
+        "name": "Punishment of abetment if person abetted does act with different intention from that of abettor."
+      },
+      {
+        "section": 51,
+        "name": "Liability of abettor when one act abetted and different act done."
+      },
+      {
+        "section": 52,
+        "name": "Abettor when liable to cumulative punishment for act abetted and for act done"
+      },
+      {
+        "section": 53,
+        "name": "Liability of abettor for an effect caused by act abetted different from that intended by abettor."
+      },
+      {
+        "section": 54,
+        "name": "Abettor present when offence is committed."
+      },
+      {
+        "section": 55,
+        "name": "Abetment of offence punishable with death or imprisonment for life."
+      },
+      {
+        "section": 56,
+        "name": "Abetment of offence punishable with imprisonment."
+      },
+      {
+        "section": 57,
+        "name": "Abetting commission of offence by public or by more than ten persons."
+      },
+      {
+        "section": 58,
+        "name": "Concealing design to commit offence punishable with death or imprisonment for life."
+      },
+      {
+        "section": 59,
+        "name": "Public servant concealing design to commit offence which it is his duty to prevent."
+      },
+      {
+        "section": 60,
+        "name": "Concealing design to commit offence punishable with imprisonment."
+      }
+    ]
+  }
+}

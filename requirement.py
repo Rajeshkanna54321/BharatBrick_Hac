@@ -1,0 +1,10 @@
+gradio
+flask
+twilio
+llama-cpp-python
+sentence-transformers
+rank-bm25
+pandas
+numpy
+torch
+duckduckgo-search

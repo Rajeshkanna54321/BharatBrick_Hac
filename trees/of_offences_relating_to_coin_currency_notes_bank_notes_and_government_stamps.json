@@ -1,0 +1,106 @@
+{
+  "question": "Is the offence related to counterfeiting?",
+  "yes": {
+    "question": "Is the offence related to currency-notes or bank-notes?",
+    "yes": {
+      "section": 178,
+      "name": "Counterfeiting coin, Government stamps, currency-notes or bank-notes"
+    },
+    "no": {
+      "section": 181,
+      "name": "Making or possessing instruments or materials for forging or counterfeiting coin, Government stamp, currency-notes or bank-notes"
+    }
+  },
+  "no": {
+    "question": "Is the offence related to using or possessing forged or counterfeit coin, Government stamp, currency-notes or bank-notes?",
+    "yes": {
+      "section": 179,
+      "name": "Using as genuine, forged or counterfeit coin, Government stamp, currency-notes or bank-notes"
+    },
+    "no": {
+      "question": "Is the offence related to making or using documents resembling currency-notes or bank-notes?",
+      "yes": {
+        "section": 182,
+        "name": "Making or using documents resembling currency-notes or bank-notes"
+      },
+      "no": {
+        "question": "Is the offence related to Government stamps?",
+        "yes": {
+          "question": "Is the offence related to removing or erasing Government stamps?",
+          "yes": {
+            "section": 183,
+            "name": "Effacing writing from substance bearing Government stamp, or removing from document a stamp used for it, with intent to cause loss to Government"
+          },
+          "no": {
+            "section": 184,
+            "name": "Using Government stamp known to have been before used"
+          }
+        },
+        "no": {
+          "question": "Is the offence related to erasing marks on Government stamps?",
+          "yes": {
+            "section": 185,
+            "name": "Erasure of mark denoting that stamp has been used"
+          },
+          "no": {
+            "section": 186,
+            "name": "Prohibition of fictitious stamps"
+          }
+        }
+      }
+    }
+  },
+  "group": "OF OFFENCES RELATING TO COIN, CURRENCY-NOTES, BANK-NOTES, AND GOVERNMENT STAMPS",
+  "_meta": {
+    "chapter_subtype": "OF OFFENCES RELATING TO COIN, CURRENCY-NOTES, BANK-NOTES, AND GOVERNMENT STAMPS",
+    "slug": "of_offences_relating_to_coin_currency_notes_bank_notes_and_government_stamps",
+    "section_count": 11,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 178,
+        "name": "Counterfeiting coin, Government stamps, currency-notes or bank-notes."
+      },
+      {
+        "section": 179,
+        "name": "Using as genuine, forged or counterfeit coin, Government stamp, currency-notes or bank-notes."
+      },
+      {
+        "section": 180,
+        "name": "Possession of forged or counterfeit coin, Government stamp, currency-notes or bank-notes."
+      },
+      {
+        "section": 181,
+        "name": "Making or possessing instruments or materials for forging or counterfeiting coin, Government stamp, currency-notes or bank-notes."
+      },
+      {
+        "section": 182,
+        "name": "Making or using documents resembling currency-notes or bank-notes."
+      },
+      {
+        "section": 183,
+        "name": "Effacing writing from substance bearing Government stamp, or removing from document a stamp used for it, with intent to cause loss to Government."
+      },
+      {
+        "section": 184,
+        "name": "Using Government stamp known to have been before used."
+      },
+      {
+        "section": 185,
+        "name": "Erasure of mark denoting that stamp has been used."
+      },
+      {
+        "section": 186,
+        "name": "Prohibition of fictitious stamps."
+      },
+      {
+        "section": 187,
+        "name": "Person employed in mint causing coin to be of different weight or composition from that fixed by law."
+      },
+      {
+        "section": 188,
+        "name": "Unlawfully taking coining instrument from mint."
+      }
+    ]
+  }
+}

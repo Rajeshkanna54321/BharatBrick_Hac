@@ -1,0 +1,61 @@
+{
+  "question": "Was the act done with the consent of the woman?",
+  "yes": {
+    "question": "Was the act done in good faith for the purpose of saving the life of the woman?",
+    "yes": {
+      "section": 88,
+      "name": "Causing miscarriage"
+    },
+    "no": {
+      "section": 89,
+      "name": "Causing miscarriage without woman's consent"
+    }
+  },
+  "no": {
+    "question": "Was the act done with the intention of causing the death of the woman?",
+    "yes": {
+      "section": 90,
+      "name": "Death caused by act done with intent to cause miscarriage"
+    },
+    "no": {
+      "question": "Was the act done with the intention of preventing the child from being born alive or causing it to die after birth?",
+      "yes": {
+        "section": 91,
+        "name": "Act done with intent to prevent child being born alive or to cause to die after birth"
+      },
+      "no": {
+        "section": 92,
+        "name": "Causing death of quick unborn child by act amounting to culpable homicide"
+      }
+    }
+  },
+  "group": "Of causing miscarriage, etc",
+  "_meta": {
+    "chapter_subtype": "Of causing miscarriage, etc",
+    "slug": "of_causing_miscarriage_etc",
+    "section_count": 5,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 88,
+        "name": "Causing miscarriage."
+      },
+      {
+        "section": 89,
+        "name": "Causing miscarriage without woman's consent."
+      },
+      {
+        "section": 90,
+        "name": "Death caused by act done with intent to cause miscarriage."
+      },
+      {
+        "section": 91,
+        "name": "Act done with intent to prevent child being born alive or to cause to die after birth."
+      },
+      {
+        "section": 92,
+        "name": "Causing death of quick unborn child by act amounting to culpable homicide."
+      }
+    ]
+  }
+}

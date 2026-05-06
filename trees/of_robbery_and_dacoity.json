@@ -1,0 +1,54 @@
+{
+  "question": "Is the number of persons committing or attempting to commit the crime 5 or more?",
+  "yes": {
+    "question": "Is the crime committed with the intention of causing death or grievous hurt?",
+    "yes": {
+      "section": 311,
+      "name": "Robbery, or dacoity, with attempt to cause death or grievous hurt"
+    },
+    "no": {
+      "section": 310,
+      "name": "Dacoity"
+    }
+  },
+  "no": {
+    "question": "Is the offender armed with a deadly weapon?",
+    "yes": {
+      "section": 312,
+      "name": "Attempt to commit robbery or dacoity when armed with deadly weapon"
+    },
+    "no": {
+      "section": 309,
+      "name": "Robbery"
+    }
+  },
+  "group": "Of robbery and dacoity",
+  "_meta": {
+    "chapter_subtype": "Of robbery and dacoity",
+    "slug": "of_robbery_and_dacoity",
+    "section_count": 5,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 309,
+        "name": "Robbery"
+      },
+      {
+        "section": 310,
+        "name": "Dacoity"
+      },
+      {
+        "section": 311,
+        "name": "Robbery, or dacoity, with attempt to cause death or grievous hurt."
+      },
+      {
+        "section": 312,
+        "name": "Attempt to commit robbery or dacoity when armed with deadly weapon."
+      },
+      {
+        "section": 313,
+        "name": "Punishment for belonging to gang of robbers, etc."
+      }
+    ]
+  }
+}

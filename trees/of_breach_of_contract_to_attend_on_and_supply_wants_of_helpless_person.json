@@ -1,0 +1,25 @@
+{
+  "group": "Of breach of contract to attend on and supply wants of helpless person",
+  "question": "Does the situation involve 'Breach of contract to attend on and supply wants of helpless person.' as described under Section 357?",
+  "yes": {
+    "section": 357,
+    "name": "Breach of contract to attend on and supply wants of helpless person."
+  },
+  "no": {
+    "section": 357,
+    "name": "Breach of contract to attend on and supply wants of helpless person.",
+    "note": "Only one section in this group -- it applies regardless."
+  },
+  "_meta": {
+    "chapter_subtype": "Of breach of contract to attend on and supply wants of helpless person",
+    "slug": "of_breach_of_contract_to_attend_on_and_supply_wants_of_helpless_person",
+    "section_count": 1,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 357,
+        "name": "Breach of contract to attend on and supply wants of helpless person."
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "question": "Was the act committed with the intention to outrage the woman's modesty?",
+  "yes": {
+    "question": "Was the act committed with the intention to disrobe or compel the woman to be naked?",
+    "yes": {
+      "section": 76,
+      "name": "Assault or use of criminal force to woman with intent to disrobe"
+    },
+    "no": {
+      "section": 74,
+      "name": "Assault or use of criminal force to woman with intent to outrage her modesty"
+    }
+  },
+  "no": {
+    "question": "Was the act committed with the intention to insult the woman's modesty?",
+    "yes": {
+      "section": 79,
+      "name": "Word, gesture or act intended to insult modesty of a woman"
+    },
+    "no": {
+      "question": "Was the act committed with the intention to sexually harass the woman?",
+      "yes": {
+        "section": 75,
+        "name": "Sexual harassment"
+      },
+      "no": {
+        "question": "Was the act committed with the intention to watch, capture or disseminate an image of the woman?",
+        "yes": {
+          "section": 77,
+          "name": "Voyeurism"
+        },
+        "no": {
+          "question": "Did the act involve following, contacting or monitoring the woman's online activities?",
+          "yes": {
+            "section": 78,
+            "name": "Stalking"
+          },
+          "no": {
+            "section": 0,
+            "name": "Not applicable"
+          }
+        }
+      }
+    }
+  },
+  "group": "Of criminal force and assault against woman",
+  "_meta": {
+    "chapter_subtype": "Of criminal force and assault against woman",
+    "slug": "of_criminal_force_and_assault_against_woman",
+    "section_count": 6,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 74,
+        "name": "Assault or use of criminal force to woman with intent to outrage her modesty."
+      },
+      {
+        "section": 75,
+        "name": "Sexual harassment."
+      },
+      {
+        "section": 76,
+        "name": "Assault or use of criminal force to woman with intent to disrobe."
+      },
+      {
+        "section": 77,
+        "name": "Voyeurism."
+      },
+      {
+        "section": 78,
+        "name": "Stalking"
+      },
+      {
+        "section": 79,
+        "name": "Word, gesture or act intended to insult modesty of a woman."
+      }
+    ]
+  }
+}

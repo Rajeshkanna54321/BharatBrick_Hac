@@ -1,0 +1,77 @@
+{
+  "question": "Is the assembly of five or more persons?",
+  "yes": {
+    "question": "Is the common object of the assembly to overawe the government or public servant?",
+    "yes": {
+      "section": 189,
+      "name": "Unlawful assembly"
+    },
+    "no": {
+      "question": "Is the assembly rioting or committing an offence?",
+      "yes": {
+        "section": 191,
+        "name": "Rioting"
+      },
+      "no": {
+        "section": 190,
+        "name": "Every member of unlawful assembly guilty of offence committed in prosecution of common object"
+      }
+    }
+  },
+  "no": {
+    "question": "Is the assembly of two or more persons?",
+    "yes": {
+      "section": 194,
+      "name": "Affray"
+    },
+    "no": {
+      "section": 196,
+      "name": "Promoting enmity between different groups on grounds of religion, race, place of birth, residence, language, etc., and doing acts prejudicial to maintenance of harmony"
+    }
+  },
+  "group": "OF OFFENCES AGAINST THE PUBLIC TRANQUILLITY",
+  "_meta": {
+    "chapter_subtype": "OF OFFENCES AGAINST THE PUBLIC TRANQUILLITY",
+    "slug": "of_offences_against_the_public_tranquillity",
+    "section_count": 9,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 189,
+        "name": "Unlawful assembly"
+      },
+      {
+        "section": 190,
+        "name": "Every member of unlawful assembly guilty of offence committed in prosecution of common object."
+      },
+      {
+        "section": 191,
+        "name": "Rioting."
+      },
+      {
+        "section": 192,
+        "name": "Wantonly giving provocation with intent to cause riot-if rioting be committed; if not committed."
+      },
+      {
+        "section": 193,
+        "name": "Liability of owner, occupier, etc., of land on which an unlawful assembly or riot takes place."
+      },
+      {
+        "section": 194,
+        "name": "Affray."
+      },
+      {
+        "section": 195,
+        "name": "Assaulting or obstructing public servant when suppressing riot, etc"
+      },
+      {
+        "section": 196,
+        "name": "Promoting enmity between different groups on grounds of religion, race, place of birth, residence, language, etc., and doing acts prejudicial to maintenance of harmony"
+      },
+      {
+        "section": 197,
+        "name": "Imputations, assertions prejudicial to national integration."
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "question": "Was the act committed with the intention of insulting a religion?",
+  "yes": {
+    "question": "Was the act committed in a place of worship or a place of sepulchre?",
+    "yes": {
+      "section": 298,
+      "name": "Injuring or defiling place of worship with intent to insult religion of any class"
+    },
+    "no": {
+      "section": 302,
+      "name": "Uttering words, etc., with deliberate intent to wound religious feelings of any person"
+    }
+  },
+  "no": {
+    "question": "Was the act committed with the intention of outraging the religious feelings of any class?",
+    "yes": {
+      "section": 299,
+      "name": "Deliberate and malicious acts, intended to outrage religious feelings of any class by insulting its religion or religious beliefs"
+    },
+    "no": {
+      "question": "Was the act committed during a religious assembly?",
+      "yes": {
+        "section": 300,
+        "name": "Disturbing religious assembly"
+      },
+      "no": {
+        "section": 301,
+        "name": "Trespassing on burial places, etc."
+      }
+    }
+  },
+  "group": "OF OFFENCES RELATING TO RELIGION",
+  "_meta": {
+    "chapter_subtype": "OF OFFENCES RELATING TO RELIGION",
+    "slug": "of_offences_relating_to_religion",
+    "section_count": 5,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 298,
+        "name": "Injuring or defiling place of worship with intent to insult religion of any class."
+      },
+      {
+        "section": 299,
+        "name": "Deliberate and malicious acts, intended to outrage religious feelings of any class by insulting its religion or religious beliefs."
+      },
+      {
+        "section": 300,
+        "name": "Disturbing religious assembly."
+      },
+      {
+        "section": 301,
+        "name": "Trespassing on burial places, etc."
+      },
+      {
+        "section": 302,
+        "name": "Uttering words, etc., with deliberate intent to wound religious feelings of any person."
+      }
+    ]
+  }
+}

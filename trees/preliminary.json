@@ -1,0 +1,53 @@
+{
+  "question": "Is the question about the commencement and application of the Act?",
+  "yes": {
+    "question": "Is the question about the date of commencement?",
+    "yes": {
+      "section": 1,
+      "name": "Short title, commencement and application"
+    },
+    "no": {
+      "section": 1,
+      "name": "Short title, commencement and application"
+    }
+  },
+  "no": {
+    "question": "Is the question about definitions?",
+    "yes": {
+      "section": 2,
+      "name": "Definitions"
+    },
+    "no": {
+      "question": "Is the question about general explanations?",
+      "yes": {
+        "section": 3,
+        "name": "General explanations"
+      },
+      "no": {
+        "section": 0,
+        "name": "Not applicable"
+      }
+    }
+  },
+  "group": "Preliminary",
+  "_meta": {
+    "chapter_subtype": "Preliminary",
+    "slug": "preliminary",
+    "section_count": 3,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 1,
+        "name": "Short title, commencement and application"
+      },
+      {
+        "section": 2,
+        "name": "Definitions."
+      },
+      {
+        "section": 3,
+        "name": "General explanations"
+      }
+    ]
+  }
+}

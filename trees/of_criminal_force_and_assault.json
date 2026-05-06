@@ -1,0 +1,91 @@
+{
+  "question": "Was the force used intentionally?",
+  "yes": {
+    "question": "Was the force used to commit an offence or to cause injury, fear or annoyance?",
+    "yes": {
+      "section": 129,
+      "name": "Criminal force"
+    },
+    "no": {
+      "section": 128,
+      "name": "Force"
+    }
+  },
+  "no": {
+    "question": "Was the force used to deter a public servant from discharging his duty?",
+    "yes": {
+      "section": 132,
+      "name": "Assault or criminal force to deter public servant from discharge of his duty"
+    },
+    "no": {
+      "question": "Was the force used to dishonour a person?",
+      "yes": {
+        "section": 133,
+        "name": "Assault or criminal force with intent to dishonour person, otherwise than on grave provocation"
+      },
+      "no": {
+        "question": "Was the force used to commit theft or wrongfully confine a person?",
+        "yes": {
+          "question": "Was the property being carried by the person?",
+          "yes": {
+            "section": 134,
+            "name": "Assault or criminal force in attempt to commit theft of property carried by a person"
+          },
+          "no": {
+            "section": 135,
+            "name": "Assault or criminal force in attempt to wrongfully confine a person"
+          }
+        },
+        "no": {
+          "section": 130,
+          "name": "Assault"
+        }
+      }
+    }
+  },
+  "group": "Of criminal force and assault",
+  "_meta": {
+    "chapter_subtype": "Of criminal force and assault",
+    "slug": "of_criminal_force_and_assault",
+    "section_count": 9,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 128,
+        "name": "Force."
+      },
+      {
+        "section": 129,
+        "name": "Criminal force."
+      },
+      {
+        "section": 130,
+        "name": "Assault."
+      },
+      {
+        "section": 131,
+        "name": "Punishment for assault or criminal force otherwise than on grave provocation."
+      },
+      {
+        "section": 132,
+        "name": "Assault or criminal force to deter public servant from discharge of his duty."
+      },
+      {
+        "section": 133,
+        "name": "Assault or criminal force with intent to dishonour person, otherwise than on grave provocation."
+      },
+      {
+        "section": 134,
+        "name": "Assault or criminal force in attempt to commit theft of property carried by a person."
+      },
+      {
+        "section": 135,
+        "name": "Assault or criminal force in attempt to wrongfully confine a person."
+      },
+      {
+        "section": 136,
+        "name": "Assault or criminal force on grave provocation."
+      }
+    ]
+  }
+}

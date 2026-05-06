@@ -1,0 +1,90 @@
+{
+  "question": "Is the child under 12 years of age?",
+  "yes": {
+    "question": "Is the child exposed or left in a place with intention of abandonment?",
+    "yes": {
+      "section": 93,
+      "name": "Exposure and abandonment of child under twelve years of age, by parent or person having care of it"
+    },
+    "no": {
+      "section": 97,
+      "name": "Kidnapping or abducting child under ten years of age with intent to steal from its person"
+    }
+  },
+  "no": {
+    "question": "Is the child's birth concealed or attempted to be concealed?",
+    "yes": {
+      "section": 94,
+      "name": "Concealment of birth by secret disposal of dead body"
+    },
+    "no": {
+      "question": "Is the child hired, employed or engaged to commit an offence?",
+      "yes": {
+        "section": 95,
+        "name": "Hiring, employing or engaging a child to commit an offence"
+      },
+      "no": {
+        "question": "Is the child procured or induced to go from a place or do an act with intent to be forced or seduced to illicit intercourse?",
+        "yes": {
+          "section": 96,
+          "name": "Procuration of child"
+        },
+        "no": {
+          "question": "Is the child sold, let to hire, or disposed of with intent for prostitution or illicit intercourse?",
+          "yes": {
+            "section": 98,
+            "name": "Selling child for purposes of prostitution, etc."
+          },
+          "no": {
+            "question": "Is the child bought, hired or obtained with intent for prostitution or illicit intercourse?",
+            "yes": {
+              "section": 99,
+              "name": "Buying child for purposes of prostitution, etc."
+            },
+            "no": {
+              "section": 0,
+              "name": "Not applicable"
+            }
+          }
+        }
+      }
+    }
+  },
+  "group": "Of offences against child",
+  "_meta": {
+    "chapter_subtype": "Of offences against child",
+    "slug": "of_offences_against_child",
+    "section_count": 7,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 93,
+        "name": "Exposure and abandonment of child under twelve years of age, by parent or person having care of it"
+      },
+      {
+        "section": 94,
+        "name": "Concealment of birth by secret disposal of dead body."
+      },
+      {
+        "section": 95,
+        "name": "Hiring, employing or engaging a child to commit an offence."
+      },
+      {
+        "section": 96,
+        "name": "Procuration of child."
+      },
+      {
+        "section": 97,
+        "name": "Kidnapping or abducting child under ten years of age with intent to steal from its person"
+      },
+      {
+        "section": 98,
+        "name": "Selling child for purposes of prostitution, etc."
+      },
+      {
+        "section": 99,
+        "name": "Buying child for purposes of prostitution, etc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "group": "REPEAL AND SAVINGS",
+  "question": "Does the situation involve 'Repeal and savings.' as described under Section 358?",
+  "yes": {
+    "section": 358,
+    "name": "Repeal and savings."
+  },
+  "no": {
+    "section": 358,
+    "name": "Repeal and savings.",
+    "note": "Only one section in this group -- it applies regardless."
+  },
+  "_meta": {
+    "chapter_subtype": "REPEAL AND SAVINGS",
+    "slug": "repeal_and_savings",
+    "section_count": 1,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 358,
+        "name": "Repeal and savings."
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "question": "Is the obstruction or restraint intentional?",
+  "yes": {
+    "question": "Is the obstruction or restraint to prevent the person from proceeding in a specific direction?",
+    "yes": {
+      "section": 126,
+      "name": "Wrongful restraint"
+    },
+    "no": {
+      "section": 127,
+      "name": "Wrongful confinement"
+    }
+  },
+  "no": {
+    "section": 0,
+    "name": "Not applicable"
+  },
+  "group": "Of wrongful restraint and wrongful confinement",
+  "_meta": {
+    "chapter_subtype": "Of wrongful restraint and wrongful confinement",
+    "slug": "of_wrongful_restraint_and_wrongful_confinement",
+    "section_count": 2,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 126,
+        "name": "Wrongful restraint."
+      },
+      {
+        "section": 127,
+        "name": "Wrongful confinement."
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "question": "Is the woman's death caused by burns or bodily injury?",
+  "yes": {
+    "question": "Is the death within 7 years of marriage?",
+    "yes": {
+      "section": 80,
+      "name": "Dowry death"
+    },
+    "no": {
+      "section": 84,
+      "name": "Enticing or taking away or detaining with criminal intent a married woman"
+    }
+  },
+  "no": {
+    "question": "Is the woman's death under normal circumstances?",
+    "yes": {
+      "section": 84,
+      "name": "Enticing or taking away or detaining with criminal intent a married woman"
+    },
+    "no": {
+      "section": 80,
+      "name": "Dowry death"
+    }
+  },
+  "group": "Of offences relating to marriage",
+  "_meta": {
+    "chapter_subtype": "Of offences relating to marriage",
+    "slug": "of_offences_relating_to_marriage",
+    "section_count": 8,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 80,
+        "name": "Dowry death."
+      },
+      {
+        "section": 81,
+        "name": "Cohabitation caused by man deceitfully inducing belief of lawful marriage."
+      },
+      {
+        "section": 82,
+        "name": "Marrying again during lifetime of husband or wife."
+      },
+      {
+        "section": 83,
+        "name": "Marriage ceremony fraudulently gone through without lawful marriage."
+      },
+      {
+        "section": 84,
+        "name": "Enticing or taking away or detaining with criminal intent a married woman."
+      },
+      {
+        "section": 85,
+        "name": "Husband or relative of husband of a woman subjecting her to cruelty."
+      },
+      {
+        "section": 86,
+        "name": "Cruelty defined."
+      },
+      {
+        "section": 87,
+        "name": "Kidnapping, abducting or inducing woman to compel her marriage, etc."
+      }
+    ]
+  }
+}

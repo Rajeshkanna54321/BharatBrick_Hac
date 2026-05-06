@@ -1,0 +1,117 @@
+{
+  "question": "Was the act intentional?",
+  "yes": {
+    "question": "Was the act intended to cause grievous hurt?",
+    "yes": {
+      "section": 117,
+      "name": "Voluntarily causing grievous hurt"
+    },
+    "no": {
+      "question": "Was the act intended to cause hurt to extort property or constrain to an illegal act?",
+      "yes": {
+        "section": 119,
+        "name": "Voluntarily causing hurt or grievous hurt to extort property, or to constrain to an illegal act"
+      },
+      "no": {
+        "question": "Was the act intended to cause hurt to deter a public servant from his duty?",
+        "yes": {
+          "section": 121,
+          "name": "Voluntarily causing hurt or grievous hurt to deter public servant from his duty"
+        },
+        "no": {
+          "question": "Was the act intended to cause hurt to extort confession or to compel restoration of property?",
+          "yes": {
+            "section": 120,
+            "name": "Voluntarily causing hurt or grievous hurt to extort confession, or to compel restoration of property"
+          },
+          "no": {
+            "section": 115,
+            "name": "Voluntarily causing hurt"
+          }
+        }
+      }
+    }
+  },
+  "no": {
+    "question": "Was the act caused by means of a dangerous weapon or means?",
+    "yes": {
+      "section": 118,
+      "name": "Voluntarily causing hurt or grievous hurt by dangerous weapons or means"
+    },
+    "no": {
+      "question": "Was the act caused by means of poison, etc., with intent to commit an offence?",
+      "yes": {
+        "section": 123,
+        "name": "Causing hurt by means of poison, etc., with intent to commit an offence"
+      },
+      "no": {
+        "question": "Was the act caused on grave and sudden provocation?",
+        "yes": {
+          "section": 122,
+          "name": "Voluntarily causing hurt or grievous hurt on provocation"
+        },
+        "no": {
+          "section": 114,
+          "name": "Hurt"
+        }
+      }
+    }
+  },
+  "group": "Of hurt",
+  "_meta": {
+    "chapter_subtype": "Of hurt",
+    "slug": "of_hurt",
+    "section_count": 12,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 114,
+        "name": "Hurt."
+      },
+      {
+        "section": 115,
+        "name": "Voluntarily causing hurt."
+      },
+      {
+        "section": 116,
+        "name": "Grievous hurt."
+      },
+      {
+        "section": 117,
+        "name": "Voluntarily causing grievous hurt."
+      },
+      {
+        "section": 118,
+        "name": "Voluntarily causing hurt or grievous hurt by dangerous weapons or means."
+      },
+      {
+        "section": 119,
+        "name": "Voluntarily causing hurt or grievous hurt to extort property, or to constrain to an illegal act."
+      },
+      {
+        "section": 120,
+        "name": "Voluntarily causing hurt or grievous hurt to extort confession, or to compel restoration of property."
+      },
+      {
+        "section": 121,
+        "name": "Voluntarily causing hurt or grievous hurt to deter public servant from his duty"
+      },
+      {
+        "section": 122,
+        "name": "Voluntarily causing hurt or grievous hurt on provocation."
+      },
+      {
+        "section": 123,
+        "name": "Causing hurt by means of poison, etc., with intent to commit an offence."
+      },
+      {
+        "section": 124,
+        "name": "Voluntarily causing grievous hurt by use of acid, etc."
+      },
+      {
+        "section": 125,
+        "name": "Act endangering life or personal safety of others."
+      }
+    ]
+  }
+}

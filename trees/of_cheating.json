@@ -1,0 +1,42 @@
+{
+  "question": "Is the accused pretending to be someone else?",
+  "yes": {
+    "question": "Is the accused pretending to be a real person?",
+    "yes": {
+      "section": 319,
+      "name": "Cheating by personation"
+    },
+    "no": {
+      "section": 319,
+      "name": "Cheating by personation"
+    }
+  },
+  "no": {
+    "question": "Did the accused induce someone to deliver property or consent to retain property?",
+    "yes": {
+      "section": 318,
+      "name": "Cheating"
+    },
+    "no": {
+      "section": 318,
+      "name": "Cheating"
+    }
+  },
+  "group": "Of cheating",
+  "_meta": {
+    "chapter_subtype": "Of cheating",
+    "slug": "of_cheating",
+    "section_count": 2,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 318,
+        "name": "Cheating"
+      },
+      {
+        "section": 319,
+        "name": "Cheating by personation."
+      }
+    ]
+  }
+}

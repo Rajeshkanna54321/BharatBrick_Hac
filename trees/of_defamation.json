@@ -1,0 +1,25 @@
+{
+  "group": "Of defamation",
+  "question": "Does the situation involve 'Defamation' as described under Section 356?",
+  "yes": {
+    "section": 356,
+    "name": "Defamation"
+  },
+  "no": {
+    "section": 356,
+    "name": "Defamation",
+    "note": "Only one section in this group -- it applies regardless."
+  },
+  "_meta": {
+    "chapter_subtype": "Of defamation",
+    "slug": "of_defamation",
+    "section_count": 1,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 356,
+        "name": "Defamation"
+      }
+    ]
+  }
+}

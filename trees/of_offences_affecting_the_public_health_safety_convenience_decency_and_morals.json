@@ -1,0 +1,237 @@
+{
+  "question": "Is the act or omission causing a common injury, danger or annoyance to the public or to people in general?",
+  "yes": {
+    "question": "Is the act or omission likely to spread the infection of any disease dangerous to life?",
+    "yes": {
+      "section": 271,
+      "name": "Negligent act likely to spread infection of disease dangerous to life"
+    },
+    "no": {
+      "section": 270,
+      "name": "Public nuisance"
+    }
+  },
+  "no": {
+    "question": "Is the act or omission related to food or drink?",
+    "yes": {
+      "question": "Is the food or drink adulterated?",
+      "yes": {
+        "section": 274,
+        "name": "Adulteration of food or drink intended for sale"
+      },
+      "no": {
+        "section": 275,
+        "name": "Sale of noxious food or drink"
+      }
+    },
+    "no": {
+      "question": "Is the act or omission related to drugs or medical preparations?",
+      "yes": {
+        "question": "Is the drug or medical preparation adulterated?",
+        "yes": {
+          "section": 276,
+          "name": "Adulteration of drugs"
+        },
+        "no": {
+          "section": 277,
+          "name": "Sale of adulterated drugs"
+        }
+      },
+      "no": {
+        "question": "Is the act or omission related to a public spring or reservoir?",
+        "yes": {
+          "section": 279,
+          "name": "Fouling water of public spring or reservoir"
+        },
+        "no": {
+          "question": "Is the act or omission related to a public way or line of navigation?",
+          "yes": {
+            "section": 285,
+            "name": "Danger or obstruction in public way or line of navigation"
+          },
+          "no": {
+            "question": "Is the act or omission related to a vessel?",
+            "yes": {
+              "section": 282,
+              "name": "Rash navigation of vessel"
+            },
+            "no": {
+              "question": "Is the act or omission related to a public servant?",
+              "yes": {
+                "section": 293,
+                "name": "Continuance of nuisance after injunction to discontinue"
+              },
+              "no": {
+                "question": "Is the act or omission related to a building?",
+                "yes": {
+                  "section": 290,
+                  "name": "Negligent conduct with respect to pulling down, repairing or constructing buildings, etc."
+                },
+                "no": {
+                  "question": "Is the act or omission related to an animal?",
+                  "yes": {
+                    "section": 291,
+                    "name": "Negligent conduct with respect to animal"
+                  },
+                  "no": {
+                    "question": "Is the act or omission related to a public nuisance?",
+                    "yes": {
+                      "section": 292,
+                      "name": "Punishment for public nuisance in cases not otherwise provided for"
+                    },
+                    "no": {
+                      "question": "Is the act or omission related to a lottery?",
+                      "yes": {
+                        "section": 297,
+                        "name": "Keeping lottery office"
+                      },
+                      "no": {
+                        "question": "Is the act or omission related to an obscene object?",
+                        "yes": {
+                          "section": 294,
+                          "name": "Sale, etc., of obscene books, etc."
+                        },
+                        "no": {
+                          "question": "Is the act or omission related to a child?",
+                          "yes": {
+                            "section": 295,
+                            "name": "Sale, etc., of obscene objects to child"
+                          },
+                          "no": {
+                            "section": 296,
+                            "name": "Obscene acts and songs"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "group": "OF OFFENCES AFFECTING THE PUBLIC HEALTH, SAFETY, CONVENIENCE, DECENCY AND MORALS",
+  "_meta": {
+    "chapter_subtype": "OF OFFENCES AFFECTING THE PUBLIC HEALTH, SAFETY, CONVENIENCE, DECENCY AND MORALS",
+    "slug": "of_offences_affecting_the_public_health_safety_convenience_decency_and_morals",
+    "section_count": 28,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 270,
+        "name": "Public nuisance."
+      },
+      {
+        "section": 271,
+        "name": "Negligent act likely to spread infection of disease dangerous to life."
+      },
+      {
+        "section": 272,
+        "name": "Malignant act likely to spread infection of disease dangerous to life."
+      },
+      {
+        "section": 273,
+        "name": "Disobedience to quarantine rule."
+      },
+      {
+        "section": 274,
+        "name": "Adulteration of food or drink intended for sale."
+      },
+      {
+        "section": 275,
+        "name": "Sale of noxious food or drink."
+      },
+      {
+        "section": 276,
+        "name": "Adulteration of drugs."
+      },
+      {
+        "section": 277,
+        "name": "Sale of adulterated drugs."
+      },
+      {
+        "section": 278,
+        "name": "Sale of drug as a different drug or preparation."
+      },
+      {
+        "section": 279,
+        "name": "Fouling water of public spring or reservoir."
+      },
+      {
+        "section": 280,
+        "name": "Making atmosphere noxious to health."
+      },
+      {
+        "section": 281,
+        "name": "Rash driving or riding on a public way."
+      },
+      {
+        "section": 282,
+        "name": "Rash navigation of vessel."
+      },
+      {
+        "section": 283,
+        "name": "Exhibition of false light, mark or buoy."
+      },
+      {
+        "section": 284,
+        "name": "Conveying person by water for hire in unsafe or overloaded vessel."
+      },
+      {
+        "section": 285,
+        "name": "Danger or obstruction in public way or line of navigation."
+      },
+      {
+        "section": 286,
+        "name": "Negligent conduct with respect to poisonous substance."
+      },
+      {
+        "section": 287,
+        "name": "Negligent conduct with respect to fire or combustible matter."
+      },
+      {
+        "section": 288,
+        "name": "Negligent conduct with respect to explosive substance."
+      },
+      {
+        "section": 289,
+        "name": "Negligent conduct with respect to machinery."
+      },
+      {
+        "section": 290,
+        "name": "Negligent conduct with respect to pulling down, repairing or constructing buildings, etc."
+      },
+      {
+        "section": 291,
+        "name": "Negligent conduct with respect to animal."
+      },
+      {
+        "section": 292,
+        "name": "Punishment for public nuisance in cases not otherwise provided for."
+      },
+      {
+        "section": 293,
+        "name": "Continuance of nuisance after injunction to discontinue."
+      },
+      {
+        "section": 294,
+        "name": "Sale, etc., of obscene books, etc."
+      },
+      {
+        "section": 295,
+        "name": "Sale, etc., of obscene objects to child."
+      },
+      {
+        "section": 296,
+        "name": "Obscene acts and songs."
+      },
+      {
+        "section": 297,
+        "name": "Keeping lottery office."
+      }
+    ]
+  }
+}

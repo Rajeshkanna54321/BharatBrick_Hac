@@ -1,0 +1,25 @@
+{
+  "group": "Of receiving stolen property",
+  "question": "Does the situation involve 'Stolen property.' as described under Section 317?",
+  "yes": {
+    "section": 317,
+    "name": "Stolen property."
+  },
+  "no": {
+    "section": 317,
+    "name": "Stolen property.",
+    "note": "Only one section in this group -- it applies regardless."
+  },
+  "_meta": {
+    "chapter_subtype": "Of receiving stolen property",
+    "slug": "of_receiving_stolen_property",
+    "section_count": 1,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 317,
+        "name": "Stolen property."
+      }
+    ]
+  }
+}

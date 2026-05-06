@@ -1,0 +1,102 @@
+{
+  "question": "Is the act of abetment committed by an officer, soldier, sailor or airman?",
+  "yes": {
+    "question": "Is the act of abetment committed by an officer?",
+    "yes": {
+      "section": 159,
+      "name": "Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty"
+    },
+    "no": {
+      "section": 160,
+      "name": "Abetment of mutiny, if mutiny is committed in consequence thereof"
+    }
+  },
+  "no": {
+    "question": "Is the act of abetment committed by a superior officer?",
+    "yes": {
+      "section": 161,
+      "name": "Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office"
+    },
+    "no": {
+      "question": "Is the act of abetment committed by a person who is not a soldier, sailor or airman?",
+      "yes": {
+        "section": 168,
+        "name": "Wearing garb or carrying token used by soldier, sailor or airman"
+      },
+      "no": {
+        "question": "Is the act of abetment committed by a person who is a soldier, sailor or airman?",
+        "yes": {
+          "section": 163,
+          "name": "Abetment of desertion of soldier, sailor or airman"
+        },
+        "no": {
+          "question": "Is the act of abetment committed by a person who is a master or person in charge of a merchant vessel?",
+          "yes": {
+            "section": 165,
+            "name": "Deserter concealed on board merchant vessel through negligence of master"
+          },
+          "no": {
+            "question": "Is the act of abetment committed by a person who is subject to the Air Force Act, Army Act, or Navy Act?",
+            "yes": {
+              "section": 167,
+              "name": "Persons subject to certain Acts"
+            },
+            "no": {
+              "section": 166,
+              "name": "Abetment of act of insubordination by soldier, sailor or airman"
+            }
+          }
+        }
+      }
+    }
+  },
+  "group": "OF OFFENCES RELATING TO THE ARMY, NAVY AND AIR FORCE",
+  "_meta": {
+    "chapter_subtype": "OF OFFENCES RELATING TO THE ARMY, NAVY AND AIR FORCE",
+    "slug": "of_offences_relating_to_the_army_navy_and_air_force",
+    "section_count": 10,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 159,
+        "name": "Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty."
+      },
+      {
+        "section": 160,
+        "name": "Abetment of mutiny, if mutiny is committed in consequence thereof."
+      },
+      {
+        "section": 161,
+        "name": "Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office."
+      },
+      {
+        "section": 162,
+        "name": "Abetment of such assault, if assault committed"
+      },
+      {
+        "section": 163,
+        "name": "Abetment of desertion of soldier, sailor or airman."
+      },
+      {
+        "section": 164,
+        "name": "Harbouring deserter."
+      },
+      {
+        "section": 165,
+        "name": "Deserter concealed on board merchant vessel through negligence of master."
+      },
+      {
+        "section": 166,
+        "name": "Abetment of act of insubordination by soldier, sailor or airman."
+      },
+      {
+        "section": 167,
+        "name": "Persons subject to certain Acts."
+      },
+      {
+        "section": 168,
+        "name": "Wearing garb or carrying token used by soldier, sailor or airman."
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "group": "Of criminal conspiracy",
+  "question": "Does the situation involve 'Criminal conspiracy.' as described under Section 61?",
+  "yes": {
+    "section": 61,
+    "name": "Criminal conspiracy."
+  },
+  "no": {
+    "section": 61,
+    "name": "Criminal conspiracy.",
+    "note": "Only one section in this group -- it applies regardless."
+  },
+  "_meta": {
+    "chapter_subtype": "Of criminal conspiracy",
+    "slug": "of_criminal_conspiracy",
+    "section_count": 1,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 61,
+        "name": "Criminal conspiracy."
+      }
+    ]
+  }
+}

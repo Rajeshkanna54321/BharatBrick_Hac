@@ -1,0 +1,68 @@
+{
+  "question": "Is the property destroyed or damaged?",
+  "yes": {
+    "question": "Is the destruction or damage intended to cause wrongful loss or damage to the public or a person?",
+    "yes": {
+      "section": 324,
+      "name": "Mischief"
+    },
+    "no": {
+      "section": 325,
+      "name": "Mischief by killing or maiming animal"
+    }
+  },
+  "no": {
+    "question": "Is the mischief done by causing a diminution of the supply of water for agricultural purposes, or for food or drink for human beings or for animals which are property, or for cleanliness or for carrying on any manufacture?",
+    "yes": {
+      "section": 326,
+      "name": "Mischief by injury, inundation, fire or explosive substance, etc."
+    },
+    "no": {
+      "question": "Is the mischief done to a rail, aircraft, decked vessel or a vessel of a burden of twenty tons or upwards?",
+      "yes": {
+        "section": 327,
+        "name": "Mischief with intent to destroy or make unsafe a rail, aircraft, decked vessel or one of twenty tons burden"
+      },
+      "no": {
+        "question": "Is the mischief done by intentionally running a vessel aground or ashore with intent to commit theft, etc.",
+        "yes": {
+          "section": 328,
+          "name": "Punishment for intentionally running vessel aground or ashore with intent to commit theft, etc."
+        },
+        "no": {
+          "section": 324,
+          "name": "Mischief"
+        }
+      }
+    }
+  },
+  "group": "Of mischief",
+  "_meta": {
+    "chapter_subtype": "Of mischief",
+    "slug": "of_mischief",
+    "section_count": 5,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 324,
+        "name": "Mischief"
+      },
+      {
+        "section": 325,
+        "name": "Mischief by killing or maiming animal."
+      },
+      {
+        "section": 326,
+        "name": "Mischief by injury, inundation, fire or explosive substance, etc."
+      },
+      {
+        "section": 327,
+        "name": "Mischief with intent to destroy or make unsafe a rail, aircraft, decked vessel or one of twenty tons burden."
+      },
+      {
+        "section": 328,
+        "name": "Punishment for intentionally running vessel aground or ashore with intent to commit theft, etc."
+      }
+    ]
+  }
+}

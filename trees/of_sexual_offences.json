@@ -1,0 +1,113 @@
+{
+  "question": "Is the victim a woman?",
+  "yes": {
+    "question": "Is the perpetrator a police officer?",
+    "yes": {
+      "section": 64,
+      "name": "Punishment for rape"
+    },
+    "no": {
+      "question": "Is the victim under 16 years of age?",
+      "yes": {
+        "section": 65,
+        "name": "Punishment for rape in certain cases"
+      },
+      "no": {
+        "question": "Did the perpetrator inflict an injury causing death or persistent vegetative state?",
+        "yes": {
+          "section": 66,
+          "name": "Punishment for causing death or resulting in persistent vegetative state of victim"
+        },
+        "no": {
+          "question": "Was the victim the perpetrator's wife, living separately?",
+          "yes": {
+            "section": 67,
+            "name": "Sexual intercourse by husband upon his wife during separation"
+          },
+          "no": {
+            "question": "Was the perpetrator in a position of authority or fiduciary relationship?",
+            "yes": {
+              "section": 68,
+              "name": "Sexual intercourse by a person in authority"
+            },
+            "no": {
+              "question": "Did the perpetrator use deceitful means or make a promise to marry?",
+              "yes": {
+                "section": 69,
+                "name": "Sexual intercourse by employing deceitful means, etc."
+              },
+              "no": {
+                "question": "Were multiple perpetrators involved?",
+                "yes": {
+                  "section": 70,
+                  "name": "Gang rape"
+                },
+                "no": {
+                  "section": 63,
+                  "name": "Rape"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "no": {
+    "section": 71,
+    "name": "Punishment for repeat offenders"
+  },
+  "group": "Of sexual offences",
+  "_meta": {
+    "chapter_subtype": "Of sexual offences",
+    "slug": "of_sexual_offences",
+    "section_count": 11,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 63,
+        "name": "Rape."
+      },
+      {
+        "section": 64,
+        "name": "Punishment for rape."
+      },
+      {
+        "section": 65,
+        "name": "Punishment for rape in certain cases"
+      },
+      {
+        "section": 66,
+        "name": "Punishment for causing death or resulting in persistent vegetative state of victim"
+      },
+      {
+        "section": 67,
+        "name": "Sexual intercourse by husband upon his wife during separation."
+      },
+      {
+        "section": 68,
+        "name": "Sexual intercourse by a person in authority."
+      },
+      {
+        "section": 69,
+        "name": "Sexual intercourse by employing deceitful means, etc."
+      },
+      {
+        "section": 70,
+        "name": "Gang rape."
+      },
+      {
+        "section": 71,
+        "name": "Punishment for repeat offenders."
+      },
+      {
+        "section": 72,
+        "name": "Disclosure of identity of victim of certain offences, etc."
+      },
+      {
+        "section": 73,
+        "name": "Printing or publishing any matter relating to Court proceedings without permission."
+      }
+    ]
+  }
+}

@@ -1,0 +1,3810 @@
+{
+  "Preliminary": {
+    "question": "Is the question about the commencement and application of the Act?",
+    "yes": {
+      "question": "Is the question about the date of commencement?",
+      "yes": {
+        "section": 1,
+        "name": "Short title, commencement and application"
+      },
+      "no": {
+        "section": 1,
+        "name": "Short title, commencement and application"
+      }
+    },
+    "no": {
+      "question": "Is the question about definitions?",
+      "yes": {
+        "section": 2,
+        "name": "Definitions"
+      },
+      "no": {
+        "question": "Is the question about general explanations?",
+        "yes": {
+          "section": 3,
+          "name": "General explanations"
+        },
+        "no": {
+          "section": 0,
+          "name": "Not applicable"
+        }
+      }
+    },
+    "group": "Preliminary",
+    "_meta": {
+      "chapter_subtype": "Preliminary",
+      "slug": "preliminary",
+      "section_count": 3,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 1,
+          "name": "Short title, commencement and application"
+        },
+        {
+          "section": 2,
+          "name": "Definitions."
+        },
+        {
+          "section": 3,
+          "name": "General explanations"
+        }
+      ]
+    }
+  },
+  "Of punishments": {
+    "question": "Is the punishment death?",
+    "yes": {
+      "section": 4,
+      "name": "Punishments"
+    },
+    "no": {
+      "question": "Is the punishment imprisonment?",
+      "yes": {
+        "question": "Is the imprisonment for life?",
+        "yes": {
+          "section": 4,
+          "name": "Punishments"
+        },
+        "no": {
+          "question": "Is the imprisonment rigorous?",
+          "yes": {
+            "section": 4,
+            "name": "Punishments"
+          },
+          "no": {
+            "question": "Is the imprisonment simple?",
+            "yes": {
+              "section": 4,
+              "name": "Punishments"
+            },
+            "no": {
+              "question": "Is the punishment fine?",
+              "yes": {
+                "section": 8,
+                "name": "Amount of fine, liability in default of payment of fine, etc."
+              },
+              "no": {
+                "question": "Is the punishment community service?",
+                "yes": {
+                  "section": 4,
+                  "name": "Punishments"
+                },
+                "no": {
+                  "section": 5,
+                  "name": "Commutation of sentence"
+                }
+              }
+            }
+          }
+        }
+      },
+      "no": {
+        "question": "Is the punishment forfeiture of property?",
+        "yes": {
+          "section": 4,
+          "name": "Punishments"
+        },
+        "no": {
+          "section": 6,
+          "name": "Fractions of terms of punishment"
+        }
+      }
+    },
+    "group": "Of punishments",
+    "_meta": {
+      "chapter_subtype": "Of punishments",
+      "slug": "of_punishments",
+      "section_count": 10,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 4,
+          "name": "Punishments"
+        },
+        {
+          "section": 5,
+          "name": "Commutation of sentence"
+        },
+        {
+          "section": 6,
+          "name": "Fractions of terms of punishment."
+        },
+        {
+          "section": 7,
+          "name": "Sentence may be (in certain cases of imprisonment) wholly or partly rigorous or simple"
+        },
+        {
+          "section": 8,
+          "name": "Amount of fine, liability in default of payment of fine, etc."
+        },
+        {
+          "section": 9,
+          "name": "Limit of punishment of offence made up of several offences."
+        },
+        {
+          "section": 10,
+          "name": "Punishment of person guilty of one of several offences, judgment stating that it is doubtful of which."
+        },
+        {
+          "section": 11,
+          "name": "Solitary confinement."
+        },
+        {
+          "section": 12,
+          "name": "Limit of solitary confinement."
+        },
+        {
+          "section": 13,
+          "name": "Enhanced punishment for certain offences after previous conviction."
+        }
+      ]
+    }
+  },
+  "General exceptions": {
+    "question": "Is the person doing the act under the age of 7?",
+    "yes": {
+      "section": 20,
+      "name": "Act of a child under seven years of age"
+    },
+    "no": {
+      "question": "Is the person doing the act under the influence of intoxication caused against their will?",
+      "yes": {
+        "section": 23,
+        "name": "Act of a person incapable of judgment by reason of intoxication caused against his will"
+      },
+      "no": {
+        "question": "Is the person doing the act in good faith believing themselves bound by law?",
+        "yes": {
+          "section": 14,
+          "name": "Act done by a person bound, or by mistake of fact believing himself bound, by law"
+        },
+        "no": {
+          "question": "Is the person doing the act acting judicially?",
+          "yes": {
+            "section": 15,
+            "name": "Act of Judge when acting judicially"
+          },
+          "no": {
+            "question": "Is the person doing the act in good faith for the benefit of a person under 12 years of age or of unsound mind?",
+            "yes": {
+              "section": 27,
+              "name": "Act done in good faith for benefit of a child or person of unsound mind, by, or by consent of guardian"
+            },
+            "no": {
+              "question": "Is the person doing the act in good faith for the benefit of a person who has given consent?",
+              "yes": {
+                "section": 26,
+                "name": "Act not intended to cause death, done by consent in good faith for person's benefit"
+              },
+              "no": {
+                "question": "Is the person doing the act likely to cause harm, but done without criminal intent, and to prevent other harm?",
+                "yes": {
+                  "section": 19,
+                  "name": "Act likely to cause harm, but done without criminal intent, and to prevent other harm"
+                },
+                "no": {
+                  "question": "Is the person doing the act an accident in doing a lawful act?",
+                  "yes": {
+                    "section": 18,
+                    "name": "Act in doing a lawful act"
+                  },
+                  "no": {
+                    "question": "Is the person doing the act justified by law?",
+                    "yes": {
+                      "section": 17,
+                      "name": "Act done by a person justified, or by mistake of fact believing himself justified, by law"
+                    },
+                    "no": {
+                      "question": "Is the person doing the act with the knowledge that it is likely to cause harm, but done without any criminal intention to cause harm?",
+                      "yes": {
+                        "section": 29,
+                        "name": "Exclusion of acts which are offences independently of harm caused"
+                      },
+                      "no": {
+                        "section": 25,
+                        "name": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "group": "General exceptions",
+    "_meta": {
+      "chapter_subtype": "General exceptions",
+      "slug": "general_exceptions",
+      "section_count": 20,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 14,
+          "name": "Act done by a person bound, or by mistake of fact believing himself bound, by law"
+        },
+        {
+          "section": 15,
+          "name": "Act of Judge when acting judicially."
+        },
+        {
+          "section": 16,
+          "name": "Act done pursuant to judgment or order of Court."
+        },
+        {
+          "section": 17,
+          "name": "Act done by a person justified, or by mistake of fact believing himself justified, by law"
+        },
+        {
+          "section": 18,
+          "name": "Accident in doing a lawful act."
+        },
+        {
+          "section": 19,
+          "name": "Act likely to cause harm, but done without criminal intent, and to prevent other harm."
+        },
+        {
+          "section": 20,
+          "name": "Act of a child under seven years of age."
+        },
+        {
+          "section": 21,
+          "name": "Act of a child above seven and under twelve years of age of immature understanding"
+        },
+        {
+          "section": 22,
+          "name": "Act of a person of unsound mind."
+        },
+        {
+          "section": 23,
+          "name": "Act of a person incapable of judgment by reason of intoxication caused against his will"
+        },
+        {
+          "section": 24,
+          "name": "Offence requiring a particular intent or knowledge committed by one who is intoxicated"
+        },
+        {
+          "section": 25,
+          "name": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent."
+        },
+        {
+          "section": 26,
+          "name": "Act not intended to cause death, done by consent in good faith for person's benefit."
+        },
+        {
+          "section": 27,
+          "name": "Act done in good faith for benefit of child or person of unsound mind, by, or by consent of guardian."
+        },
+        {
+          "section": 28,
+          "name": "Consent known to be given under fear or misconception."
+        },
+        {
+          "section": 29,
+          "name": "Exclusion of acts which are offences independently of harm caused."
+        },
+        {
+          "section": 30,
+          "name": "Act done in good faith for benefit of a person without consent."
+        },
+        {
+          "section": 31,
+          "name": "Communication made in good faith."
+        },
+        {
+          "section": 32,
+          "name": "Act to which a person is compelled by threats."
+        },
+        {
+          "section": 33,
+          "name": "Act causing slight harm."
+        }
+      ]
+    }
+  },
+  "Of right of private defence": {
+    "question": "Is the act an offence?",
+    "yes": {
+      "question": "Is the act an offence affecting the human body?",
+      "yes": {
+        "section": 35,
+        "name": "Right of private defence of body and of property"
+      },
+      "no": {
+        "question": "Is the act an offence falling under the definition of theft, mischief, or criminal trespass?",
+        "yes": {
+          "section": 41,
+          "name": "When right of private defence of property extends to causing death"
+        },
+        "no": {
+          "section": 37,
+          "name": "Acts against which there is no right of private defence"
+        }
+      }
+    },
+    "no": {
+      "question": "Is the act done by a public servant acting in good faith under colour of his office?",
+      "yes": {
+        "section": 37,
+        "name": "Acts against which there is no right of private defence"
+      },
+      "no": {
+        "question": "Is the act done by a person of unsound mind, etc.?",
+        "yes": {
+          "section": 36,
+          "name": "Right of private defence against act of a person of unsound mind, etc."
+        },
+        "no": {
+          "question": "Is the act an assault which reasonably causes the apprehension of death or of grievous hurt?",
+          "yes": {
+            "section": 38,
+            "name": "When right of private defence of body extends to causing death"
+          },
+          "no": {
+            "section": 39,
+            "name": "When such right extends to causing any harm other than death"
+          }
+        }
+      }
+    },
+    "group": "Of right of private defence",
+    "_meta": {
+      "chapter_subtype": "Of right of private defence",
+      "slug": "of_right_of_private_defence",
+      "section_count": 11,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 34,
+          "name": "Things done in private defence."
+        },
+        {
+          "section": 35,
+          "name": "Right of private defence of body and of property."
+        },
+        {
+          "section": 36,
+          "name": "Right of private defence against act of a person of unsound mind, etc."
+        },
+        {
+          "section": 37,
+          "name": "Acts against which there is no right of private defence."
+        },
+        {
+          "section": 38,
+          "name": "When right of private defence of body extends to causing death."
+        },
+        {
+          "section": 39,
+          "name": "When such right extends to causing any harm other than death."
+        },
+        {
+          "section": 40,
+          "name": "Commencement and continuance of right of private defence of body."
+        },
+        {
+          "section": 41,
+          "name": "When right of private defence of property extends to causing death."
+        },
+        {
+          "section": 42,
+          "name": "When such right extends to causing any harm other than death."
+        },
+        {
+          "section": 43,
+          "name": "Commencement and continuance of right of private defence of property."
+        },
+        {
+          "section": 44,
+          "name": "Right of private defence against deadly assault when there is risk of harm to innocent person."
+        }
+      ]
+    }
+  },
+  "of abetment": {
+    "question": "Is the abetment done in India?",
+    "yes": {
+      "question": "Is the act abetted committed in consequence of the abetment?",
+      "yes": {
+        "section": 49,
+        "name": "Punishment of abetment if act abetted is committed in consequence and where no express provision is made for its punishment"
+      },
+      "no": {
+        "section": 50,
+        "name": "Punishment of abetment if person abetted does act with different intention from that of abettor"
+      }
+    },
+    "no": {
+      "question": "Is the abetment done outside India?",
+      "yes": {
+        "question": "Is the act abetted committed in India?",
+        "yes": {
+          "section": 47,
+          "name": "Abetment in India of offences outside India"
+        },
+        "no": {
+          "section": 48,
+          "name": "Abetment outside India for offence in India"
+        }
+      },
+      "no": {
+        "section": 55,
+        "name": "Abetment of offence punishable with death or imprisonment for life"
+      }
+    },
+    "group": "of abetment",
+    "_meta": {
+      "chapter_subtype": "of abetment",
+      "slug": "of_abetment",
+      "section_count": 16,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 45,
+          "name": "Abetment of a thing."
+        },
+        {
+          "section": 46,
+          "name": "Abettor."
+        },
+        {
+          "section": 47,
+          "name": "Abetment in India of offences outside India."
+        },
+        {
+          "section": 48,
+          "name": "Abetment outside India for offence in India."
+        },
+        {
+          "section": 49,
+          "name": "Punishment of abetment if act abetted is committed in consequence and where no express provision is made for its punishment."
+        },
+        {
+          "section": 50,
+          "name": "Punishment of abetment if person abetted does act with different intention from that of abettor."
+        },
+        {
+          "section": 51,
+          "name": "Liability of abettor when one act abetted and different act done."
+        },
+        {
+          "section": 52,
+          "name": "Abettor when liable to cumulative punishment for act abetted and for act done"
+        },
+        {
+          "section": 53,
+          "name": "Liability of abettor for an effect caused by act abetted different from that intended by abettor."
+        },
+        {
+          "section": 54,
+          "name": "Abettor present when offence is committed."
+        },
+        {
+          "section": 55,
+          "name": "Abetment of offence punishable with death or imprisonment for life."
+        },
+        {
+          "section": 56,
+          "name": "Abetment of offence punishable with imprisonment."
+        },
+        {
+          "section": 57,
+          "name": "Abetting commission of offence by public or by more than ten persons."
+        },
+        {
+          "section": 58,
+          "name": "Concealing design to commit offence punishable with death or imprisonment for life."
+        },
+        {
+          "section": 59,
+          "name": "Public servant concealing design to commit offence which it is his duty to prevent."
+        },
+        {
+          "section": 60,
+          "name": "Concealing design to commit offence punishable with imprisonment."
+        }
+      ]
+    }
+  },
+  "Of criminal conspiracy": {
+    "group": "Of criminal conspiracy",
+    "question": "Does the situation involve 'Criminal conspiracy.' as described under Section 61?",
+    "yes": {
+      "section": 61,
+      "name": "Criminal conspiracy."
+    },
+    "no": {
+      "section": 61,
+      "name": "Criminal conspiracy.",
+      "note": "Only one section in this group -- it applies regardless."
+    },
+    "_meta": {
+      "chapter_subtype": "Of criminal conspiracy",
+      "slug": "of_criminal_conspiracy",
+      "section_count": 1,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 61,
+          "name": "Criminal conspiracy."
+        }
+      ]
+    }
+  },
+  "Of attempt": {
+    "group": "Of attempt",
+    "question": "Does the situation involve 'Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment.' as described under Section 62?",
+    "yes": {
+      "section": 62,
+      "name": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment."
+    },
+    "no": {
+      "section": 62,
+      "name": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment.",
+      "note": "Only one section in this group -- it applies regardless."
+    },
+    "_meta": {
+      "chapter_subtype": "Of attempt",
+      "slug": "of_attempt",
+      "section_count": 1,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 62,
+          "name": "Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment."
+        }
+      ]
+    }
+  },
+  "Of sexual offences": {
+    "question": "Is the victim a woman?",
+    "yes": {
+      "question": "Is the perpetrator a police officer?",
+      "yes": {
+        "section": 64,
+        "name": "Punishment for rape"
+      },
+      "no": {
+        "question": "Is the victim under 16 years of age?",
+        "yes": {
+          "section": 65,
+          "name": "Punishment for rape in certain cases"
+        },
+        "no": {
+          "question": "Did the perpetrator inflict an injury causing death or persistent vegetative state?",
+          "yes": {
+            "section": 66,
+            "name": "Punishment for causing death or resulting in persistent vegetative state of victim"
+          },
+          "no": {
+            "question": "Was the victim the perpetrator's wife, living separately?",
+            "yes": {
+              "section": 67,
+              "name": "Sexual intercourse by husband upon his wife during separation"
+            },
+            "no": {
+              "question": "Was the perpetrator in a position of authority or fiduciary relationship?",
+              "yes": {
+                "section": 68,
+                "name": "Sexual intercourse by a person in authority"
+              },
+              "no": {
+                "question": "Did the perpetrator use deceitful means or make a promise to marry?",
+                "yes": {
+                  "section": 69,
+                  "name": "Sexual intercourse by employing deceitful means, etc."
+                },
+                "no": {
+                  "question": "Were multiple perpetrators involved?",
+                  "yes": {
+                    "section": 70,
+                    "name": "Gang rape"
+                  },
+                  "no": {
+                    "section": 63,
+                    "name": "Rape"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "section": 71,
+      "name": "Punishment for repeat offenders"
+    },
+    "group": "Of sexual offences",
+    "_meta": {
+      "chapter_subtype": "Of sexual offences",
+      "slug": "of_sexual_offences",
+      "section_count": 11,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 63,
+          "name": "Rape."
+        },
+        {
+          "section": 64,
+          "name": "Punishment for rape."
+        },
+        {
+          "section": 65,
+          "name": "Punishment for rape in certain cases"
+        },
+        {
+          "section": 66,
+          "name": "Punishment for causing death or resulting in persistent vegetative state of victim"
+        },
+        {
+          "section": 67,
+          "name": "Sexual intercourse by husband upon his wife during separation."
+        },
+        {
+          "section": 68,
+          "name": "Sexual intercourse by a person in authority."
+        },
+        {
+          "section": 69,
+          "name": "Sexual intercourse by employing deceitful means, etc."
+        },
+        {
+          "section": 70,
+          "name": "Gang rape."
+        },
+        {
+          "section": 71,
+          "name": "Punishment for repeat offenders."
+        },
+        {
+          "section": 72,
+          "name": "Disclosure of identity of victim of certain offences, etc."
+        },
+        {
+          "section": 73,
+          "name": "Printing or publishing any matter relating to Court proceedings without permission."
+        }
+      ]
+    }
+  },
+  "Of criminal force and assault against woman": {
+    "question": "Was the act committed with the intention to outrage the woman's modesty?",
+    "yes": {
+      "question": "Was the act committed with the intention to disrobe or compel the woman to be naked?",
+      "yes": {
+        "section": 76,
+        "name": "Assault or use of criminal force to woman with intent to disrobe"
+      },
+      "no": {
+        "section": 74,
+        "name": "Assault or use of criminal force to woman with intent to outrage her modesty"
+      }
+    },
+    "no": {
+      "question": "Was the act committed with the intention to insult the woman's modesty?",
+      "yes": {
+        "section": 79,
+        "name": "Word, gesture or act intended to insult modesty of a woman"
+      },
+      "no": {
+        "question": "Was the act committed with the intention to sexually harass the woman?",
+        "yes": {
+          "section": 75,
+          "name": "Sexual harassment"
+        },
+        "no": {
+          "question": "Was the act committed with the intention to watch, capture or disseminate an image of the woman?",
+          "yes": {
+            "section": 77,
+            "name": "Voyeurism"
+          },
+          "no": {
+            "question": "Did the act involve following, contacting or monitoring the woman's online activities?",
+            "yes": {
+              "section": 78,
+              "name": "Stalking"
+            },
+            "no": {
+              "section": 0,
+              "name": "Not applicable"
+            }
+          }
+        }
+      }
+    },
+    "group": "Of criminal force and assault against woman",
+    "_meta": {
+      "chapter_subtype": "Of criminal force and assault against woman",
+      "slug": "of_criminal_force_and_assault_against_woman",
+      "section_count": 6,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 74,
+          "name": "Assault or use of criminal force to woman with intent to outrage her modesty."
+        },
+        {
+          "section": 75,
+          "name": "Sexual harassment."
+        },
+        {
+          "section": 76,
+          "name": "Assault or use of criminal force to woman with intent to disrobe."
+        },
+        {
+          "section": 77,
+          "name": "Voyeurism."
+        },
+        {
+          "section": 78,
+          "name": "Stalking"
+        },
+        {
+          "section": 79,
+          "name": "Word, gesture or act intended to insult modesty of a woman."
+        }
+      ]
+    }
+  },
+  "Of offences relating to marriage": {
+    "question": "Is the woman's death caused by burns or bodily injury?",
+    "yes": {
+      "question": "Is the death within 7 years of marriage?",
+      "yes": {
+        "section": 80,
+        "name": "Dowry death"
+      },
+      "no": {
+        "section": 84,
+        "name": "Enticing or taking away or detaining with criminal intent a married woman"
+      }
+    },
+    "no": {
+      "question": "Is the woman's death under normal circumstances?",
+      "yes": {
+        "section": 84,
+        "name": "Enticing or taking away or detaining with criminal intent a married woman"
+      },
+      "no": {
+        "section": 80,
+        "name": "Dowry death"
+      }
+    },
+    "group": "Of offences relating to marriage",
+    "_meta": {
+      "chapter_subtype": "Of offences relating to marriage",
+      "slug": "of_offences_relating_to_marriage",
+      "section_count": 8,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 80,
+          "name": "Dowry death."
+        },
+        {
+          "section": 81,
+          "name": "Cohabitation caused by man deceitfully inducing belief of lawful marriage."
+        },
+        {
+          "section": 82,
+          "name": "Marrying again during lifetime of husband or wife."
+        },
+        {
+          "section": 83,
+          "name": "Marriage ceremony fraudulently gone through without lawful marriage."
+        },
+        {
+          "section": 84,
+          "name": "Enticing or taking away or detaining with criminal intent a married woman."
+        },
+        {
+          "section": 85,
+          "name": "Husband or relative of husband of a woman subjecting her to cruelty."
+        },
+        {
+          "section": 86,
+          "name": "Cruelty defined."
+        },
+        {
+          "section": 87,
+          "name": "Kidnapping, abducting or inducing woman to compel her marriage, etc."
+        }
+      ]
+    }
+  },
+  "Of causing miscarriage, etc": {
+    "question": "Was the act done with the consent of the woman?",
+    "yes": {
+      "question": "Was the act done in good faith for the purpose of saving the life of the woman?",
+      "yes": {
+        "section": 88,
+        "name": "Causing miscarriage"
+      },
+      "no": {
+        "section": 89,
+        "name": "Causing miscarriage without woman's consent"
+      }
+    },
+    "no": {
+      "question": "Was the act done with the intention of causing the death of the woman?",
+      "yes": {
+        "section": 90,
+        "name": "Death caused by act done with intent to cause miscarriage"
+      },
+      "no": {
+        "question": "Was the act done with the intention of preventing the child from being born alive or causing it to die after birth?",
+        "yes": {
+          "section": 91,
+          "name": "Act done with intent to prevent child being born alive or to cause to die after birth"
+        },
+        "no": {
+          "section": 92,
+          "name": "Causing death of quick unborn child by act amounting to culpable homicide"
+        }
+      }
+    },
+    "group": "Of causing miscarriage, etc",
+    "_meta": {
+      "chapter_subtype": "Of causing miscarriage, etc",
+      "slug": "of_causing_miscarriage_etc",
+      "section_count": 5,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 88,
+          "name": "Causing miscarriage."
+        },
+        {
+          "section": 89,
+          "name": "Causing miscarriage without woman's consent."
+        },
+        {
+          "section": 90,
+          "name": "Death caused by act done with intent to cause miscarriage."
+        },
+        {
+          "section": 91,
+          "name": "Act done with intent to prevent child being born alive or to cause to die after birth."
+        },
+        {
+          "section": 92,
+          "name": "Causing death of quick unborn child by act amounting to culpable homicide."
+        }
+      ]
+    }
+  },
+  "Of offences against child": {
+    "question": "Is the child under 12 years of age?",
+    "yes": {
+      "question": "Is the child exposed or left in a place with intention of abandonment?",
+      "yes": {
+        "section": 93,
+        "name": "Exposure and abandonment of child under twelve years of age, by parent or person having care of it"
+      },
+      "no": {
+        "section": 97,
+        "name": "Kidnapping or abducting child under ten years of age with intent to steal from its person"
+      }
+    },
+    "no": {
+      "question": "Is the child's birth concealed or attempted to be concealed?",
+      "yes": {
+        "section": 94,
+        "name": "Concealment of birth by secret disposal of dead body"
+      },
+      "no": {
+        "question": "Is the child hired, employed or engaged to commit an offence?",
+        "yes": {
+          "section": 95,
+          "name": "Hiring, employing or engaging a child to commit an offence"
+        },
+        "no": {
+          "question": "Is the child procured or induced to go from a place or do an act with intent to be forced or seduced to illicit intercourse?",
+          "yes": {
+            "section": 96,
+            "name": "Procuration of child"
+          },
+          "no": {
+            "question": "Is the child sold, let to hire, or disposed of with intent for prostitution or illicit intercourse?",
+            "yes": {
+              "section": 98,
+              "name": "Selling child for purposes of prostitution, etc."
+            },
+            "no": {
+              "question": "Is the child bought, hired or obtained with intent for prostitution or illicit intercourse?",
+              "yes": {
+                "section": 99,
+                "name": "Buying child for purposes of prostitution, etc."
+              },
+              "no": {
+                "section": 0,
+                "name": "Not applicable"
+              }
+            }
+          }
+        }
+      }
+    },
+    "group": "Of offences against child",
+    "_meta": {
+      "chapter_subtype": "Of offences against child",
+      "slug": "of_offences_against_child",
+      "section_count": 7,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 93,
+          "name": "Exposure and abandonment of child under twelve years of age, by parent or person having care of it"
+        },
+        {
+          "section": 94,
+          "name": "Concealment of birth by secret disposal of dead body."
+        },
+        {
+          "section": 95,
+          "name": "Hiring, employing or engaging a child to commit an offence."
+        },
+        {
+          "section": 96,
+          "name": "Procuration of child."
+        },
+        {
+          "section": 97,
+          "name": "Kidnapping or abducting child under ten years of age with intent to steal from its person"
+        },
+        {
+          "section": 98,
+          "name": "Selling child for purposes of prostitution, etc."
+        },
+        {
+          "section": 99,
+          "name": "Buying child for purposes of prostitution, etc"
+        }
+      ]
+    }
+  },
+  "Of offences affecting life": {
+    "question": "Was the death caused with the intention of causing death?",
+    "yes": {
+      "question": "Was the act done with the intention of causing death of the person who died?",
+      "yes": {
+        "section": 101,
+        "name": "Murder"
+      },
+      "no": {
+        "section": 100,
+        "name": "Culpable homicide"
+      }
+    },
+    "no": {
+      "question": "Was the act done with the intention of causing bodily injury likely to cause death?",
+      "yes": {
+        "section": 100,
+        "name": "Culpable homicide"
+      },
+      "no": {
+        "question": "Was the act done with knowledge that it was likely to cause death?",
+        "yes": {
+          "section": 102,
+          "name": "Culpable homicide by causing death of person other than person whose death was intended"
+        },
+        "no": {
+          "section": 105,
+          "name": "Punishment for culpable homicide not amounting to murder"
+        }
+      }
+    },
+    "group": "Of offences affecting life",
+    "_meta": {
+      "chapter_subtype": "Of offences affecting life",
+      "slug": "of_offences_affecting_life",
+      "section_count": 14,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 100,
+          "name": "Culpable homicide."
+        },
+        {
+          "section": 101,
+          "name": "Murder."
+        },
+        {
+          "section": 102,
+          "name": "Culpable homicide by causing death of person other than person whose death was intended."
+        },
+        {
+          "section": 103,
+          "name": "Punishment for murder."
+        },
+        {
+          "section": 104,
+          "name": "Punishment for murder by life-convict"
+        },
+        {
+          "section": 105,
+          "name": "Punishment for culpable homicide not amounting to murder."
+        },
+        {
+          "section": 106,
+          "name": "Causing death by negligence."
+        },
+        {
+          "section": 107,
+          "name": "Abetment of suicide of child or person of unsound mind."
+        },
+        {
+          "section": 108,
+          "name": "Abetment of suicide."
+        },
+        {
+          "section": 109,
+          "name": "Attempt to murder."
+        },
+        {
+          "section": 110,
+          "name": "Attempt to commit culpable homicide."
+        },
+        {
+          "section": 111,
+          "name": "Organised crime."
+        },
+        {
+          "section": 112,
+          "name": "Petty organised crime."
+        },
+        {
+          "section": 113,
+          "name": "Terrorist act."
+        }
+      ]
+    }
+  },
+  "Of hurt": {
+    "question": "Was the act intentional?",
+    "yes": {
+      "question": "Was the act intended to cause grievous hurt?",
+      "yes": {
+        "section": 117,
+        "name": "Voluntarily causing grievous hurt"
+      },
+      "no": {
+        "question": "Was the act intended to cause hurt to extort property or constrain to an illegal act?",
+        "yes": {
+          "section": 119,
+          "name": "Voluntarily causing hurt or grievous hurt to extort property, or to constrain to an illegal act"
+        },
+        "no": {
+          "question": "Was the act intended to cause hurt to deter a public servant from his duty?",
+          "yes": {
+            "section": 121,
+            "name": "Voluntarily causing hurt or grievous hurt to deter public servant from his duty"
+          },
+          "no": {
+            "question": "Was the act intended to cause hurt to extort confession or to compel restoration of property?",
+            "yes": {
+              "section": 120,
+              "name": "Voluntarily causing hurt or grievous hurt to extort confession, or to compel restoration of property"
+            },
+            "no": {
+              "section": 115,
+              "name": "Voluntarily causing hurt"
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "question": "Was the act caused by means of a dangerous weapon or means?",
+      "yes": {
+        "section": 118,
+        "name": "Voluntarily causing hurt or grievous hurt by dangerous weapons or means"
+      },
+      "no": {
+        "question": "Was the act caused by means of poison, etc., with intent to commit an offence?",
+        "yes": {
+          "section": 123,
+          "name": "Causing hurt by means of poison, etc., with intent to commit an offence"
+        },
+        "no": {
+          "question": "Was the act caused on grave and sudden provocation?",
+          "yes": {
+            "section": 122,
+            "name": "Voluntarily causing hurt or grievous hurt on provocation"
+          },
+          "no": {
+            "section": 114,
+            "name": "Hurt"
+          }
+        }
+      }
+    },
+    "group": "Of hurt",
+    "_meta": {
+      "chapter_subtype": "Of hurt",
+      "slug": "of_hurt",
+      "section_count": 12,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 114,
+          "name": "Hurt."
+        },
+        {
+          "section": 115,
+          "name": "Voluntarily causing hurt."
+        },
+        {
+          "section": 116,
+          "name": "Grievous hurt."
+        },
+        {
+          "section": 117,
+          "name": "Voluntarily causing grievous hurt."
+        },
+        {
+          "section": 118,
+          "name": "Voluntarily causing hurt or grievous hurt by dangerous weapons or means."
+        },
+        {
+          "section": 119,
+          "name": "Voluntarily causing hurt or grievous hurt to extort property, or to constrain to an illegal act."
+        },
+        {
+          "section": 120,
+          "name": "Voluntarily causing hurt or grievous hurt to extort confession, or to compel restoration of property."
+        },
+        {
+          "section": 121,
+          "name": "Voluntarily causing hurt or grievous hurt to deter public servant from his duty"
+        },
+        {
+          "section": 122,
+          "name": "Voluntarily causing hurt or grievous hurt on provocation."
+        },
+        {
+          "section": 123,
+          "name": "Causing hurt by means of poison, etc., with intent to commit an offence."
+        },
+        {
+          "section": 124,
+          "name": "Voluntarily causing grievous hurt by use of acid, etc."
+        },
+        {
+          "section": 125,
+          "name": "Act endangering life or personal safety of others."
+        }
+      ]
+    }
+  },
+  "Of wrongful restraint and wrongful confinement": {
+    "question": "Is the obstruction or restraint intentional?",
+    "yes": {
+      "question": "Is the obstruction or restraint to prevent the person from proceeding in a specific direction?",
+      "yes": {
+        "section": 126,
+        "name": "Wrongful restraint"
+      },
+      "no": {
+        "section": 127,
+        "name": "Wrongful confinement"
+      }
+    },
+    "no": {
+      "section": 0,
+      "name": "Not applicable"
+    },
+    "group": "Of wrongful restraint and wrongful confinement",
+    "_meta": {
+      "chapter_subtype": "Of wrongful restraint and wrongful confinement",
+      "slug": "of_wrongful_restraint_and_wrongful_confinement",
+      "section_count": 2,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 126,
+          "name": "Wrongful restraint."
+        },
+        {
+          "section": 127,
+          "name": "Wrongful confinement."
+        }
+      ]
+    }
+  },
+  "Of criminal force and assault": {
+    "question": "Was the force used intentionally?",
+    "yes": {
+      "question": "Was the force used to commit an offence or to cause injury, fear or annoyance?",
+      "yes": {
+        "section": 129,
+        "name": "Criminal force"
+      },
+      "no": {
+        "section": 128,
+        "name": "Force"
+      }
+    },
+    "no": {
+      "question": "Was the force used to deter a public servant from discharging his duty?",
+      "yes": {
+        "section": 132,
+        "name": "Assault or criminal force to deter public servant from discharge of his duty"
+      },
+      "no": {
+        "question": "Was the force used to dishonour a person?",
+        "yes": {
+          "section": 133,
+          "name": "Assault or criminal force with intent to dishonour person, otherwise than on grave provocation"
+        },
+        "no": {
+          "question": "Was the force used to commit theft or wrongfully confine a person?",
+          "yes": {
+            "question": "Was the property being carried by the person?",
+            "yes": {
+              "section": 134,
+              "name": "Assault or criminal force in attempt to commit theft of property carried by a person"
+            },
+            "no": {
+              "section": 135,
+              "name": "Assault or criminal force in attempt to wrongfully confine a person"
+            }
+          },
+          "no": {
+            "section": 130,
+            "name": "Assault"
+          }
+        }
+      }
+    },
+    "group": "Of criminal force and assault",
+    "_meta": {
+      "chapter_subtype": "Of criminal force and assault",
+      "slug": "of_criminal_force_and_assault",
+      "section_count": 9,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 128,
+          "name": "Force."
+        },
+        {
+          "section": 129,
+          "name": "Criminal force."
+        },
+        {
+          "section": 130,
+          "name": "Assault."
+        },
+        {
+          "section": 131,
+          "name": "Punishment for assault or criminal force otherwise than on grave provocation."
+        },
+        {
+          "section": 132,
+          "name": "Assault or criminal force to deter public servant from discharge of his duty."
+        },
+        {
+          "section": 133,
+          "name": "Assault or criminal force with intent to dishonour person, otherwise than on grave provocation."
+        },
+        {
+          "section": 134,
+          "name": "Assault or criminal force in attempt to commit theft of property carried by a person."
+        },
+        {
+          "section": 135,
+          "name": "Assault or criminal force in attempt to wrongfully confine a person."
+        },
+        {
+          "section": 136,
+          "name": "Assault or criminal force on grave provocation."
+        }
+      ]
+    }
+  },
+  "Of kidnapping, abduction, slavery and forced labour": {
+    "question": "Is the person kidnapped or abducted from India?",
+    "yes": {
+      "question": "Is the person a child?",
+      "yes": {
+        "section": 139,
+        "name": "Kidnapping or maiming a child for purposes of begging"
+      },
+      "no": {
+        "section": 137,
+        "name": "Kidnapping"
+      }
+    },
+    "no": {
+      "question": "Is the person kidnapped or abducted for the purpose of murder or ransom?",
+      "yes": {
+        "section": 140,
+        "name": "Kidnapping or abducting in order to murder or for ransom, etc."
+      },
+      "no": {
+        "question": "Is the person a girl or boy under the age of 21 or 18 respectively?",
+        "yes": {
+          "section": 141,
+          "name": "Importation of girl or boy from foreign country"
+        },
+        "no": {
+          "question": "Is the person wrongfully concealed or confined?",
+          "yes": {
+            "section": 142,
+            "name": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person"
+          },
+          "no": {
+            "question": "Is the person trafficked?",
+            "yes": {
+              "section": 143,
+              "name": "Trafficking of person"
+            },
+            "no": {
+              "question": "Is the person subjected to exploitation?",
+              "yes": {
+                "section": 144,
+                "name": "Exploitation of a trafficked person"
+              },
+              "no": {
+                "question": "Is the person subjected to unlawful compulsory labour?",
+                "yes": {
+                  "section": 146,
+                  "name": "Unlawful compulsory labour"
+                },
+                "no": {
+                  "section": 145,
+                  "name": "Habitual dealing in slaves"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "group": "Of kidnapping, abduction, slavery and forced labour",
+    "_meta": {
+      "chapter_subtype": "Of kidnapping, abduction, slavery and forced labour",
+      "slug": "of_kidnapping_abduction_slavery_and_forced_labour",
+      "section_count": 10,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 137,
+          "name": "Kidnapping."
+        },
+        {
+          "section": 138,
+          "name": "Abduction."
+        },
+        {
+          "section": 139,
+          "name": "Kidnapping or maiming a child for purposes of begging."
+        },
+        {
+          "section": 140,
+          "name": "Kidnapping or abducting in order to murder or for ransom, etc."
+        },
+        {
+          "section": 141,
+          "name": "Importation of girl or boy from foreign country"
+        },
+        {
+          "section": 142,
+          "name": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person."
+        },
+        {
+          "section": 143,
+          "name": "Trafficking of person."
+        },
+        {
+          "section": 144,
+          "name": "Exploitation of a trafficked person"
+        },
+        {
+          "section": 145,
+          "name": "Habitual dealing in slaves."
+        },
+        {
+          "section": 146,
+          "name": "Unlawful compulsory labour."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES AGAINST THE STATE": {
+    "question": "Is the offence committed against the Government of India?",
+    "yes": {
+      "question": "Is the offence related to waging war or attempting to wage war?",
+      "yes": {
+        "section": 147,
+        "name": "Waging, or attempting to wage war, or abetting waging of war, against Government of India"
+      },
+      "no": {
+        "question": "Is the offence related to conspiracy or overawing the Government?",
+        "yes": {
+          "section": 148,
+          "name": "Conspiracy to commit offences punishable by section 147"
+        },
+        "no": {
+          "question": "Is the offence related to collecting arms or preparing to wage war?",
+          "yes": {
+            "section": 149,
+            "name": "Collecting arms, etc., with intention of waging war against Government of India"
+          },
+          "no": {
+            "question": "Is the offence related to concealing a design to wage war?",
+            "yes": {
+              "section": 150,
+              "name": "Concealing with intent to facilitate design to wage war"
+            },
+            "no": {
+              "question": "Is the offence related to assaulting a President, Governor, etc.?",
+              "yes": {
+                "section": 151,
+                "name": "Assaulting President, Governor, etc., with intent to compel or restrain exercise of any lawful power"
+              },
+              "no": {
+                "question": "Is the offence related to endangering sovereignty, unity and integrity of India?",
+                "yes": {
+                  "section": 152,
+                  "name": "Act endangering sovereignty, unity and integrity of India"
+                },
+                "no": {
+                  "question": "Is the offence related to waging war against a foreign State at peace with Government of India?",
+                  "yes": {
+                    "section": 153,
+                    "name": "Waging war against Government of any foreign State at peace with Government of India"
+                  },
+                  "no": {
+                    "question": "Is the offence related to committing depredation on territories of a foreign State at peace with Government of India?",
+                    "yes": {
+                      "section": 154,
+                      "name": "Committing depredation on territories of foreign State at peace with Government of India"
+                    },
+                    "no": {
+                      "question": "Is the offence related to receiving property taken by war or depredation?",
+                      "yes": {
+                        "section": 155,
+                        "name": "Receiving property taken by war or depredation mentioned in sections 153 and 154"
+                      },
+                      "no": {
+                        "question": "Is the offender a public servant?",
+                        "yes": {
+                          "question": "Did the public servant voluntarily allow a prisoner to escape?",
+                          "yes": {
+                            "section": 156,
+                            "name": "Public servant voluntarily allowing prisoner of State or war to escape"
+                          },
+                          "no": {
+                            "question": "Did the public servant negligently suffer a prisoner to escape?",
+                            "yes": {
+                              "section": 157,
+                              "name": "Public servant negligently suffering such prisoner to escape"
+                            },
+                            "no": {
+                              "section": 158,
+                              "name": "Aiding escape of, rescuing or harbouring such prisoner"
+                            }
+                          }
+                        },
+                        "no": {
+                          "section": 158,
+                          "name": "Aiding escape of, rescuing or harbouring such prisoner"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "section": 151,
+      "name": "Assaulting President, Governor, etc., with intent to compel or restrain exercise of any lawful power"
+    },
+    "group": "OF OFFENCES AGAINST THE STATE",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES AGAINST THE STATE",
+      "slug": "of_offences_against_the_state",
+      "section_count": 12,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 147,
+          "name": "Waging, or attempting to wage war, or abetting waging of war, against Government of India."
+        },
+        {
+          "section": 148,
+          "name": "Conspiracy to commit offences punishable by section 147."
+        },
+        {
+          "section": 149,
+          "name": "Collecting arms, etc., with intention of waging war against Government of India."
+        },
+        {
+          "section": 150,
+          "name": "Concealing with intent to facilitate design to wage war."
+        },
+        {
+          "section": 151,
+          "name": "Assaulting President, Governor, etc., with intent to compel or restrain exercise of any lawful power."
+        },
+        {
+          "section": 152,
+          "name": "Act endangering sovereignty, unity and integrity of India."
+        },
+        {
+          "section": 153,
+          "name": "Waging war against Government of any foreign State at peace with Government of India."
+        },
+        {
+          "section": 154,
+          "name": "Committing depredation on territories of foreign State at peace with Government of India."
+        },
+        {
+          "section": 155,
+          "name": "Receiving property taken by war or depredation mentioned in sections 153 and 154."
+        },
+        {
+          "section": 156,
+          "name": "Public servant voluntarily allowing prisoner of State or war to escape."
+        },
+        {
+          "section": 157,
+          "name": "Public servant negligently suffering such prisoner to escape."
+        },
+        {
+          "section": 158,
+          "name": "Aiding escape of, rescuing or harbouring such prisoner."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES RELATING TO THE ARMY, NAVY AND AIR FORCE": {
+    "question": "Is the act of abetment committed by an officer, soldier, sailor or airman?",
+    "yes": {
+      "question": "Is the act of abetment committed by an officer?",
+      "yes": {
+        "section": 159,
+        "name": "Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty"
+      },
+      "no": {
+        "section": 160,
+        "name": "Abetment of mutiny, if mutiny is committed in consequence thereof"
+      }
+    },
+    "no": {
+      "question": "Is the act of abetment committed by a superior officer?",
+      "yes": {
+        "section": 161,
+        "name": "Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office"
+      },
+      "no": {
+        "question": "Is the act of abetment committed by a person who is not a soldier, sailor or airman?",
+        "yes": {
+          "section": 168,
+          "name": "Wearing garb or carrying token used by soldier, sailor or airman"
+        },
+        "no": {
+          "question": "Is the act of abetment committed by a person who is a soldier, sailor or airman?",
+          "yes": {
+            "section": 163,
+            "name": "Abetment of desertion of soldier, sailor or airman"
+          },
+          "no": {
+            "question": "Is the act of abetment committed by a person who is a master or person in charge of a merchant vessel?",
+            "yes": {
+              "section": 165,
+              "name": "Deserter concealed on board merchant vessel through negligence of master"
+            },
+            "no": {
+              "question": "Is the act of abetment committed by a person who is subject to the Air Force Act, Army Act, or Navy Act?",
+              "yes": {
+                "section": 167,
+                "name": "Persons subject to certain Acts"
+              },
+              "no": {
+                "section": 166,
+                "name": "Abetment of act of insubordination by soldier, sailor or airman"
+              }
+            }
+          }
+        }
+      }
+    },
+    "group": "OF OFFENCES RELATING TO THE ARMY, NAVY AND AIR FORCE",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES RELATING TO THE ARMY, NAVY AND AIR FORCE",
+      "slug": "of_offences_relating_to_the_army_navy_and_air_force",
+      "section_count": 10,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 159,
+          "name": "Abetting mutiny, or attempting to seduce a soldier, sailor or airman from his duty."
+        },
+        {
+          "section": 160,
+          "name": "Abetment of mutiny, if mutiny is committed in consequence thereof."
+        },
+        {
+          "section": 161,
+          "name": "Abetment of assault by soldier, sailor or airman on his superior officer, when in execution of his office."
+        },
+        {
+          "section": 162,
+          "name": "Abetment of such assault, if assault committed"
+        },
+        {
+          "section": 163,
+          "name": "Abetment of desertion of soldier, sailor or airman."
+        },
+        {
+          "section": 164,
+          "name": "Harbouring deserter."
+        },
+        {
+          "section": 165,
+          "name": "Deserter concealed on board merchant vessel through negligence of master."
+        },
+        {
+          "section": 166,
+          "name": "Abetment of act of insubordination by soldier, sailor or airman."
+        },
+        {
+          "section": 167,
+          "name": "Persons subject to certain Acts."
+        },
+        {
+          "section": 168,
+          "name": "Wearing garb or carrying token used by soldier, sailor or airman."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES RELATING TO ELECTIONS": {
+    "question": "Is the act done with the object of inducing or rewarding someone to exercise an electoral right?",
+    "yes": {
+      "question": "Is the gratification given or accepted for exercising an electoral right?",
+      "yes": {
+        "section": 170,
+        "name": "Bribery"
+      },
+      "no": {
+        "section": 171,
+        "name": "Undue influence at elections"
+      }
+    },
+    "no": {
+      "question": "Is the act done by a candidate or voter, or someone in whom a candidate or voter is interested?",
+      "yes": {
+        "section": 171,
+        "name": "Undue influence at elections"
+      },
+      "no": {
+        "question": "Is the act done by applying for a voting paper in someone else's name?",
+        "yes": {
+          "section": 172,
+          "name": "Personation at elections"
+        },
+        "no": {
+          "question": "Is the act done by making or publishing a false statement about a candidate?",
+          "yes": {
+            "section": 175,
+            "name": "False statement in connection with an election"
+          },
+          "no": {
+            "question": "Is the act done by incurring expenses without a candidate's authority?",
+            "yes": {
+              "section": 176,
+              "name": "Illegal payments in connection with an election"
+            },
+            "no": {
+              "question": "Is the act done by failing to keep election accounts?",
+              "yes": {
+                "section": 177,
+                "name": "Failure to keep election accounts"
+              },
+              "no": {
+                "section": 169,
+                "name": "Candidate, electoral right defined"
+              }
+            }
+          }
+        }
+      }
+    },
+    "group": "OF OFFENCES RELATING TO ELECTIONS",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES RELATING TO ELECTIONS",
+      "slug": "of_offences_relating_to_elections",
+      "section_count": 9,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 169,
+          "name": "Candidate, electoral right defined."
+        },
+        {
+          "section": 170,
+          "name": "Bribery."
+        },
+        {
+          "section": 171,
+          "name": "Undue influence at elections."
+        },
+        {
+          "section": 172,
+          "name": "Personation at elections."
+        },
+        {
+          "section": 173,
+          "name": "Punishment for bribery."
+        },
+        {
+          "section": 174,
+          "name": "Punishment for undue influence or personation at an election."
+        },
+        {
+          "section": 175,
+          "name": "False statement in connection with an election."
+        },
+        {
+          "section": 176,
+          "name": "Illegal payments in connection with an election."
+        },
+        {
+          "section": 177,
+          "name": "Failure to keep election accounts."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES RELATING TO COIN, CURRENCY-NOTES, BANK-NOTES, AND GOVERNMENT STAMPS": {
+    "question": "Is the offence related to counterfeiting?",
+    "yes": {
+      "question": "Is the offence related to currency-notes or bank-notes?",
+      "yes": {
+        "section": 178,
+        "name": "Counterfeiting coin, Government stamps, currency-notes or bank-notes"
+      },
+      "no": {
+        "section": 181,
+        "name": "Making or possessing instruments or materials for forging or counterfeiting coin, Government stamp, currency-notes or bank-notes"
+      }
+    },
+    "no": {
+      "question": "Is the offence related to using or possessing forged or counterfeit coin, Government stamp, currency-notes or bank-notes?",
+      "yes": {
+        "section": 179,
+        "name": "Using as genuine, forged or counterfeit coin, Government stamp, currency-notes or bank-notes"
+      },
+      "no": {
+        "question": "Is the offence related to making or using documents resembling currency-notes or bank-notes?",
+        "yes": {
+          "section": 182,
+          "name": "Making or using documents resembling currency-notes or bank-notes"
+        },
+        "no": {
+          "question": "Is the offence related to Government stamps?",
+          "yes": {
+            "question": "Is the offence related to removing or erasing Government stamps?",
+            "yes": {
+              "section": 183,
+              "name": "Effacing writing from substance bearing Government stamp, or removing from document a stamp used for it, with intent to cause loss to Government"
+            },
+            "no": {
+              "section": 184,
+              "name": "Using Government stamp known to have been before used"
+            }
+          },
+          "no": {
+            "question": "Is the offence related to erasing marks on Government stamps?",
+            "yes": {
+              "section": 185,
+              "name": "Erasure of mark denoting that stamp has been used"
+            },
+            "no": {
+              "section": 186,
+              "name": "Prohibition of fictitious stamps"
+            }
+          }
+        }
+      }
+    },
+    "group": "OF OFFENCES RELATING TO COIN, CURRENCY-NOTES, BANK-NOTES, AND GOVERNMENT STAMPS",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES RELATING TO COIN, CURRENCY-NOTES, BANK-NOTES, AND GOVERNMENT STAMPS",
+      "slug": "of_offences_relating_to_coin_currency_notes_bank_notes_and_government_stamps",
+      "section_count": 11,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 178,
+          "name": "Counterfeiting coin, Government stamps, currency-notes or bank-notes."
+        },
+        {
+          "section": 179,
+          "name": "Using as genuine, forged or counterfeit coin, Government stamp, currency-notes or bank-notes."
+        },
+        {
+          "section": 180,
+          "name": "Possession of forged or counterfeit coin, Government stamp, currency-notes or bank-notes."
+        },
+        {
+          "section": 181,
+          "name": "Making or possessing instruments or materials for forging or counterfeiting coin, Government stamp, currency-notes or bank-notes."
+        },
+        {
+          "section": 182,
+          "name": "Making or using documents resembling currency-notes or bank-notes."
+        },
+        {
+          "section": 183,
+          "name": "Effacing writing from substance bearing Government stamp, or removing from document a stamp used for it, with intent to cause loss to Government."
+        },
+        {
+          "section": 184,
+          "name": "Using Government stamp known to have been before used."
+        },
+        {
+          "section": 185,
+          "name": "Erasure of mark denoting that stamp has been used."
+        },
+        {
+          "section": 186,
+          "name": "Prohibition of fictitious stamps."
+        },
+        {
+          "section": 187,
+          "name": "Person employed in mint causing coin to be of different weight or composition from that fixed by law."
+        },
+        {
+          "section": 188,
+          "name": "Unlawfully taking coining instrument from mint."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES AGAINST THE PUBLIC TRANQUILLITY": {
+    "question": "Is the assembly of five or more persons?",
+    "yes": {
+      "question": "Is the common object of the assembly to overawe the government or public servant?",
+      "yes": {
+        "section": 189,
+        "name": "Unlawful assembly"
+      },
+      "no": {
+        "question": "Is the assembly rioting or committing an offence?",
+        "yes": {
+          "section": 191,
+          "name": "Rioting"
+        },
+        "no": {
+          "section": 190,
+          "name": "Every member of unlawful assembly guilty of offence committed in prosecution of common object"
+        }
+      }
+    },
+    "no": {
+      "question": "Is the assembly of two or more persons?",
+      "yes": {
+        "section": 194,
+        "name": "Affray"
+      },
+      "no": {
+        "section": 196,
+        "name": "Promoting enmity between different groups on grounds of religion, race, place of birth, residence, language, etc., and doing acts prejudicial to maintenance of harmony"
+      }
+    },
+    "group": "OF OFFENCES AGAINST THE PUBLIC TRANQUILLITY",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES AGAINST THE PUBLIC TRANQUILLITY",
+      "slug": "of_offences_against_the_public_tranquillity",
+      "section_count": 9,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 189,
+          "name": "Unlawful assembly"
+        },
+        {
+          "section": 190,
+          "name": "Every member of unlawful assembly guilty of offence committed in prosecution of common object."
+        },
+        {
+          "section": 191,
+          "name": "Rioting."
+        },
+        {
+          "section": 192,
+          "name": "Wantonly giving provocation with intent to cause riot-if rioting be committed; if not committed."
+        },
+        {
+          "section": 193,
+          "name": "Liability of owner, occupier, etc., of land on which an unlawful assembly or riot takes place."
+        },
+        {
+          "section": 194,
+          "name": "Affray."
+        },
+        {
+          "section": 195,
+          "name": "Assaulting or obstructing public servant when suppressing riot, etc"
+        },
+        {
+          "section": 196,
+          "name": "Promoting enmity between different groups on grounds of religion, race, place of birth, residence, language, etc., and doing acts prejudicial to maintenance of harmony"
+        },
+        {
+          "section": 197,
+          "name": "Imputations, assertions prejudicial to national integration."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES BY OR RELATING TO PUBLIC SERVANTS": {
+    "question": "Is the public servant disobeying a direction under law?",
+    "yes": {
+      "question": "Is the disobedience intended to cause injury to any person?",
+      "yes": {
+        "section": 198,
+        "name": "Public servant disobeying law, with intent to cause injury to any person."
+      },
+      "no": {
+        "section": 199,
+        "name": "Public servant disobeying direction under law"
+      }
+    },
+    "no": {
+      "question": "Is the public servant framing an incorrect document with intent to cause injury?",
+      "yes": {
+        "section": 201,
+        "name": "Public servant framing an incorrect document with intent to cause injury."
+      },
+      "no": {
+        "question": "Is the public servant engaging in trade?",
+        "yes": {
+          "section": 202,
+          "name": "Public servant unlawfully engaging in trade"
+        },
+        "no": {
+          "question": "Is the public servant buying or bidding for property?",
+          "yes": {
+            "section": 203,
+            "name": "Public servant unlawfully buying or bidding for property"
+          },
+          "no": {
+            "question": "Is the person personating a public servant?",
+            "yes": {
+              "section": 204,
+              "name": "Personating a public servant"
+            },
+            "no": {
+              "question": "Is the person wearing garb or carrying token used by public servant with fraudulent intent?",
+              "yes": {
+                "section": 205,
+                "name": "Wearing garb or carrying token used by public servant with fraudulent intent"
+              },
+              "no": {
+                "section": 200,
+                "name": "Punishment for non-treatment of victim"
+              }
+            }
+          }
+        }
+      }
+    },
+    "group": "OF OFFENCES BY OR RELATING TO PUBLIC SERVANTS",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES BY OR RELATING TO PUBLIC SERVANTS",
+      "slug": "of_offences_by_or_relating_to_public_servants",
+      "section_count": 8,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 198,
+          "name": "Public servant disobeying law, with intent to cause injury to any person."
+        },
+        {
+          "section": 199,
+          "name": "Public servant disobeying direction under law"
+        },
+        {
+          "section": 200,
+          "name": "Punishment for non-treatment of victim"
+        },
+        {
+          "section": 201,
+          "name": "Public servant framing an incorrect document with intent to cause injury."
+        },
+        {
+          "section": 202,
+          "name": "Public servant unlawfully engaging in trade."
+        },
+        {
+          "section": 203,
+          "name": "Public servant unlawfully buying or bidding for property."
+        },
+        {
+          "section": 204,
+          "name": "Personating a public servant."
+        },
+        {
+          "section": 205,
+          "name": "Wearing garb or carrying token used by public servant with fraudulent intent."
+        }
+      ]
+    }
+  },
+  "OF CONTEMPTS OF THE LAWFUL AUTHORITY OF PUBLIC SERVANTS": {
+    "question": "Is the public servant legally competent to issue the summons, notice or order?",
+    "yes": {
+      "question": "Did the person intentionally omit to attend at the specified place or time?",
+      "yes": {
+        "section": 208,
+        "name": "Non-attendance in obedience to an order from public servant"
+      },
+      "no": {
+        "section": 206,
+        "name": "Absconding to avoid service of summons or other proceeding"
+      }
+    },
+    "no": {
+      "question": "Did the person intentionally prevent the serving on himself, or on any other person, of any summons, notice or order?",
+      "yes": {
+        "section": 207,
+        "name": "Preventing service of summons or other proceeding, or preventing publication thereof"
+      },
+      "no": {
+        "question": "Did the person intentionally omit to produce or deliver up any document or electronic record to any public servant?",
+        "yes": {
+          "section": 210,
+          "name": "Omission to produce document or electronic record to public servant by person legally bound to produce it"
+        },
+        "no": {
+          "question": "Did the person intentionally omit to give any notice or to furnish information on any subject to any public servant?",
+          "yes": {
+            "section": 211,
+            "name": "Omission to give notice or information to public servant by person legally bound to give it"
+          },
+          "no": {
+            "question": "Did the person furnish, as true, information on the subject which he knows or has reason to believe to be false?",
+            "yes": {
+              "section": 212,
+              "name": "Furnishing false information"
+            },
+            "no": {
+              "question": "Did the person refuse to bind himself by an oath or affirmation to state the truth?",
+              "yes": {
+                "section": 213,
+                "name": "Refusing oath or affirmation when duly required by public servant to make it"
+              },
+              "no": {
+                "question": "Did the person refuse to answer any question demanded of him touching that subject by such public servant?",
+                "yes": {
+                  "section": 214,
+                  "name": "Refusing to answer public servant authorised to question"
+                },
+                "no": {
+                  "question": "Did the person refuse to sign any statement made by him?",
+                  "yes": {
+                    "section": 215,
+                    "name": "Refusing to sign statement"
+                  },
+                  "no": {
+                    "question": "Did the person make, to such public servant or other person as aforesaid, touching that subject, any statement which is false?",
+                    "yes": {
+                      "section": 216,
+                      "name": "False statement on oath or affirmation to public servant or person authorised to administer an oath or affirmation"
+                    },
+                    "no": {
+                      "question": "Did the person give to any public servant any information which he knows or believes to be false?",
+                      "yes": {
+                        "section": 217,
+                        "name": "False information, with intent to cause public servant to use his lawful power to injury of another person"
+                      },
+                      "no": {
+                        "question": "Did the person offer any resistance to the taking of any property by the lawful authority of any public servant?",
+                        "yes": {
+                          "section": 218,
+                          "name": "Resistance to taking of property by lawful authority of a public servant"
+                        },
+                        "no": {
+                          "question": "Did the person offer any resistance to the taking of any property by the lawful authority of any public servant?",
+                          "yes": {
+                            "section": 219,
+                            "name": "Obstructing sale of property offered for sale by authority of public servant"
+                          },
+                          "no": {
+                            "question": "Did the person purchase or bid for any property on account of any person, whom he knows to be under a legal incapacity to purchase that property at that sale?",
+                            "yes": {
+                              "section": 220,
+                              "name": "Illegal purchase or bid for property offered for sale by authority of public servant"
+                            },
+                            "no": {
+                              "question": "Did the person voluntarily obstruct any public servant in the discharge of his public functions?",
+                              "yes": {
+                                "section": 221,
+                                "name": "Obstructing public servant in discharge of public functions"
+                              },
+                              "no": {
+                                "question": "Did the person intentionally omit to give assistance to any public servant in the execution of his public duty?",
+                                "yes": {
+                                  "section": 222,
+                                  "name": "Omission to assist public servant when bound by law to give assistance"
+                                },
+                                "no": {
+                                  "question": "Did the person know that, by an order promulgated by a public servant lawfully empowered to promulgate such order, he is directed to abstain from a certain act?",
+                                  "yes": {
+                                    "section": 223,
+                                    "name": "Disobedience to order duly promulgated by public servant"
+                                  },
+                                  "no": {
+                                    "question": "Did the person hold out any threat of injury to any public servant?",
+                                    "yes": {
+                                      "section": 224,
+                                      "name": "Threat of injury to public servant"
+                                    },
+                                    "no": {
+                                      "question": "Did the person hold out any threat of injury to induce any person to refrain or desist from making a legal application for protection against any injury to any public servant?",
+                                      "yes": {
+                                        "section": 225,
+                                        "name": "Threat of injury to induce person to refrain from applying for protection to public servant"
+                                      },
+                                      "no": {
+                                        "question": "Did the person attempt to commit suicide with the intent to compel or restrain any public servant from discharging his official duty?",
+                                        "yes": {
+                                          "section": 226,
+                                          "name": "Attempt to commit suicide to compel or restrain exercise of lawful power"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "group": "OF CONTEMPTS OF THE LAWFUL AUTHORITY OF PUBLIC SERVANTS",
+    "_meta": {
+      "chapter_subtype": "OF CONTEMPTS OF THE LAWFUL AUTHORITY OF PUBLIC SERVANTS",
+      "slug": "of_contempts_of_the_lawful_authority_of_public_servants",
+      "section_count": 21,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 206,
+          "name": "Absconding to avoid service of summons or other proceeding."
+        },
+        {
+          "section": 207,
+          "name": "Preventing service of summons or other proceeding, or preventing publication thereof."
+        },
+        {
+          "section": 208,
+          "name": "Non-attendance in obedience to an order from public servant."
+        },
+        {
+          "section": 209,
+          "name": "Non-appearance in response to a proclamation under section 84 of Bharatiya Nagarik Suraksha Sanhita, 2023."
+        },
+        {
+          "section": 210,
+          "name": "Omission to produce document or electronic record to public servant by person legally bound to produce it"
+        },
+        {
+          "section": 211,
+          "name": "Omission to give notice or information to public servant by person legally bound to give it."
+        },
+        {
+          "section": 212,
+          "name": "Furnishing false information."
+        },
+        {
+          "section": 213,
+          "name": "Refusing oath or affirmation when duly required by public servant to make it."
+        },
+        {
+          "section": 214,
+          "name": "Refusing to answer public servant authorised to question."
+        },
+        {
+          "section": 215,
+          "name": "Refusing to sign statement."
+        },
+        {
+          "section": 216,
+          "name": "False statement on oath or affirmation to public servant or person authorised to administer an oath or affirmation."
+        },
+        {
+          "section": 217,
+          "name": "False information, with intent to cause public servant to use his lawful power to injury of another person."
+        },
+        {
+          "section": 218,
+          "name": "Resistance to taking of property by lawful authority of a public servant."
+        },
+        {
+          "section": 219,
+          "name": "Obstructing sale of property offered for sale by authority of public servant."
+        },
+        {
+          "section": 220,
+          "name": "Illegal purchase or bid for property offered for sale by authority of public servant."
+        },
+        {
+          "section": 221,
+          "name": "Obstructing public servant in discharge of public functions."
+        },
+        {
+          "section": 222,
+          "name": "Omission to assist public servant when bound by law to give assistance."
+        },
+        {
+          "section": 223,
+          "name": "Disobedience to order duly promulgated by public servant."
+        },
+        {
+          "section": 224,
+          "name": "Threat of injury to public servant."
+        },
+        {
+          "section": 225,
+          "name": "Threat of injury to induce person to refrain from applying for protection to public servant."
+        },
+        {
+          "section": 226,
+          "name": "Attempt to commit suicide to compel or restrain exercise of lawful power."
+        }
+      ]
+    }
+  },
+  "OF FALSE EVIDENCE AND OFFENCES AGAINST PUBLIC JUSTICE": {
+    "group": "OF FALSE EVIDENCE AND OFFENCES AGAINST PUBLIC JUSTICE",
+    "error": "Unterminated string starting at: line 5 column 5 (char 277)",
+    "raw_output": "{\n  \"question\": \"Is the person legally bound by an oath or by an express provision of law to state the truth?\",\n  \"yes\": {\n    \"question\": \"Is the person making a statement which is false, and which he either knows or believes to be false or does not believe to be true?\",\n    \"yes",
+    "sections": [
+      {
+        "section": 227,
+        "name": "Giving false evidence.",
+        "description": "Whoever, being legally bound by an oath or by an express provision of law to state the truth, or being bound by law to make a declaration upon any subject, makes any statement which is false, and which he either knows or believes to be false or does not believe to be true, is said to give false evidence.\r\nExplanation 1.—A statement is within the meaning of this section, whether it is made verbally or otherwise.\r\nExplanation 2.—A false statement as to the belief of the person attesting is within the meaning of this section, and a person may be guilty of giving false evidence by stating that he believes a thing which he does not believe, as well as by stating that he knows a thing which he does not know.\r\nIllustrations.\r\n\r\n(a) A, in support of a just claim which B has against Z for one thousand rupees, falsely swears on a trial that he heard Z admit the justice of Bs claim. A has given false evidence.\r\n(b) A, being bound by an oath to state the truth, states that he believes a certain signature to be the handwriting of Z, when he does not believe it to be the handwriting of Z. Here A states that which he knows to be false, and therefore gives false evidence.\r\n(c) A, knowing the general character of Zs handwriting, states that he believes a certain signature to be the handwriting of Z; A in good faith believing it to be so. Here As statement is merely as to his belief, and is true as to his belief, and therefore, although the signature may not be the handwriting of Z, A has not given false evidence.\r\n(d) A, being bound by an oath to state the truth, states that he knows that Z was at a particular place on a particular day, not knowing anything upon the subject. A gives false evidence whether Z was at that place on the day named or not.\r\n(e) A, an interpreter or translator, gives or certifies as a true interpretation or translation of a statement or document which he is bound by oath to interpret or translate truly, that which is not and which he does not believe to be a true interpretation or translation. A has given false evidence."
+      },
+      {
+        "section": 228,
+        "name": "Fabricating false evidence.",
+        "description": "Whoever causes any circumstance to exist or makes any false entry in any book or record, or electronic record or makes any document or electronic record containing a false statement, intending that such circumstance, false entry or false statement may appear in evidence in a judicial proceeding, or in a proceeding taken by law before a public servant as such, or before an arbitrator, and that such circumstance, false entry or false statement, so appearing in evidence, may cause any person who in such proceeding is to form an opinion upon the evidence, to entertain an erroneous opinion touching any point material to the result of such proceeding is said \"to fabricate false evidence\".\r\nIllustrations.\r\n\r\n(a) A puts jewels into a box belonging to Z, with the intention that they may be found in that box, and that this circumstance may cause Z to be convicted of theft. A has fabricated false evidence.\r\n(b) A makes a false entry in his shop-book for the purpose of using it as corroborative evidence in a Court. A has fabricated false evidence.\r\n(c) A, with the intention of causing Z to be convicted of a criminal conspiracy, writes a letter in imitation of Z's handwriting, purporting to be addressed to an accomplice in such criminal conspiracy, and puts the letter in a place which he knows that the officers of the police are likely to search. A has fabricated false evidence."
+      },
+      {
+        "section": 229,
+        "name": "Punishment for false evidence.",
+        "description": "(1) Whoever intentionally gives false evidence in any stage of a judicial proceeding, or fabricates false evidence for the purpose of being used in any stage of a judicial proceeding, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine which may extend to ten thousand rupees.\r\n(2) Whoever intentionally gives or fabricates false evidence in any case other than that referred to in sub-section (1), shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine which may extend to five thousand rupees.\r\nExplanation 1.—A trial before a Court-martial is a judicial proceeding.\r\nExplanation 2.—An investigation directed by law preliminary to a proceeding before a Court, is a stage of a judicial proceeding, though that investigation may not take place before a Court.\r\nIllustration.\r\n\r\nA, in an enquiry before a Magistrate for the purpose of ascertaining whether Z ought to be committed for trial, makes on oath a statement which he knows to be false. As this enquiry is a stage of a judicial proceeding, A has given false evidence.\r\nExplanation 3.—An investigation directed by a Court according to law, and conducted under the authority of a Court, is a stage of a judicial proceeding, though that investigation may not take place before a Court.\r\nIllustration.\r\n\r\nA, in an enquiry before an officer deputed by a Court to ascertain on the spot the boundaries of land, makes on oath a statement which he knows to be false. As this enquiry is a stage of a judicial proceeding, A has given false evidence."
+      },
+      {
+        "section": 230,
+        "name": "Giving or fabricating false evidence with intent to procure conviction of capital offence.",
+        "description": "(1) Whoever gives or fabricates false evidence, intending thereby to cause, or knowing it to be likely that he will thereby cause, any person to be convicted of an offence which is capital by the law for the time being in force in India shall be punished with imprisonment for life, or with rigorous imprisonment for a term which may extend to ten years, and shall also be liable to fine which may extend to fifty thousand rupees.\r\n(2) If an innocent person be convicted and executed in consequence of false evidence referred to in sub-section (1), the person who gives such false evidence shall be punished either with death or the punishment specified in sub-section (1).\r\n"
+      },
+      {
+        "section": 231,
+        "name": "Giving or fabricating false evidence with intent to procure conviction of offence punishable with imprisonment for life or imprisonment.",
+        "description": "Whoever gives or fabricates false evidence intending thereby to cause, or knowing it to be likely that he will thereby cause, any person to be convicted of an offence which by the law for the time being in force in India is not capital, but punishable with imprisonment for life, or imprisonment for a term of seven years or upwards, shall be punished as a person convicted of that offence would be liable to be punished.\r\nIllustration.\r\n\r\nA gives false evidence before a Court, intending thereby to cause Z to be convicted of a dacoity. The punishment of dacoity is imprisonment for life, or rigorous imprisonment for a term which may extend to ten years, with or without fine. A, therefore, is liable to imprisonment for life or imprisonment, with or without fine.\r\n"
+      },
+      {
+        "section": 232,
+        "name": "Threatening any person to give false evidence",
+        "description": "(1) Whoever threatens another with any injury to his person, reputation or property or to the person or reputation of any one in whom that person is interested, with intent to cause that person to give false evidence shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both.\r\n(2) If innocent person is convicted and sentenced in consequence of false evidence referred to in sub-section (1), with death or imprisonment for more than seven years, the person who threatens shall be punished with the same punishment and sentence in the same manner and to the same extent such innocent person is punished and sentenced."
+      },
+      {
+        "section": 233,
+        "name": "Using evidence known to be false",
+        "description": "Whoever corruptly uses or attempts to use as true or genuine evidence any evidence which he knows to be false or fabricated, shall be punished in the same manner as if he gave or fabricated false evidence."
+      },
+      {
+        "section": 234,
+        "name": "Issuing or signing false certificate.",
+        "description": "Whoever issues or signs any certificate required by law to be given or signed, or relating to any fact of which such certificate is by law admissible in evidence, knowing or believing that such certificate is false in any material point, shall be punished in the same manner as if he gave false evidence."
+      },
+      {
+        "section": 235,
+        "name": "Using as true a certificate known to be false.",
+        "description": "Whoever corruptly uses or attempts to use any such certificate as a true certificate, knowing the same to be false in any material point, shall be punished in the same manner as if he gave false evidence."
+      },
+      {
+        "section": 236,
+        "name": "False statement made in declaration which is by law receivable as evidence",
+        "description": "Whoever, in any declaration made or subscribed by him, which declaration any Court or any public servant or other person, is bound or authorised by law to receive as evidence of any fact, makes any statement which is false, and which he either knows or believes to be false or does not believe to be true, touching any point material to the object for which the declaration is made or used, shall be punished in the same manner as if he gave false evidence"
+      },
+      {
+        "section": 237,
+        "name": "Using as true\r\n such\r\n declaration\r\n knowing it to\r\n be false",
+        "description": "Whoever corruptly uses or attempts to use as true any such declaration,\r\n knowing the same to be false in any material point, shall be punished in the same manner\r\n as if he gave false evidence.\r\n Explanation.—A declaration which is inadmissible merely upon the ground of some\r\n informality, is a declaration within the meaning of section 236 and this section"
+      },
+      {
+        "section": 238,
+        "name": "Causing disappearance of evidence of offence, or giving false information to screen offender.",
+        "description": "Whoever, knowing or having reason to believe that an offence has been  committed, causes any evidence of the commission of that offence to disappear, with the intention of screening the offender from legal punishment, or with that intention gives any information respecting the offence which he knows or believes to be false shall,— (a) if the offence which he knows or believes to have been committed is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; (b) if the offence is punishable with imprisonment for life, or with imprisonment which may extend to ten years, be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine;(c) if the offence is punishable with imprisonment for any term not extending to ten years, be punished with imprisonment of the description provided for the offence, for a term which may extend to one-fourth part of the longest term of the imprisonment provided for the offence, or with fine, or with both Illustration.A, knowing that B has murdered Z, assists B to hide the body with the intention of screening B from punishment. A is liable to imprisonment of either description for seven years, and also to fine."
+      },
+      {
+        "section": 239,
+        "name": "Intentional\r\n omission to\r\n give\r\n information\r\n of offence by\r\n person bound to inform.",
+        "description": "Whoever, knowing or having reason to believe that an offence has been\r\n committed, intentionally omits to give any information respecting that offence which he is\r\n legally bound to give, shall be punished with imprisonment of either description for a term\r\n which may extend to six months, or with fine which may extend to five thousand rupees,\r\n or with both."
+      },
+      {
+        "section": 240,
+        "name": "Giving false information respecting an offence committed.",
+        "description": "Whoever, knowing or having reason to believe that an offence has been committed, gives any information respecting that offence which he knows or believes to be false, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.\r\nExplanation.—In sections 238 and 239 and in this section the word \"offence\" includes any act committed at any place out of India, which, if committed in India, would be punishable under any of the following sections, namely, 103, 105, 307, sub-sections (2), (3) and (4) of section 309, sub-sections (2), (3), (4) and (5) of section 310, 311, 312, clauses (f) and (g) of section 326, sub-sections (4), (6), (7) and (8) of section 331, clauses (a) and (b) of section 332."
+      },
+      {
+        "section": 241,
+        "name": "Destruction of document or electronic record to prevent its production as evidence",
+        "description": "Whoever secretes or destroys any document or electronic record which he may be lawfully compelled to produce as evidence in a Court or in any proceeding lawfully held before a public servant, as such, or obliterates or renders illegible the whole or any part of such document or electronic record with the intention of preventing the same from being produced or used as evidence before such Court or public servant as aforesaid, or after he shall have been lawfully summoned or required to produce the same for that purpose, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine which may extend to five thousand rupees, or with both."
+      },
+      {
+        "section": 242,
+        "name": "False personation for purpose of act or proceeding in suit or prosecution.",
+        "description": "Whoever falsely personates another, and in such assumed character makes any admission or statement, or confesses judgment, or causes any process to be issued or becomes bail or security, or does any other act in any suit or criminal prosecution, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both."
+      },
+      {
+        "section": 243,
+        "name": "Fraudulent removal or concealment of property to prevent its seizure as forfeited or in execution.",
+        "description": "Whoever fraudulently removes, conceals, transfers or delivers to any person any property or any interest therein, intending thereby to prevent that property or interest therein from being taken as a forfeiture or in satisfaction of a fine, under a sentence which has been pronounced, or which he knows to be likely to be pronounced, by a Court or other competent authority, or from being taken in execution of a decree or order which has been made, or which he knows to be likely to be made by a Court in a civil suit, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine which may extend to five thousand rupees, or with both."
+      },
+      {
+        "section": 244,
+        "name": "Fraudulent claim to property to prevent its seizure as forfeited or in execution.",
+        "description": "Whoever fraudulently accepts, receives or claims any property or any interest therein, knowing that he has no right or rightful claim to such property or interest, or practises any deception touching any right to any property or any interest therein, intending thereby to prevent that property or interest therein from being taken as a forfeiture or in satisfaction of a fine, under a sentence which has been pronounced, or which he knows to be likely to be pronounced by a Court or other competent authority, or from being taken in execution of a decree or order which has been made, or which he knows to be likely to be made by a Court in a civil suit, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both."
+      },
+      {
+        "section": 245,
+        "name": "Fraudulently suffering decree for sum not due.",
+        "description": "Whoever fraudulently causes or suffers a decree or order to be passed against him at the suit of any person for a sum not due or for a larger sum than is due to such person or for any property or interest in property to which such person is not entitled, or fraudulently causes or suffers a decree or order to be executed against him after it has been satisfied, or for anything in respect of which it has been satisfied, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.\r\nIllustration.\r\n\r\nA institutes a suit against Z. Z, knowing that A is likely to obtain a decree against him, fraudulently suffers a judgment to pass against him for a larger amount at the suit of B, who has no just claim against him, in order that B, either on his own account or for the benefit of Z, may share in the proceeds of any sale of Zs property which may be made under As decree. Z has committed an offence under this section."
+      },
+      {
+        "section": 246,
+        "name": "Dishonestly making false claim in Court.",
+        "description": "Whoever fraudulently or dishonestly, or with intent to injure or annoy any person, makes in a Court any claim which he knows to be false, shall be punished with imprisonment of either description for a term which may extend to two years, and shall also be liable to fine."
+      },
+      {
+        "section": 247,
+        "name": "Fraudulently obtaining decree for sum not due.",
+        "description": "Whoever fraudulently obtains a decree or order against any person for a sum not due, or for a larger sum than is due or for any property or interest in property to which he is not entitled, or fraudulently causes a decree or order to be executed against any person after it has been satisfied or for anything in respect of which it has been satisfied, or fraudulently suffers or permits any such act to be done in his name, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both."
+      },
+      {
+        "section": 248,
+        "name": "False charge of offence made with intent to injure.",
+        "description": "Whoever, with intent to cause injury to any person, institutes or causes to be instituted any criminal proceeding against that person, or falsely charges any person with having committed an offence, knowing that there is no just or lawful ground for such proceeding or charge against that person,—\r\n(a) shall be punished with imprisonment of either description for a term which may extend to five years, or with fine which may extend to two lakh rupees, or with both;\r\n(b) if such criminal proceeding be instituted on a false charge of an offence punishable with death, imprisonment for life, or imprisonment for ten years or upwards, shall be punishable with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine."
+      },
+      {
+        "section": 249,
+        "name": "Harbouring offender.",
+        "description": "Whenever an offence has been committed, whoever harbours or conceals a person whom he knows or has reason to believe to be the offender, with the intention of screening him from legal punishment shall,—\r\n(a) if the offence is punishable with death, be punished with imprisonment of either description for a term which may extend to five years, and shall also be liable to fine;\r\n(b) if the offence is punishable with imprisonment for life, or with imprisonment which may extend to ten years, be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine;\r\n(c) if the offence is punishable with imprisonment which may extend to one year, and not to ten years, be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of imprisonment provided for the offence, or with fine, or with both.\r\nExplanation.— \"Offence\" in this section includes any act committed at any place out of India, which, if committed in India, would be punishable under any of the following sections, namely, 103, 105, 307, sub-sections (2), (3) and (4) of section 309, sub-sections (2), (3), (4) and (5) of section 310, 311, 312, clauses (f) and (g) of section 326, sub-sections (4), (6), (7) and (8) of section 331, clauses (a) and (b) of section 332 and every such act shall, for the purposes of this section, be deemed to be punishable as if the accused person had been guilty of it in India.\r\nException.—This section shall not extend to any case in which the harbour or concealment is by the spouse of the offender.\r\nIllustration.\r\n\r\nA, knowing that B has committed dacoity, knowingly conceals B in order to screen him from legal punishment. Here, as B is liable to imprisonment for life, A is liable to imprisonment of either description for a term not exceeding three years, and is also liable to fine."
+      },
+      {
+        "section": 250,
+        "name": "Taking gift, etc., to screen an offender from punishment.",
+        "description": "Whoever accepts or attempts to obtain, or agrees to accept, any gratification for himself or any other person, or any restitution of property to himself or any other person, in consideration of his concealing an offence or of his screening any person from legal punishment for any offence, or of his not proceeding against any person for the purpose of bringing him to legal punishment shall,—\r\n(a) if the offence is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine;\r\n(b) if the offence is punishable with imprisonment for life, or with imprisonment which may extend to ten years, be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine;\r\n(c) if the offence is punishable with imprisonment not extending to ten years, be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of imprisonment provided for the offence, or with fine, or with both."
+      },
+      {
+        "section": 251,
+        "name": "Offering gift or restoration of property in consideration of screening offender.",
+        "description": "Whoever gives or causes, or offers or agrees to give or cause, any gratification to any person, or restores or causes the restoration of any property to any person, in consideration of that person’s concealing an offence, or of his screening any person from legal punishment for any offence, or of his not proceeding against any person for the purpose of bringing him to legal punishment shall,—\r\n(a) if the offence is punishable with death, be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine;\r\n(b) if the offence is punishable with imprisonment for life or with imprisonment which may extend to ten years, be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine;\r\n(c) if the offence is punishable with imprisonment not extending to ten years, be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of imprisonment provided for the offence, or with fine, or with both.\r\nException.—The provisions of this section and section 250 do not extend to any case in which the offence may lawfully be compounded."
+      },
+      {
+        "section": 252,
+        "name": "Taking gift to help to recover stolen property, etc.",
+        "description": "Whoever takes or agrees or consents to take any gratification under pretence or on account of helping any person to recover any movable property of which he shall have been deprived by any offence punishable under this Sanhita, shall, unless he uses all means in his power to cause the offender to be apprehended and convicted of the offence, be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both."
+      },
+      {
+        "section": 253,
+        "name": "Harbouring offender who has escaped from custody or whose apprehension has been ordered.",
+        "description": "Whenever any person convicted of or charged with an offence, being in lawful custody for that offence, escapes from such custody, or whenever a public servant, in the exercise of the lawful powers of such public servant, orders a certain person to be apprehended for an offence, whoever, knowing of such escape or order for apprehension, harbours or conceals that person with the intention of preventing him from being apprehended, shall be punished in the manner following, namely:—\r\n(a) if the offence for which the person was in custody or is ordered to be apprehended is punishable with death, he shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine;\r\n(b) if the offence is punishable with imprisonment for life or imprisonment for ten years, he shall be punished with imprisonment of either description for a term which may extend to three years, with or without fine;\r\n(c) if the offence is punishable with imprisonment which may extend to one year and not to ten years, he shall be punished with imprisonment of the description provided for the offence for a term which may extend to one-fourth part of the longest term of the imprisonment provided for such offence, or with fine, or with both.\r\nExplanation.—\"Offence\" in this section includes also any act or omission of which a person is alleged to have been guilty out of India, which, if he had been guilty of it in India, would have been punishable as an offence, and for which he is, under any law relating to extradition, or otherwise, liable to be apprehended or detained in custody in India, and every such act or omission shall, for the purposes of this section, be deemed to be punishable as if the accused person had been guilty of it in India.\r\nException.—The provisions of this section do not extend to the case in which the harbour or concealment is by the spouse of the person to be apprehended."
+      },
+      {
+        "section": 254,
+        "name": "Penalty for harbouring robbers or dacoits",
+        "description": "Whoever, knowing or having reason to believe that any persons are about to commit or have recently committed robbery or dacoity, harbours them or any of them, with the intention of facilitating the commission of such robbery or dacoity, or of screening them or any of them from punishment, shall be punished with rigorous imprisonment for a term which may extend to seven years, and shall also be liable to fine.\r\nExplanation.—For the purposes of this section it is immaterial whether the robbery or dacoity is intended to be committed, or has been committed, within or without India.\r\nException.—The provisions of this section do not extend to the case in which the harbour is by the spouse of the offender."
+      },
+      {
+        "section": 255,
+        "name": "Public servant disobeying direction of law with intent to save person from punishment or property from forfeiture.",
+        "description": "Whoever, being a public servant, knowingly disobeys any direction of the law as to the way in which he is to conduct himself as such public servant, intending thereby to save, or knowing it to be likely that he will thereby save, any person from legal punishment, or subject him to a less punishment than that to which he is liable, or with intent to save, or knowing that he is likely thereby to save, any property from forfeiture or any charge to which it is liable by law, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both."
+      },
+      {
+        "section": 256,
+        "name": "Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture.",
+        "description": "Whoever, being a public servant, and being as such public servant, charged with the preparation of any record or other writing, frames that record or writing in a manner which he knows to be incorrect, with intent to cause, or knowing it to be likely that he will thereby cause, loss or injury to the public or to any person, or with intent thereby to save, or knowing it to be likely that he will thereby save, any person from legal punishment, or with intent to save, or knowing that he is likely thereby to save, any property from forfeiture or other charge to which it is liable by law, shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both."
+      },
+      {
+        "section": 257,
+        "name": "Public servant in judicial proceeding corruptly making report, etc., contrary to law.",
+        "description": "Whoever, being a public servant, corruptly or maliciously makes or pronounces in any stage of a judicial proceeding, any report, order, verdict, or decision which he knows to be contrary to law, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both."
+      },
+      {
+        "section": 258,
+        "name": "Commitment for trial or confinement by person having authority who knows that he is acting contrary to law\\",
+        "description": "Whoever, being in any office which gives him legal authority to commit persons for trial or to confinement, or to keep persons in confinement, corruptly or maliciously commits any person for trial or to confinement, or keeps any person in confinement, in the exercise of that authority knowing that in so doing he is acting contrary to law, shall be punished with imprisonment of either description for a term which may extend to seven years, or with fine, or with both."
+      },
+      {
+        "section": 259,
+        "name": "Intentional omission to apprehend on part of public servant bound to apprehend.",
+        "description": "Whoever, being a public servant, legally bound as such public servant to apprehend or to keep in confinement any person charged with or liable to be apprehended for an offence, intentionally omits to apprehend such person, or intentionally suffers such person to escape, or intentionally aids such person in escaping or attempting to escape from such confinement, shall be punished,—\r\n(a) with imprisonment of either description for a term which may extend to seven years, with or without fine, if the person in confinement, or who ought to have been apprehended, was charged with, or liable to be apprehended for, an offence punishable with death; or\r\n(b) with imprisonment of either description for a term which may extend to three years, with or without fine, if the person in confinement, or who ought to have been apprehended, was charged with, or liable to be apprehended for, an offence punishable with imprisonment for life or imprisonment for a term which may extend to ten years; or\r\n(c) with imprisonment of either description for a term which may extend to two years, with or without fine, if the person in confinement, or who ought to have been apprehended, was charged with, or liable to be apprehended for, an offence punishable with imprisonment for a term less than ten years."
+      },
+      {
+        "section": 260,
+        "name": "Intentional omission to apprehend on part of public servant bound to apprehend person under sentence or lawfully committed.",
+        "description": "Whoever, being a public servant, legally bound as such public servant to apprehend or to keep in confinement any person under sentence of a Court for any offence or lawfully committed to custody, intentionally omits to apprehend such person, or intentionally suffers such person to escape or intentionally aids such person in escaping or attempting to escape from such confinement, shall be punished,—\r\n(a) with imprisonment for life or with imprisonment of either description for a term which may extend to fourteen years, with or without fine, if the person in confinement, or who ought to have been apprehended, is under sentence of death; or\r\n(b) with imprisonment of either description for a term which may extend to seven years, with or without fine, if the person in confinement or who ought to have been apprehended, is subject, by a sentence of a Court, or by virtue of a commutation of such sentence, to imprisonment for life or imprisonment for a term of ten years, or upwards; or\r\n(c) with imprisonment of either description for a term which may extend to three years, or with fine, or with both, if the person in confinement or who ought to have been apprehended, is subject by a sentence of a Court to imprisonment for a term not extending to ten years or if the person was lawfully committed to custody."
+      },
+      {
+        "section": 261,
+        "name": "Escape from confinement or custody negligently suffered by public servant.",
+        "description": "Whoever, being a public servant legally bound as such public servant to keep in confinement any person charged with or convicted of any offence or lawfully committed to custody, negligently suffers such person to escape from confinement, shall be punished with simple imprisonment for a term which may extend to two years, or with fine, or with both."
+      },
+      {
+        "section": 262,
+        "name": "Resistance or obstruction by a person to his lawful apprehension.",
+        "description": "Whoever intentionally offers any resistance or illegal obstruction to the lawful apprehension of himself for any offence with which he is charged or of which he has been convicted, or escapes or attempts to escape from any custody in which he is lawfully detained for any such offence, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.\r\nExplanation.—The punishment in this section is in addition to the punishment for which the person to be apprehended or detained in custody was liable for the offence with which he was charged, or of which he was convicted."
+      },
+      {
+        "section": 263,
+        "name": "Resistance or obstruction to lawful apprehension of another person.",
+        "description": "Whoever, intentionally offers any resistance or illegal obstruction to the lawful apprehension of any other person for an offence, or rescues or attempts to rescue any other person from any custody in which that person is lawfully detained for an offence,—\r\n(a) shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both; or\r\n(b) if the person to be apprehended, or the person rescued or attempted to be rescued, is charged with or liable to be apprehended for an offence punishable with imprisonment for life or imprisonment for a term which may extend to ten years, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine; or\r\n(c) if the person to be apprehended or rescued, or attempted to be rescued, is charged with or liable to be apprehended for an offence punishable with death, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; or\r\n(d) if the person to be apprehended or rescued, or attempted to be rescued, is liable under the sentence of a Court or by virtue of a commutation of such a sentence, to imprisonment for life, or imprisonment for a term of ten years or upwards, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine; or\r\n(e) if the person to be apprehended or rescued, or attempted to be rescued, is under sentence of death, shall be punished with imprisonment for life or imprisonment of either description for a term not exceeding ten years, and shall also be liable to fine."
+      },
+      {
+        "section": 264,
+        "name": "Omission to apprehend, or sufferance of escape, on part of public servant, in cases not otherwise provided for",
+        "description": "Whoever, being a public servant legally bound as such public servant to apprehend, or to keep in confinement, any person in any case not provided for in section 259, section 260 or section 261, or in any other law for the time being in force, omits to apprehend that person or suffers him to escape from confinement, shall be punished—\r\n(a) if he does so intentionally, with imprisonment of either description for a term which may extend to three years, or with fine, or with both; and\r\n(b) if he does so negligently, with simple imprisonment for a term which may extend to two years, or with fine, or with both."
+      },
+      {
+        "section": 265,
+        "name": "Resistance or obstruction to lawful apprehension or escape or rescue in cases not otherwise provided for.",
+        "description": "Whoever, in any case not provided for in section 262 or section 263 or in any other law for the time being in force, intentionally offers any resistance or illegal obstruction to the lawful apprehension of himself or of any other person, or escapes or attempts to escape from any custody in which he is lawfully detained, or rescues or attempts to rescue any other person from any custody in which that person is lawfully detained, shall be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both."
+      },
+      {
+        "section": 266,
+        "name": "Violation of condition of remission of punishment.",
+        "description": "Whoever, having accepted any conditional remission of punishment, knowingly violates any condition on which such remission was granted, shall be punished with the punishment to which he was originally sentenced, if he has already suffered no part of that punishment, and if he has suffered any part of that punishment, then with so much of that punishment as he has not already suffered."
+      },
+      {
+        "section": 267,
+        "name": "Intentional insult or interruption to public servant sitting in judicial proceeding.",
+        "description": "Whoever, intentionally offers any insult, or causes any interruption to any public servant, while such public servant is sitting in any stage of a judicial proceeding, shall be punished with simple imprisonment for a term which may extend to six months, or with fine which may extend to five thousand rupees, or with both."
+      },
+      {
+        "section": 268,
+        "name": "Personation of assessor.",
+        "description": "Whoever, by personation or otherwise, shall intentionally cause, or knowingly suffer himself to be returned, empanelled or sworn as an assessor in any case in which he knows that he is not entitled by law to be so returned, empanelled or sworn, or knowing himself to have been so returned, empanelled or sworn contrary to law, shall voluntarily serve as such assessor, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both."
+      },
+      {
+        "section": 269,
+        "name": "Failure by person released on bail bond or bond to appear in Court.",
+        "description": "Whoever, having been charged with an offence and released on bail bond or on bond, fails without sufficient cause (the burden of proving which shall lie upon him), to appear in Court in accordance with the terms of the bail or bond, shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.\r\nExplanation.—The punishment under this section is—\r\n(a) in addition to the punishment to which the offender would be liable on a conviction for the offence with which he has been charged; and\r\n(b) without prejudice to the power of the Court to order forfeiture of the bond."
+      }
+    ],
+    "_meta": {
+      "chapter_subtype": "OF FALSE EVIDENCE AND OFFENCES AGAINST PUBLIC JUSTICE",
+      "slug": "of_false_evidence_and_offences_against_public_justice",
+      "section_count": 43,
+      "has_error": true,
+      "sections": [
+        {
+          "section": 227,
+          "name": "Giving false evidence."
+        },
+        {
+          "section": 228,
+          "name": "Fabricating false evidence."
+        },
+        {
+          "section": 229,
+          "name": "Punishment for false evidence."
+        },
+        {
+          "section": 230,
+          "name": "Giving or fabricating false evidence with intent to procure conviction of capital offence."
+        },
+        {
+          "section": 231,
+          "name": "Giving or fabricating false evidence with intent to procure conviction of offence punishable with imprisonment for life or imprisonment."
+        },
+        {
+          "section": 232,
+          "name": "Threatening any person to give false evidence"
+        },
+        {
+          "section": 233,
+          "name": "Using evidence known to be false"
+        },
+        {
+          "section": 234,
+          "name": "Issuing or signing false certificate."
+        },
+        {
+          "section": 235,
+          "name": "Using as true a certificate known to be false."
+        },
+        {
+          "section": 236,
+          "name": "False statement made in declaration which is by law receivable as evidence"
+        },
+        {
+          "section": 237,
+          "name": "Using as true\r\n such\r\n declaration\r\n knowing it to\r\n be false"
+        },
+        {
+          "section": 238,
+          "name": "Causing disappearance of evidence of offence, or giving false information to screen offender."
+        },
+        {
+          "section": 239,
+          "name": "Intentional\r\n omission to\r\n give\r\n information\r\n of offence by\r\n person bound to inform."
+        },
+        {
+          "section": 240,
+          "name": "Giving false information respecting an offence committed."
+        },
+        {
+          "section": 241,
+          "name": "Destruction of document or electronic record to prevent its production as evidence"
+        },
+        {
+          "section": 242,
+          "name": "False personation for purpose of act or proceeding in suit or prosecution."
+        },
+        {
+          "section": 243,
+          "name": "Fraudulent removal or concealment of property to prevent its seizure as forfeited or in execution."
+        },
+        {
+          "section": 244,
+          "name": "Fraudulent claim to property to prevent its seizure as forfeited or in execution."
+        },
+        {
+          "section": 245,
+          "name": "Fraudulently suffering decree for sum not due."
+        },
+        {
+          "section": 246,
+          "name": "Dishonestly making false claim in Court."
+        },
+        {
+          "section": 247,
+          "name": "Fraudulently obtaining decree for sum not due."
+        },
+        {
+          "section": 248,
+          "name": "False charge of offence made with intent to injure."
+        },
+        {
+          "section": 249,
+          "name": "Harbouring offender."
+        },
+        {
+          "section": 250,
+          "name": "Taking gift, etc., to screen an offender from punishment."
+        },
+        {
+          "section": 251,
+          "name": "Offering gift or restoration of property in consideration of screening offender."
+        },
+        {
+          "section": 252,
+          "name": "Taking gift to help to recover stolen property, etc."
+        },
+        {
+          "section": 253,
+          "name": "Harbouring offender who has escaped from custody or whose apprehension has been ordered."
+        },
+        {
+          "section": 254,
+          "name": "Penalty for harbouring robbers or dacoits"
+        },
+        {
+          "section": 255,
+          "name": "Public servant disobeying direction of law with intent to save person from punishment or property from forfeiture."
+        },
+        {
+          "section": 256,
+          "name": "Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture."
+        },
+        {
+          "section": 257,
+          "name": "Public servant in judicial proceeding corruptly making report, etc., contrary to law."
+        },
+        {
+          "section": 258,
+          "name": "Commitment for trial or confinement by person having authority who knows that he is acting contrary to law\\"
+        },
+        {
+          "section": 259,
+          "name": "Intentional omission to apprehend on part of public servant bound to apprehend."
+        },
+        {
+          "section": 260,
+          "name": "Intentional omission to apprehend on part of public servant bound to apprehend person under sentence or lawfully committed."
+        },
+        {
+          "section": 261,
+          "name": "Escape from confinement or custody negligently suffered by public servant."
+        },
+        {
+          "section": 262,
+          "name": "Resistance or obstruction by a person to his lawful apprehension."
+        },
+        {
+          "section": 263,
+          "name": "Resistance or obstruction to lawful apprehension of another person."
+        },
+        {
+          "section": 264,
+          "name": "Omission to apprehend, or sufferance of escape, on part of public servant, in cases not otherwise provided for"
+        },
+        {
+          "section": 265,
+          "name": "Resistance or obstruction to lawful apprehension or escape or rescue in cases not otherwise provided for."
+        },
+        {
+          "section": 266,
+          "name": "Violation of condition of remission of punishment."
+        },
+        {
+          "section": 267,
+          "name": "Intentional insult or interruption to public servant sitting in judicial proceeding."
+        },
+        {
+          "section": 268,
+          "name": "Personation of assessor."
+        },
+        {
+          "section": 269,
+          "name": "Failure by person released on bail bond or bond to appear in Court."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES AFFECTING THE PUBLIC HEALTH, SAFETY, CONVENIENCE, DECENCY AND MORALS": {
+    "question": "Is the act or omission causing a common injury, danger or annoyance to the public or to people in general?",
+    "yes": {
+      "question": "Is the act or omission likely to spread the infection of any disease dangerous to life?",
+      "yes": {
+        "section": 271,
+        "name": "Negligent act likely to spread infection of disease dangerous to life"
+      },
+      "no": {
+        "section": 270,
+        "name": "Public nuisance"
+      }
+    },
+    "no": {
+      "question": "Is the act or omission related to food or drink?",
+      "yes": {
+        "question": "Is the food or drink adulterated?",
+        "yes": {
+          "section": 274,
+          "name": "Adulteration of food or drink intended for sale"
+        },
+        "no": {
+          "section": 275,
+          "name": "Sale of noxious food or drink"
+        }
+      },
+      "no": {
+        "question": "Is the act or omission related to drugs or medical preparations?",
+        "yes": {
+          "question": "Is the drug or medical preparation adulterated?",
+          "yes": {
+            "section": 276,
+            "name": "Adulteration of drugs"
+          },
+          "no": {
+            "section": 277,
+            "name": "Sale of adulterated drugs"
+          }
+        },
+        "no": {
+          "question": "Is the act or omission related to a public spring or reservoir?",
+          "yes": {
+            "section": 279,
+            "name": "Fouling water of public spring or reservoir"
+          },
+          "no": {
+            "question": "Is the act or omission related to a public way or line of navigation?",
+            "yes": {
+              "section": 285,
+              "name": "Danger or obstruction in public way or line of navigation"
+            },
+            "no": {
+              "question": "Is the act or omission related to a vessel?",
+              "yes": {
+                "section": 282,
+                "name": "Rash navigation of vessel"
+              },
+              "no": {
+                "question": "Is the act or omission related to a public servant?",
+                "yes": {
+                  "section": 293,
+                  "name": "Continuance of nuisance after injunction to discontinue"
+                },
+                "no": {
+                  "question": "Is the act or omission related to a building?",
+                  "yes": {
+                    "section": 290,
+                    "name": "Negligent conduct with respect to pulling down, repairing or constructing buildings, etc."
+                  },
+                  "no": {
+                    "question": "Is the act or omission related to an animal?",
+                    "yes": {
+                      "section": 291,
+                      "name": "Negligent conduct with respect to animal"
+                    },
+                    "no": {
+                      "question": "Is the act or omission related to a public nuisance?",
+                      "yes": {
+                        "section": 292,
+                        "name": "Punishment for public nuisance in cases not otherwise provided for"
+                      },
+                      "no": {
+                        "question": "Is the act or omission related to a lottery?",
+                        "yes": {
+                          "section": 297,
+                          "name": "Keeping lottery office"
+                        },
+                        "no": {
+                          "question": "Is the act or omission related to an obscene object?",
+                          "yes": {
+                            "section": 294,
+                            "name": "Sale, etc., of obscene books, etc."
+                          },
+                          "no": {
+                            "question": "Is the act or omission related to a child?",
+                            "yes": {
+                              "section": 295,
+                              "name": "Sale, etc., of obscene objects to child"
+                            },
+                            "no": {
+                              "section": 296,
+                              "name": "Obscene acts and songs"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "group": "OF OFFENCES AFFECTING THE PUBLIC HEALTH, SAFETY, CONVENIENCE, DECENCY AND MORALS",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES AFFECTING THE PUBLIC HEALTH, SAFETY, CONVENIENCE, DECENCY AND MORALS",
+      "slug": "of_offences_affecting_the_public_health_safety_convenience_decency_and_morals",
+      "section_count": 28,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 270,
+          "name": "Public nuisance."
+        },
+        {
+          "section": 271,
+          "name": "Negligent act likely to spread infection of disease dangerous to life."
+        },
+        {
+          "section": 272,
+          "name": "Malignant act likely to spread infection of disease dangerous to life."
+        },
+        {
+          "section": 273,
+          "name": "Disobedience to quarantine rule."
+        },
+        {
+          "section": 274,
+          "name": "Adulteration of food or drink intended for sale."
+        },
+        {
+          "section": 275,
+          "name": "Sale of noxious food or drink."
+        },
+        {
+          "section": 276,
+          "name": "Adulteration of drugs."
+        },
+        {
+          "section": 277,
+          "name": "Sale of adulterated drugs."
+        },
+        {
+          "section": 278,
+          "name": "Sale of drug as a different drug or preparation."
+        },
+        {
+          "section": 279,
+          "name": "Fouling water of public spring or reservoir."
+        },
+        {
+          "section": 280,
+          "name": "Making atmosphere noxious to health."
+        },
+        {
+          "section": 281,
+          "name": "Rash driving or riding on a public way."
+        },
+        {
+          "section": 282,
+          "name": "Rash navigation of vessel."
+        },
+        {
+          "section": 283,
+          "name": "Exhibition of false light, mark or buoy."
+        },
+        {
+          "section": 284,
+          "name": "Conveying person by water for hire in unsafe or overloaded vessel."
+        },
+        {
+          "section": 285,
+          "name": "Danger or obstruction in public way or line of navigation."
+        },
+        {
+          "section": 286,
+          "name": "Negligent conduct with respect to poisonous substance."
+        },
+        {
+          "section": 287,
+          "name": "Negligent conduct with respect to fire or combustible matter."
+        },
+        {
+          "section": 288,
+          "name": "Negligent conduct with respect to explosive substance."
+        },
+        {
+          "section": 289,
+          "name": "Negligent conduct with respect to machinery."
+        },
+        {
+          "section": 290,
+          "name": "Negligent conduct with respect to pulling down, repairing or constructing buildings, etc."
+        },
+        {
+          "section": 291,
+          "name": "Negligent conduct with respect to animal."
+        },
+        {
+          "section": 292,
+          "name": "Punishment for public nuisance in cases not otherwise provided for."
+        },
+        {
+          "section": 293,
+          "name": "Continuance of nuisance after injunction to discontinue."
+        },
+        {
+          "section": 294,
+          "name": "Sale, etc., of obscene books, etc."
+        },
+        {
+          "section": 295,
+          "name": "Sale, etc., of obscene objects to child."
+        },
+        {
+          "section": 296,
+          "name": "Obscene acts and songs."
+        },
+        {
+          "section": 297,
+          "name": "Keeping lottery office."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES RELATING TO RELIGION": {
+    "question": "Was the act committed with the intention of insulting a religion?",
+    "yes": {
+      "question": "Was the act committed in a place of worship or a place of sepulchre?",
+      "yes": {
+        "section": 298,
+        "name": "Injuring or defiling place of worship with intent to insult religion of any class"
+      },
+      "no": {
+        "section": 302,
+        "name": "Uttering words, etc., with deliberate intent to wound religious feelings of any person"
+      }
+    },
+    "no": {
+      "question": "Was the act committed with the intention of outraging the religious feelings of any class?",
+      "yes": {
+        "section": 299,
+        "name": "Deliberate and malicious acts, intended to outrage religious feelings of any class by insulting its religion or religious beliefs"
+      },
+      "no": {
+        "question": "Was the act committed during a religious assembly?",
+        "yes": {
+          "section": 300,
+          "name": "Disturbing religious assembly"
+        },
+        "no": {
+          "section": 301,
+          "name": "Trespassing on burial places, etc."
+        }
+      }
+    },
+    "group": "OF OFFENCES RELATING TO RELIGION",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES RELATING TO RELIGION",
+      "slug": "of_offences_relating_to_religion",
+      "section_count": 5,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 298,
+          "name": "Injuring or defiling place of worship with intent to insult religion of any class."
+        },
+        {
+          "section": 299,
+          "name": "Deliberate and malicious acts, intended to outrage religious feelings of any class by insulting its religion or religious beliefs."
+        },
+        {
+          "section": 300,
+          "name": "Disturbing religious assembly."
+        },
+        {
+          "section": 301,
+          "name": "Trespassing on burial places, etc."
+        },
+        {
+          "section": 302,
+          "name": "Uttering words, etc., with deliberate intent to wound religious feelings of any person."
+        }
+      ]
+    }
+  },
+  "Of theft": {
+    "question": "Was the property taken from a person's possession?",
+    "yes": {
+      "question": "Was the taking sudden, quick, or forceful?",
+      "yes": {
+        "section": 304,
+        "name": "Snatching"
+      },
+      "no": {
+        "section": 303,
+        "name": "Theft"
+      }
+    },
+    "no": {
+      "question": "Was the property taken from a dwelling house, means of transportation, or place of worship?",
+      "yes": {
+        "section": 305,
+        "name": "Theft in a dwelling house, or means of transportation or place of worship, etc."
+      },
+      "no": {
+        "question": "Was the property taken by a clerk or servant from their master's or employer's possession?",
+        "yes": {
+          "section": 306,
+          "name": "Theft by clerk or servant of property in possession of master"
+        },
+        "no": {
+          "question": "Was preparation made for causing death, hurt, or restraint in order to committing of theft?",
+          "yes": {
+            "section": 307,
+            "name": "Theft after preparation made for causing death, hurt or restraint in order to committing of theft"
+          },
+          "no": {
+            "section": 303,
+            "name": "Theft"
+          }
+        }
+      }
+    },
+    "group": "Of theft",
+    "_meta": {
+      "chapter_subtype": "Of theft",
+      "slug": "of_theft",
+      "section_count": 5,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 303,
+          "name": "Theft"
+        },
+        {
+          "section": 304,
+          "name": "Snatching"
+        },
+        {
+          "section": 305,
+          "name": "Theft in a dwelling house, or means of transportation or place of worship, etc."
+        },
+        {
+          "section": 306,
+          "name": "Theft by clerk or servant of property in possession of master."
+        },
+        {
+          "section": 307,
+          "name": "Theft after preparation made for causing death, hurt or restraint in order to committing of theft."
+        }
+      ]
+    }
+  },
+  "Of extortion": {
+    "group": "Of extortion",
+    "question": "Does the situation involve 'Extortion.' as described under Section 308?",
+    "yes": {
+      "section": 308,
+      "name": "Extortion."
+    },
+    "no": {
+      "section": 308,
+      "name": "Extortion.",
+      "note": "Only one section in this group -- it applies regardless."
+    },
+    "_meta": {
+      "chapter_subtype": "Of extortion",
+      "slug": "of_extortion",
+      "section_count": 1,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 308,
+          "name": "Extortion."
+        }
+      ]
+    }
+  },
+  "Of robbery and dacoity": {
+    "question": "Is the number of persons committing or attempting to commit the crime 5 or more?",
+    "yes": {
+      "question": "Is the crime committed with the intention of causing death or grievous hurt?",
+      "yes": {
+        "section": 311,
+        "name": "Robbery, or dacoity, with attempt to cause death or grievous hurt"
+      },
+      "no": {
+        "section": 310,
+        "name": "Dacoity"
+      }
+    },
+    "no": {
+      "question": "Is the offender armed with a deadly weapon?",
+      "yes": {
+        "section": 312,
+        "name": "Attempt to commit robbery or dacoity when armed with deadly weapon"
+      },
+      "no": {
+        "section": 309,
+        "name": "Robbery"
+      }
+    },
+    "group": "Of robbery and dacoity",
+    "_meta": {
+      "chapter_subtype": "Of robbery and dacoity",
+      "slug": "of_robbery_and_dacoity",
+      "section_count": 5,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 309,
+          "name": "Robbery"
+        },
+        {
+          "section": 310,
+          "name": "Dacoity"
+        },
+        {
+          "section": 311,
+          "name": "Robbery, or dacoity, with attempt to cause death or grievous hurt."
+        },
+        {
+          "section": 312,
+          "name": "Attempt to commit robbery or dacoity when armed with deadly weapon."
+        },
+        {
+          "section": 313,
+          "name": "Punishment for belonging to gang of robbers, etc."
+        }
+      ]
+    }
+  },
+  "Of criminal misappropriation of property": {
+    "question": "Was the property taken out of the deceased person's possession?",
+    "yes": {
+      "question": "Has the property not been in the possession of any person legally entitled to it since the deceased person's death?",
+      "yes": {
+        "section": 315,
+        "name": "Dishonest misappropriation of property possessed by deceased person at the time of his death"
+      },
+      "no": {
+        "section": 315,
+        "name": "Dishonest misappropriation of property possessed by deceased person at the time of his death"
+      }
+    },
+    "no": {
+      "question": "Did the person take the property in good faith believing it was not stolen?",
+      "yes": {
+        "section": 314,
+        "name": "Dishonest misappropriation of property"
+      },
+      "no": {
+        "section": 314,
+        "name": "Dishonest misappropriation of property"
+      }
+    },
+    "group": "Of criminal misappropriation of property",
+    "_meta": {
+      "chapter_subtype": "Of criminal misappropriation of property",
+      "slug": "of_criminal_misappropriation_of_property",
+      "section_count": 2,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 314,
+          "name": "Dishonest misappropriation of property."
+        },
+        {
+          "section": 315,
+          "name": "Dishonest misappropriation of property possessed by deceased person at the time of his death."
+        }
+      ]
+    }
+  },
+  "Of criminal breach of trust": {
+    "group": "Of criminal breach of trust",
+    "question": "Does the situation involve 'Criminal breach of trust.' as described under Section 316?",
+    "yes": {
+      "section": 316,
+      "name": "Criminal breach of trust."
+    },
+    "no": {
+      "section": 316,
+      "name": "Criminal breach of trust.",
+      "note": "Only one section in this group -- it applies regardless."
+    },
+    "_meta": {
+      "chapter_subtype": "Of criminal breach of trust",
+      "slug": "of_criminal_breach_of_trust",
+      "section_count": 1,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 316,
+          "name": "Criminal breach of trust."
+        }
+      ]
+    }
+  },
+  "Of receiving stolen property": {
+    "group": "Of receiving stolen property",
+    "question": "Does the situation involve 'Stolen property.' as described under Section 317?",
+    "yes": {
+      "section": 317,
+      "name": "Stolen property."
+    },
+    "no": {
+      "section": 317,
+      "name": "Stolen property.",
+      "note": "Only one section in this group -- it applies regardless."
+    },
+    "_meta": {
+      "chapter_subtype": "Of receiving stolen property",
+      "slug": "of_receiving_stolen_property",
+      "section_count": 1,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 317,
+          "name": "Stolen property."
+        }
+      ]
+    }
+  },
+  "Of cheating": {
+    "question": "Is the accused pretending to be someone else?",
+    "yes": {
+      "question": "Is the accused pretending to be a real person?",
+      "yes": {
+        "section": 319,
+        "name": "Cheating by personation"
+      },
+      "no": {
+        "section": 319,
+        "name": "Cheating by personation"
+      }
+    },
+    "no": {
+      "question": "Did the accused induce someone to deliver property or consent to retain property?",
+      "yes": {
+        "section": 318,
+        "name": "Cheating"
+      },
+      "no": {
+        "section": 318,
+        "name": "Cheating"
+      }
+    },
+    "group": "Of cheating",
+    "_meta": {
+      "chapter_subtype": "Of cheating",
+      "slug": "of_cheating",
+      "section_count": 2,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 318,
+          "name": "Cheating"
+        },
+        {
+          "section": 319,
+          "name": "Cheating by personation."
+        }
+      ]
+    }
+  },
+  "Of fraudulent deeds and dispositions of property": {
+    "question": "Is the property in question a debt?",
+    "yes": {
+      "question": "Did the person prevent the debt from being made available for payment?",
+      "yes": {
+        "section": 321,
+        "name": "Dishonestly or fraudulently preventing debt being available for creditors"
+      },
+      "no": {
+        "section": 320,
+        "name": "Dishonest or fraudulent removal or concealment of property to prevent distribution among creditors"
+      }
+    },
+    "no": {
+      "question": "Was a deed or instrument involved in the transaction?",
+      "yes": {
+        "question": "Did the deed or instrument contain a false statement of consideration?",
+        "yes": {
+          "section": 322,
+          "name": "Dishonest or fraudulent execution of deed of transfer containing false statement of consideration"
+        },
+        "no": {
+          "section": 323,
+          "name": "Dishonest or fraudulent removal or concealment of property"
+        }
+      },
+      "no": {
+        "section": 323,
+        "name": "Dishonest or fraudulent removal or concealment of property"
+      }
+    },
+    "group": "Of fraudulent deeds and dispositions of property",
+    "_meta": {
+      "chapter_subtype": "Of fraudulent deeds and dispositions of property",
+      "slug": "of_fraudulent_deeds_and_dispositions_of_property",
+      "section_count": 4,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 320,
+          "name": "Dishonest or fraudulent removal or concealment of property to prevent distribution among creditors."
+        },
+        {
+          "section": 321,
+          "name": "Dishonestly or fraudulently preventing debt being available for creditors."
+        },
+        {
+          "section": 322,
+          "name": "Dishonest or fraudulent execution of deed of transfer containing false statement of consideration."
+        },
+        {
+          "section": 323,
+          "name": "Dishonest or fraudulent removal or concealment of property."
+        }
+      ]
+    }
+  },
+  "Of mischief": {
+    "question": "Is the property destroyed or damaged?",
+    "yes": {
+      "question": "Is the destruction or damage intended to cause wrongful loss or damage to the public or a person?",
+      "yes": {
+        "section": 324,
+        "name": "Mischief"
+      },
+      "no": {
+        "section": 325,
+        "name": "Mischief by killing or maiming animal"
+      }
+    },
+    "no": {
+      "question": "Is the mischief done by causing a diminution of the supply of water for agricultural purposes, or for food or drink for human beings or for animals which are property, or for cleanliness or for carrying on any manufacture?",
+      "yes": {
+        "section": 326,
+        "name": "Mischief by injury, inundation, fire or explosive substance, etc."
+      },
+      "no": {
+        "question": "Is the mischief done to a rail, aircraft, decked vessel or a vessel of a burden of twenty tons or upwards?",
+        "yes": {
+          "section": 327,
+          "name": "Mischief with intent to destroy or make unsafe a rail, aircraft, decked vessel or one of twenty tons burden"
+        },
+        "no": {
+          "question": "Is the mischief done by intentionally running a vessel aground or ashore with intent to commit theft, etc.",
+          "yes": {
+            "section": 328,
+            "name": "Punishment for intentionally running vessel aground or ashore with intent to commit theft, etc."
+          },
+          "no": {
+            "section": 324,
+            "name": "Mischief"
+          }
+        }
+      }
+    },
+    "group": "Of mischief",
+    "_meta": {
+      "chapter_subtype": "Of mischief",
+      "slug": "of_mischief",
+      "section_count": 5,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 324,
+          "name": "Mischief"
+        },
+        {
+          "section": 325,
+          "name": "Mischief by killing or maiming animal."
+        },
+        {
+          "section": 326,
+          "name": "Mischief by injury, inundation, fire or explosive substance, etc."
+        },
+        {
+          "section": 327,
+          "name": "Mischief with intent to destroy or make unsafe a rail, aircraft, decked vessel or one of twenty tons burden."
+        },
+        {
+          "section": 328,
+          "name": "Punishment for intentionally running vessel aground or ashore with intent to commit theft, etc."
+        }
+      ]
+    }
+  },
+  "Of criminal trespass": {
+    "question": "Is the property in question a building?",
+    "yes": {
+      "question": "Is the trespasser attempting to intimidate, insult or annoy someone in possession of the property?",
+      "yes": {
+        "section": 329,
+        "name": "Criminal trespass and house-trespass"
+      },
+      "no": {
+        "question": "Has the trespasser taken precautions to conceal the trespass from someone who has a right to exclude or eject the trespasser?",
+        "yes": {
+          "section": 330,
+          "name": "House-trespass and hous-ebreaking"
+        },
+        "no": {
+          "question": "Is the trespasser attempting to commit an offence or has made preparation for causing hurt, assault or wrongful restraint?",
+          "yes": {
+            "section": 332,
+            "name": "House-trespass in order to commit offence"
+          },
+          "no": {
+            "section": 333,
+            "name": "House-trespass after preparation for hurt, assault or wrongful restraint"
+          }
+        }
+      }
+    },
+    "no": {
+      "question": "Is the property a receptacle containing property?",
+      "yes": {
+        "section": 334,
+        "name": "Dishonestly breaking open receptacle containing property"
+      },
+      "no": {
+        "section": 329,
+        "name": "Criminal trespass and house-trespass"
+      }
+    },
+    "group": "Of criminal trespass",
+    "_meta": {
+      "chapter_subtype": "Of criminal trespass",
+      "slug": "of_criminal_trespass",
+      "section_count": 6,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 329,
+          "name": "Criminal trespass and house-trespass."
+        },
+        {
+          "section": 330,
+          "name": "House-trespass and hous-ebreaking."
+        },
+        {
+          "section": 331,
+          "name": "Punishment for house-trespass or house-breaking."
+        },
+        {
+          "section": 332,
+          "name": "House-trespass in order to commit offence."
+        },
+        {
+          "section": 333,
+          "name": "House-trespass after preparation for hurt, assault or wrongful restraint."
+        },
+        {
+          "section": 334,
+          "name": "Dishonestly breaking open receptacle containing property."
+        }
+      ]
+    }
+  },
+  "OF OFFENCES RELATING TO DOCUMENTS AND TO PROPERTY MARKS": {
+    "question": "Is the document or electronic record a record of a Court or a public register?",
+    "yes": {
+      "question": "Is the document or electronic record an identity document issued by Government including voter identity card or Aadhaar Card?",
+      "yes": {
+        "section": 337,
+        "name": "Forgery of record of Court or of public register, etc."
+      },
+      "no": {
+        "section": 337,
+        "name": "Forgery of record of Court or of public register, etc."
+      }
+    },
+    "no": {
+      "question": "Is the document or electronic record a will, or an authority to adopt a son, or a valuable security?",
+      "yes": {
+        "question": "Is the document or electronic record a will, or an authority to adopt a son?",
+        "yes": {
+          "section": 338,
+          "name": "Forgery of valuable security, will, etc."
+        },
+        "no": {
+          "section": 338,
+          "name": "Forgery of valuable security, will, etc."
+        }
+      },
+      "no": {
+        "question": "Is the document or electronic record a security, or a register of birth, marriage or burial, or a register kept by a public servant?",
+        "yes": {
+          "section": 337,
+          "name": "Forgery of record of Court or of public register, etc."
+        },
+        "no": {
+          "question": "Is the document or electronic record a false document or false electronic record?",
+          "yes": {
+            "question": "Is the intention to cause damage or injury to the public or to any person, or to support any claim or title, or to cause any person to part with property, or to enter into any express or implied contract, or with intent to commit fraud?",
+            "yes": {
+              "section": 336,
+              "name": "Forgery"
+            },
+            "no": {
+              "section": 335,
+              "name": "Making a false document"
+            }
+          },
+          "no": {
+            "question": "Is the document or electronic record a document or part of a document, or an electronic record or part of an electronic record?",
+            "yes": {
+              "section": 335,
+              "name": "Making a false document"
+            },
+            "no": {
+              "section": 335,
+              "name": "Making a false document"
+            }
+          }
+        }
+      }
+    },
+    "group": "OF OFFENCES RELATING TO DOCUMENTS AND TO PROPERTY MARKS",
+    "_meta": {
+      "chapter_subtype": "OF OFFENCES RELATING TO DOCUMENTS AND TO PROPERTY MARKS",
+      "slug": "of_offences_relating_to_documents_and_to_property_marks",
+      "section_count": 10,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 335,
+          "name": "Making a false document."
+        },
+        {
+          "section": 336,
+          "name": "Forgery"
+        },
+        {
+          "section": 337,
+          "name": "Forgery of record of Court or of public register, etc."
+        },
+        {
+          "section": 338,
+          "name": "Forgery of valuable security, will, etc."
+        },
+        {
+          "section": 339,
+          "name": "Having possession of document described in section 337 or section 338, knowing it to be forged and intending to use it as genuine."
+        },
+        {
+          "section": 340,
+          "name": "Forged document or electronic record and using it as genuine."
+        },
+        {
+          "section": 341,
+          "name": "Making or possessing counterfeit seal, etc., with intent to commit forgery punishable under section 338."
+        },
+        {
+          "section": 342,
+          "name": "Counterfeiting device or mark used for authenticating documents described in section 338, or possessing counterfeit marked material."
+        },
+        {
+          "section": 343,
+          "name": "Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security."
+        },
+        {
+          "section": 344,
+          "name": "Falsification of accounts."
+        }
+      ]
+    }
+  },
+  "Of property marks": {
+    "question": "Is the property mark used for denoting that movable property belongs to a particular person?",
+    "yes": {
+      "question": "Is the mark used to cause injury to any person?",
+      "yes": {
+        "section": 346,
+        "name": "Tampering with property mark with intent to cause injury"
+      },
+      "no": {
+        "section": 347,
+        "name": "Counterfeiting a property mark"
+      }
+    },
+    "no": {
+      "question": "Is the mark used by a public servant or any mark used by a public servant to denote that any property has been?",
+      "yes": {
+        "section": 347,
+        "name": "Counterfeiting a property mark"
+      },
+      "no": {
+        "question": "Is the mark used to denote that any goods belong to a person to whom they do not belong?",
+        "yes": {
+          "section": 348,
+          "name": "Making or possession of any instrument for counterfeiting a property mark"
+        },
+        "no": {
+          "question": "Is the mark a counterfeit property mark?",
+          "yes": {
+            "section": 349,
+            "name": "Selling goods marked with a counterfeit property mark"
+          },
+          "no": {
+            "question": "Is the mark made upon any case, package or other receptacle containing goods?",
+            "yes": {
+              "section": 350,
+              "name": "Making a false mark upon any receptacle containing goods"
+            },
+            "no": {
+              "section": 345,
+              "name": "Property mark"
+            }
+          }
+        }
+      }
+    },
+    "group": "Of property marks",
+    "_meta": {
+      "chapter_subtype": "Of property marks",
+      "slug": "of_property_marks",
+      "section_count": 6,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 345,
+          "name": "Property mark."
+        },
+        {
+          "section": 346,
+          "name": "Tampering with property mark with intent to cause injury."
+        },
+        {
+          "section": 347,
+          "name": "Counterfeiting a property mark."
+        },
+        {
+          "section": 348,
+          "name": "Making or possession of any instrument for counterfeiting a property mark."
+        },
+        {
+          "section": 349,
+          "name": "Selling goods marked with a counterfeit property mark."
+        },
+        {
+          "section": 350,
+          "name": "Making a false mark upon any receptacle containing goods."
+        }
+      ]
+    }
+  },
+  "OF CRIMINAL INTIMIDATION, INSULT, ANNOYANCE, DEFAMATION, ETC.": {
+    "question": "Is the act intended to cause harm or injury?",
+    "yes": {
+      "question": "Is the harm or injury to the person's reputation or property?",
+      "yes": {
+        "section": 351,
+        "name": "Criminal intimidation"
+      },
+      "no": {
+        "section": 354,
+        "name": "Act caused by inducing person to believe that he will be rendered an object of Divine displeasure"
+      }
+    },
+    "no": {
+      "question": "Is the act intended to provoke breach of peace?",
+      "yes": {
+        "section": 352,
+        "name": "Intentional insult with intent to provoke breach of peace"
+      },
+      "no": {
+        "question": "Is the act intended to cause public mischief?",
+        "yes": {
+          "section": 353,
+          "name": "Statements conducing to public mischief"
+        },
+        "no": {
+          "question": "Is the act committed by a drunken person?",
+          "yes": {
+            "section": 355,
+            "name": "Misconduct in public by a drunken person"
+          },
+          "no": {
+            "section": 352,
+            "name": "Intentional insult with intent to provoke breach of peace"
+          }
+        }
+      }
+    },
+    "group": "OF CRIMINAL INTIMIDATION, INSULT, ANNOYANCE, DEFAMATION, ETC.",
+    "_meta": {
+      "chapter_subtype": "OF CRIMINAL INTIMIDATION, INSULT, ANNOYANCE, DEFAMATION, ETC.",
+      "slug": "of_criminal_intimidation_insult_annoyance_defamation_etc",
+      "section_count": 5,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 351,
+          "name": "Criminal intimidation."
+        },
+        {
+          "section": 352,
+          "name": "Intentional insult with intent to provoke breach of peace."
+        },
+        {
+          "section": 353,
+          "name": "Statements conducing to public mischief."
+        },
+        {
+          "section": 354,
+          "name": "Act caused by inducing person to believe that he will be rendered an object of Divine displeasure."
+        },
+        {
+          "section": 355,
+          "name": "Misconduct in public by a drunken person."
+        }
+      ]
+    }
+  },
+  "Of defamation": {
+    "group": "Of defamation",
+    "question": "Does the situation involve 'Defamation' as described under Section 356?",
+    "yes": {
+      "section": 356,
+      "name": "Defamation"
+    },
+    "no": {
+      "section": 356,
+      "name": "Defamation",
+      "note": "Only one section in this group -- it applies regardless."
+    },
+    "_meta": {
+      "chapter_subtype": "Of defamation",
+      "slug": "of_defamation",
+      "section_count": 1,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 356,
+          "name": "Defamation"
+        }
+      ]
+    }
+  },
+  "Of breach of contract to attend on and supply wants of helpless person": {
+    "group": "Of breach of contract to attend on and supply wants of helpless person",
+    "question": "Does the situation involve 'Breach of contract to attend on and supply wants of helpless person.' as described under Section 357?",
+    "yes": {
+      "section": 357,
+      "name": "Breach of contract to attend on and supply wants of helpless person."
+    },
+    "no": {
+      "section": 357,
+      "name": "Breach of contract to attend on and supply wants of helpless person.",
+      "note": "Only one section in this group -- it applies regardless."
+    },
+    "_meta": {
+      "chapter_subtype": "Of breach of contract to attend on and supply wants of helpless person",
+      "slug": "of_breach_of_contract_to_attend_on_and_supply_wants_of_helpless_person",
+      "section_count": 1,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 357,
+          "name": "Breach of contract to attend on and supply wants of helpless person."
+        }
+      ]
+    }
+  },
+  "REPEAL AND SAVINGS": {
+    "group": "REPEAL AND SAVINGS",
+    "question": "Does the situation involve 'Repeal and savings.' as described under Section 358?",
+    "yes": {
+      "section": 358,
+      "name": "Repeal and savings."
+    },
+    "no": {
+      "section": 358,
+      "name": "Repeal and savings.",
+      "note": "Only one section in this group -- it applies regardless."
+    },
+    "_meta": {
+      "chapter_subtype": "REPEAL AND SAVINGS",
+      "slug": "repeal_and_savings",
+      "section_count": 1,
+      "has_error": false,
+      "sections": [
+        {
+          "section": 358,
+          "name": "Repeal and savings."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "question": "Is the punishment death?",
+  "yes": {
+    "section": 4,
+    "name": "Punishments"
+  },
+  "no": {
+    "question": "Is the punishment imprisonment?",
+    "yes": {
+      "question": "Is the imprisonment for life?",
+      "yes": {
+        "section": 4,
+        "name": "Punishments"
+      },
+      "no": {
+        "question": "Is the imprisonment rigorous?",
+        "yes": {
+          "section": 4,
+          "name": "Punishments"
+        },
+        "no": {
+          "question": "Is the imprisonment simple?",
+          "yes": {
+            "section": 4,
+            "name": "Punishments"
+          },
+          "no": {
+            "question": "Is the punishment fine?",
+            "yes": {
+              "section": 8,
+              "name": "Amount of fine, liability in default of payment of fine, etc."
+            },
+            "no": {
+              "question": "Is the punishment community service?",
+              "yes": {
+                "section": 4,
+                "name": "Punishments"
+              },
+              "no": {
+                "section": 5,
+                "name": "Commutation of sentence"
+              }
+            }
+          }
+        }
+      }
+    },
+    "no": {
+      "question": "Is the punishment forfeiture of property?",
+      "yes": {
+        "section": 4,
+        "name": "Punishments"
+      },
+      "no": {
+        "section": 6,
+        "name": "Fractions of terms of punishment"
+      }
+    }
+  },
+  "group": "Of punishments",
+  "_meta": {
+    "chapter_subtype": "Of punishments",
+    "slug": "of_punishments",
+    "section_count": 10,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 4,
+        "name": "Punishments"
+      },
+      {
+        "section": 5,
+        "name": "Commutation of sentence"
+      },
+      {
+        "section": 6,
+        "name": "Fractions of terms of punishment."
+      },
+      {
+        "section": 7,
+        "name": "Sentence may be (in certain cases of imprisonment) wholly or partly rigorous or simple"
+      },
+      {
+        "section": 8,
+        "name": "Amount of fine, liability in default of payment of fine, etc."
+      },
+      {
+        "section": 9,
+        "name": "Limit of punishment of offence made up of several offences."
+      },
+      {
+        "section": 10,
+        "name": "Punishment of person guilty of one of several offences, judgment stating that it is doubtful of which."
+      },
+      {
+        "section": 11,
+        "name": "Solitary confinement."
+      },
+      {
+        "section": 12,
+        "name": "Limit of solitary confinement."
+      },
+      {
+        "section": 13,
+        "name": "Enhanced punishment for certain offences after previous conviction."
+      }
+    ]
+  }
+}

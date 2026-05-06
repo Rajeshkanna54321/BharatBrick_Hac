@@ -1,0 +1,25 @@
+{
+  "group": "Of criminal breach of trust",
+  "question": "Does the situation involve 'Criminal breach of trust.' as described under Section 316?",
+  "yes": {
+    "section": 316,
+    "name": "Criminal breach of trust."
+  },
+  "no": {
+    "section": 316,
+    "name": "Criminal breach of trust.",
+    "note": "Only one section in this group -- it applies regardless."
+  },
+  "_meta": {
+    "chapter_subtype": "Of criminal breach of trust",
+    "slug": "of_criminal_breach_of_trust",
+    "section_count": 1,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 316,
+        "name": "Criminal breach of trust."
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "question": "Was the property taken from a person's possession?",
+  "yes": {
+    "question": "Was the taking sudden, quick, or forceful?",
+    "yes": {
+      "section": 304,
+      "name": "Snatching"
+    },
+    "no": {
+      "section": 303,
+      "name": "Theft"
+    }
+  },
+  "no": {
+    "question": "Was the property taken from a dwelling house, means of transportation, or place of worship?",
+    "yes": {
+      "section": 305,
+      "name": "Theft in a dwelling house, or means of transportation or place of worship, etc."
+    },
+    "no": {
+      "question": "Was the property taken by a clerk or servant from their master's or employer's possession?",
+      "yes": {
+        "section": 306,
+        "name": "Theft by clerk or servant of property in possession of master"
+      },
+      "no": {
+        "question": "Was preparation made for causing death, hurt, or restraint in order to committing of theft?",
+        "yes": {
+          "section": 307,
+          "name": "Theft after preparation made for causing death, hurt or restraint in order to committing of theft"
+        },
+        "no": {
+          "section": 303,
+          "name": "Theft"
+        }
+      }
+    }
+  },
+  "group": "Of theft",
+  "_meta": {
+    "chapter_subtype": "Of theft",
+    "slug": "of_theft",
+    "section_count": 5,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 303,
+        "name": "Theft"
+      },
+      {
+        "section": 304,
+        "name": "Snatching"
+      },
+      {
+        "section": 305,
+        "name": "Theft in a dwelling house, or means of transportation or place of worship, etc."
+      },
+      {
+        "section": 306,
+        "name": "Theft by clerk or servant of property in possession of master."
+      },
+      {
+        "section": 307,
+        "name": "Theft after preparation made for causing death, hurt or restraint in order to committing of theft."
+      }
+    ]
+  }
+}

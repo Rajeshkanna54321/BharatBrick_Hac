@@ -1,0 +1,57 @@
+{
+  "question": "Is the property in question a debt?",
+  "yes": {
+    "question": "Did the person prevent the debt from being made available for payment?",
+    "yes": {
+      "section": 321,
+      "name": "Dishonestly or fraudulently preventing debt being available for creditors"
+    },
+    "no": {
+      "section": 320,
+      "name": "Dishonest or fraudulent removal or concealment of property to prevent distribution among creditors"
+    }
+  },
+  "no": {
+    "question": "Was a deed or instrument involved in the transaction?",
+    "yes": {
+      "question": "Did the deed or instrument contain a false statement of consideration?",
+      "yes": {
+        "section": 322,
+        "name": "Dishonest or fraudulent execution of deed of transfer containing false statement of consideration"
+      },
+      "no": {
+        "section": 323,
+        "name": "Dishonest or fraudulent removal or concealment of property"
+      }
+    },
+    "no": {
+      "section": 323,
+      "name": "Dishonest or fraudulent removal or concealment of property"
+    }
+  },
+  "group": "Of fraudulent deeds and dispositions of property",
+  "_meta": {
+    "chapter_subtype": "Of fraudulent deeds and dispositions of property",
+    "slug": "of_fraudulent_deeds_and_dispositions_of_property",
+    "section_count": 4,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 320,
+        "name": "Dishonest or fraudulent removal or concealment of property to prevent distribution among creditors."
+      },
+      {
+        "section": 321,
+        "name": "Dishonestly or fraudulently preventing debt being available for creditors."
+      },
+      {
+        "section": 322,
+        "name": "Dishonest or fraudulent execution of deed of transfer containing false statement of consideration."
+      },
+      {
+        "section": 323,
+        "name": "Dishonest or fraudulent removal or concealment of property."
+      }
+    ]
+  }
+}

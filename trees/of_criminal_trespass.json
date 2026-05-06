@@ -1,0 +1,72 @@
+{
+  "question": "Is the property in question a building?",
+  "yes": {
+    "question": "Is the trespasser attempting to intimidate, insult or annoy someone in possession of the property?",
+    "yes": {
+      "section": 329,
+      "name": "Criminal trespass and house-trespass"
+    },
+    "no": {
+      "question": "Has the trespasser taken precautions to conceal the trespass from someone who has a right to exclude or eject the trespasser?",
+      "yes": {
+        "section": 330,
+        "name": "House-trespass and hous-ebreaking"
+      },
+      "no": {
+        "question": "Is the trespasser attempting to commit an offence or has made preparation for causing hurt, assault or wrongful restraint?",
+        "yes": {
+          "section": 332,
+          "name": "House-trespass in order to commit offence"
+        },
+        "no": {
+          "section": 333,
+          "name": "House-trespass after preparation for hurt, assault or wrongful restraint"
+        }
+      }
+    }
+  },
+  "no": {
+    "question": "Is the property a receptacle containing property?",
+    "yes": {
+      "section": 334,
+      "name": "Dishonestly breaking open receptacle containing property"
+    },
+    "no": {
+      "section": 329,
+      "name": "Criminal trespass and house-trespass"
+    }
+  },
+  "group": "Of criminal trespass",
+  "_meta": {
+    "chapter_subtype": "Of criminal trespass",
+    "slug": "of_criminal_trespass",
+    "section_count": 6,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 329,
+        "name": "Criminal trespass and house-trespass."
+      },
+      {
+        "section": 330,
+        "name": "House-trespass and hous-ebreaking."
+      },
+      {
+        "section": 331,
+        "name": "Punishment for house-trespass or house-breaking."
+      },
+      {
+        "section": 332,
+        "name": "House-trespass in order to commit offence."
+      },
+      {
+        "section": 333,
+        "name": "House-trespass after preparation for hurt, assault or wrongful restraint."
+      },
+      {
+        "section": 334,
+        "name": "Dishonestly breaking open receptacle containing property."
+      }
+    ]
+  }
+}

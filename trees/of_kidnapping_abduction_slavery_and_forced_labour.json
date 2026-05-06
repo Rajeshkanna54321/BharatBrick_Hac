@@ -1,0 +1,109 @@
+{
+  "question": "Is the person kidnapped or abducted from India?",
+  "yes": {
+    "question": "Is the person a child?",
+    "yes": {
+      "section": 139,
+      "name": "Kidnapping or maiming a child for purposes of begging"
+    },
+    "no": {
+      "section": 137,
+      "name": "Kidnapping"
+    }
+  },
+  "no": {
+    "question": "Is the person kidnapped or abducted for the purpose of murder or ransom?",
+    "yes": {
+      "section": 140,
+      "name": "Kidnapping or abducting in order to murder or for ransom, etc."
+    },
+    "no": {
+      "question": "Is the person a girl or boy under the age of 21 or 18 respectively?",
+      "yes": {
+        "section": 141,
+        "name": "Importation of girl or boy from foreign country"
+      },
+      "no": {
+        "question": "Is the person wrongfully concealed or confined?",
+        "yes": {
+          "section": 142,
+          "name": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person"
+        },
+        "no": {
+          "question": "Is the person trafficked?",
+          "yes": {
+            "section": 143,
+            "name": "Trafficking of person"
+          },
+          "no": {
+            "question": "Is the person subjected to exploitation?",
+            "yes": {
+              "section": 144,
+              "name": "Exploitation of a trafficked person"
+            },
+            "no": {
+              "question": "Is the person subjected to unlawful compulsory labour?",
+              "yes": {
+                "section": 146,
+                "name": "Unlawful compulsory labour"
+              },
+              "no": {
+                "section": 145,
+                "name": "Habitual dealing in slaves"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "group": "Of kidnapping, abduction, slavery and forced labour",
+  "_meta": {
+    "chapter_subtype": "Of kidnapping, abduction, slavery and forced labour",
+    "slug": "of_kidnapping_abduction_slavery_and_forced_labour",
+    "section_count": 10,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 137,
+        "name": "Kidnapping."
+      },
+      {
+        "section": 138,
+        "name": "Abduction."
+      },
+      {
+        "section": 139,
+        "name": "Kidnapping or maiming a child for purposes of begging."
+      },
+      {
+        "section": 140,
+        "name": "Kidnapping or abducting in order to murder or for ransom, etc."
+      },
+      {
+        "section": 141,
+        "name": "Importation of girl or boy from foreign country"
+      },
+      {
+        "section": 142,
+        "name": "Wrongfully concealing or keeping in confinement, kidnapped or abducted person."
+      },
+      {
+        "section": 143,
+        "name": "Trafficking of person."
+      },
+      {
+        "section": 144,
+        "name": "Exploitation of a trafficked person"
+      },
+      {
+        "section": 145,
+        "name": "Habitual dealing in slaves."
+      },
+      {
+        "section": 146,
+        "name": "Unlawful compulsory labour."
+      }
+    ]
+  }
+}

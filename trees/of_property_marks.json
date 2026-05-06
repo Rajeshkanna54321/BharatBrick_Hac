@@ -1,0 +1,79 @@
+{
+  "question": "Is the property mark used for denoting that movable property belongs to a particular person?",
+  "yes": {
+    "question": "Is the mark used to cause injury to any person?",
+    "yes": {
+      "section": 346,
+      "name": "Tampering with property mark with intent to cause injury"
+    },
+    "no": {
+      "section": 347,
+      "name": "Counterfeiting a property mark"
+    }
+  },
+  "no": {
+    "question": "Is the mark used by a public servant or any mark used by a public servant to denote that any property has been?",
+    "yes": {
+      "section": 347,
+      "name": "Counterfeiting a property mark"
+    },
+    "no": {
+      "question": "Is the mark used to denote that any goods belong to a person to whom they do not belong?",
+      "yes": {
+        "section": 348,
+        "name": "Making or possession of any instrument for counterfeiting a property mark"
+      },
+      "no": {
+        "question": "Is the mark a counterfeit property mark?",
+        "yes": {
+          "section": 349,
+          "name": "Selling goods marked with a counterfeit property mark"
+        },
+        "no": {
+          "question": "Is the mark made upon any case, package or other receptacle containing goods?",
+          "yes": {
+            "section": 350,
+            "name": "Making a false mark upon any receptacle containing goods"
+          },
+          "no": {
+            "section": 345,
+            "name": "Property mark"
+          }
+        }
+      }
+    }
+  },
+  "group": "Of property marks",
+  "_meta": {
+    "chapter_subtype": "Of property marks",
+    "slug": "of_property_marks",
+    "section_count": 6,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 345,
+        "name": "Property mark."
+      },
+      {
+        "section": 346,
+        "name": "Tampering with property mark with intent to cause injury."
+      },
+      {
+        "section": 347,
+        "name": "Counterfeiting a property mark."
+      },
+      {
+        "section": 348,
+        "name": "Making or possession of any instrument for counterfeiting a property mark."
+      },
+      {
+        "section": 349,
+        "name": "Selling goods marked with a counterfeit property mark."
+      },
+      {
+        "section": 350,
+        "name": "Making a false mark upon any receptacle containing goods."
+      }
+    ]
+  }
+}

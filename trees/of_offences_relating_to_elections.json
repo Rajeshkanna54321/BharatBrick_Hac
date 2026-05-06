@@ -1,0 +1,98 @@
+{
+  "question": "Is the act done with the object of inducing or rewarding someone to exercise an electoral right?",
+  "yes": {
+    "question": "Is the gratification given or accepted for exercising an electoral right?",
+    "yes": {
+      "section": 170,
+      "name": "Bribery"
+    },
+    "no": {
+      "section": 171,
+      "name": "Undue influence at elections"
+    }
+  },
+  "no": {
+    "question": "Is the act done by a candidate or voter, or someone in whom a candidate or voter is interested?",
+    "yes": {
+      "section": 171,
+      "name": "Undue influence at elections"
+    },
+    "no": {
+      "question": "Is the act done by applying for a voting paper in someone else's name?",
+      "yes": {
+        "section": 172,
+        "name": "Personation at elections"
+      },
+      "no": {
+        "question": "Is the act done by making or publishing a false statement about a candidate?",
+        "yes": {
+          "section": 175,
+          "name": "False statement in connection with an election"
+        },
+        "no": {
+          "question": "Is the act done by incurring expenses without a candidate's authority?",
+          "yes": {
+            "section": 176,
+            "name": "Illegal payments in connection with an election"
+          },
+          "no": {
+            "question": "Is the act done by failing to keep election accounts?",
+            "yes": {
+              "section": 177,
+              "name": "Failure to keep election accounts"
+            },
+            "no": {
+              "section": 169,
+              "name": "Candidate, electoral right defined"
+            }
+          }
+        }
+      }
+    }
+  },
+  "group": "OF OFFENCES RELATING TO ELECTIONS",
+  "_meta": {
+    "chapter_subtype": "OF OFFENCES RELATING TO ELECTIONS",
+    "slug": "of_offences_relating_to_elections",
+    "section_count": 9,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 169,
+        "name": "Candidate, electoral right defined."
+      },
+      {
+        "section": 170,
+        "name": "Bribery."
+      },
+      {
+        "section": 171,
+        "name": "Undue influence at elections."
+      },
+      {
+        "section": 172,
+        "name": "Personation at elections."
+      },
+      {
+        "section": 173,
+        "name": "Punishment for bribery."
+      },
+      {
+        "section": 174,
+        "name": "Punishment for undue influence or personation at an election."
+      },
+      {
+        "section": 175,
+        "name": "False statement in connection with an election."
+      },
+      {
+        "section": 176,
+        "name": "Illegal payments in connection with an election."
+      },
+      {
+        "section": 177,
+        "name": "Failure to keep election accounts."
+      }
+    ]
+  }
+}

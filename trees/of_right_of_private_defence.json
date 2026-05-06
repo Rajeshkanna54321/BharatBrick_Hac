@@ -1,0 +1,99 @@
+{
+  "question": "Is the act an offence?",
+  "yes": {
+    "question": "Is the act an offence affecting the human body?",
+    "yes": {
+      "section": 35,
+      "name": "Right of private defence of body and of property"
+    },
+    "no": {
+      "question": "Is the act an offence falling under the definition of theft, mischief, or criminal trespass?",
+      "yes": {
+        "section": 41,
+        "name": "When right of private defence of property extends to causing death"
+      },
+      "no": {
+        "section": 37,
+        "name": "Acts against which there is no right of private defence"
+      }
+    }
+  },
+  "no": {
+    "question": "Is the act done by a public servant acting in good faith under colour of his office?",
+    "yes": {
+      "section": 37,
+      "name": "Acts against which there is no right of private defence"
+    },
+    "no": {
+      "question": "Is the act done by a person of unsound mind, etc.?",
+      "yes": {
+        "section": 36,
+        "name": "Right of private defence against act of a person of unsound mind, etc."
+      },
+      "no": {
+        "question": "Is the act an assault which reasonably causes the apprehension of death or of grievous hurt?",
+        "yes": {
+          "section": 38,
+          "name": "When right of private defence of body extends to causing death"
+        },
+        "no": {
+          "section": 39,
+          "name": "When such right extends to causing any harm other than death"
+        }
+      }
+    }
+  },
+  "group": "Of right of private defence",
+  "_meta": {
+    "chapter_subtype": "Of right of private defence",
+    "slug": "of_right_of_private_defence",
+    "section_count": 11,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 34,
+        "name": "Things done in private defence."
+      },
+      {
+        "section": 35,
+        "name": "Right of private defence of body and of property."
+      },
+      {
+        "section": 36,
+        "name": "Right of private defence against act of a person of unsound mind, etc."
+      },
+      {
+        "section": 37,
+        "name": "Acts against which there is no right of private defence."
+      },
+      {
+        "section": 38,
+        "name": "When right of private defence of body extends to causing death."
+      },
+      {
+        "section": 39,
+        "name": "When such right extends to causing any harm other than death."
+      },
+      {
+        "section": 40,
+        "name": "Commencement and continuance of right of private defence of body."
+      },
+      {
+        "section": 41,
+        "name": "When right of private defence of property extends to causing death."
+      },
+      {
+        "section": 42,
+        "name": "When such right extends to causing any harm other than death."
+      },
+      {
+        "section": 43,
+        "name": "Commencement and continuance of right of private defence of property."
+      },
+      {
+        "section": 44,
+        "name": "Right of private defence against deadly assault when there is risk of harm to innocent person."
+      }
+    ]
+  }
+}

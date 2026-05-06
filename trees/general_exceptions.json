@@ -1,0 +1,163 @@
+{
+  "question": "Is the person doing the act under the age of 7?",
+  "yes": {
+    "section": 20,
+    "name": "Act of a child under seven years of age"
+  },
+  "no": {
+    "question": "Is the person doing the act under the influence of intoxication caused against their will?",
+    "yes": {
+      "section": 23,
+      "name": "Act of a person incapable of judgment by reason of intoxication caused against his will"
+    },
+    "no": {
+      "question": "Is the person doing the act in good faith believing themselves bound by law?",
+      "yes": {
+        "section": 14,
+        "name": "Act done by a person bound, or by mistake of fact believing himself bound, by law"
+      },
+      "no": {
+        "question": "Is the person doing the act acting judicially?",
+        "yes": {
+          "section": 15,
+          "name": "Act of Judge when acting judicially"
+        },
+        "no": {
+          "question": "Is the person doing the act in good faith for the benefit of a person under 12 years of age or of unsound mind?",
+          "yes": {
+            "section": 27,
+            "name": "Act done in good faith for benefit of a child or person of unsound mind, by, or by consent of guardian"
+          },
+          "no": {
+            "question": "Is the person doing the act in good faith for the benefit of a person who has given consent?",
+            "yes": {
+              "section": 26,
+              "name": "Act not intended to cause death, done by consent in good faith for person's benefit"
+            },
+            "no": {
+              "question": "Is the person doing the act likely to cause harm, but done without criminal intent, and to prevent other harm?",
+              "yes": {
+                "section": 19,
+                "name": "Act likely to cause harm, but done without criminal intent, and to prevent other harm"
+              },
+              "no": {
+                "question": "Is the person doing the act an accident in doing a lawful act?",
+                "yes": {
+                  "section": 18,
+                  "name": "Act in doing a lawful act"
+                },
+                "no": {
+                  "question": "Is the person doing the act justified by law?",
+                  "yes": {
+                    "section": 17,
+                    "name": "Act done by a person justified, or by mistake of fact believing himself justified, by law"
+                  },
+                  "no": {
+                    "question": "Is the person doing the act with the knowledge that it is likely to cause harm, but done without any criminal intention to cause harm?",
+                    "yes": {
+                      "section": 29,
+                      "name": "Exclusion of acts which are offences independently of harm caused"
+                    },
+                    "no": {
+                      "section": 25,
+                      "name": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "group": "General exceptions",
+  "_meta": {
+    "chapter_subtype": "General exceptions",
+    "slug": "general_exceptions",
+    "section_count": 20,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 14,
+        "name": "Act done by a person bound, or by mistake of fact believing himself bound, by law"
+      },
+      {
+        "section": 15,
+        "name": "Act of Judge when acting judicially."
+      },
+      {
+        "section": 16,
+        "name": "Act done pursuant to judgment or order of Court."
+      },
+      {
+        "section": 17,
+        "name": "Act done by a person justified, or by mistake of fact believing himself justified, by law"
+      },
+      {
+        "section": 18,
+        "name": "Accident in doing a lawful act."
+      },
+      {
+        "section": 19,
+        "name": "Act likely to cause harm, but done without criminal intent, and to prevent other harm."
+      },
+      {
+        "section": 20,
+        "name": "Act of a child under seven years of age."
+      },
+      {
+        "section": 21,
+        "name": "Act of a child above seven and under twelve years of age of immature understanding"
+      },
+      {
+        "section": 22,
+        "name": "Act of a person of unsound mind."
+      },
+      {
+        "section": 23,
+        "name": "Act of a person incapable of judgment by reason of intoxication caused against his will"
+      },
+      {
+        "section": 24,
+        "name": "Offence requiring a particular intent or knowledge committed by one who is intoxicated"
+      },
+      {
+        "section": 25,
+        "name": "Act not intended and not known to be likely to cause death or grievous hurt, done by consent."
+      },
+      {
+        "section": 26,
+        "name": "Act not intended to cause death, done by consent in good faith for person's benefit."
+      },
+      {
+        "section": 27,
+        "name": "Act done in good faith for benefit of child or person of unsound mind, by, or by consent of guardian."
+      },
+      {
+        "section": 28,
+        "name": "Consent known to be given under fear or misconception."
+      },
+      {
+        "section": 29,
+        "name": "Exclusion of acts which are offences independently of harm caused."
+      },
+      {
+        "section": 30,
+        "name": "Act done in good faith for benefit of a person without consent."
+      },
+      {
+        "section": 31,
+        "name": "Communication made in good faith."
+      },
+      {
+        "section": 32,
+        "name": "Act to which a person is compelled by threats."
+      },
+      {
+        "section": 33,
+        "name": "Act causing slight harm."
+      }
+    ]
+  }
+}

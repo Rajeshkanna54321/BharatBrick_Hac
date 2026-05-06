@@ -1,0 +1,68 @@
+{
+  "question": "Is the act intended to cause harm or injury?",
+  "yes": {
+    "question": "Is the harm or injury to the person's reputation or property?",
+    "yes": {
+      "section": 351,
+      "name": "Criminal intimidation"
+    },
+    "no": {
+      "section": 354,
+      "name": "Act caused by inducing person to believe that he will be rendered an object of Divine displeasure"
+    }
+  },
+  "no": {
+    "question": "Is the act intended to provoke breach of peace?",
+    "yes": {
+      "section": 352,
+      "name": "Intentional insult with intent to provoke breach of peace"
+    },
+    "no": {
+      "question": "Is the act intended to cause public mischief?",
+      "yes": {
+        "section": 353,
+        "name": "Statements conducing to public mischief"
+      },
+      "no": {
+        "question": "Is the act committed by a drunken person?",
+        "yes": {
+          "section": 355,
+          "name": "Misconduct in public by a drunken person"
+        },
+        "no": {
+          "section": 352,
+          "name": "Intentional insult with intent to provoke breach of peace"
+        }
+      }
+    }
+  },
+  "group": "OF CRIMINAL INTIMIDATION, INSULT, ANNOYANCE, DEFAMATION, ETC.",
+  "_meta": {
+    "chapter_subtype": "OF CRIMINAL INTIMIDATION, INSULT, ANNOYANCE, DEFAMATION, ETC.",
+    "slug": "of_criminal_intimidation_insult_annoyance_defamation_etc",
+    "section_count": 5,
+    "has_error": false,
+    "sections": [
+      {
+        "section": 351,
+        "name": "Criminal intimidation."
+      },
+      {
+        "section": 352,
+        "name": "Intentional insult with intent to provoke breach of peace."
+      },
+      {
+        "section": 353,
+        "name": "Statements conducing to public mischief."
+      },
+      {
+        "section": 354,
+        "name": "Act caused by inducing person to believe that he will be rendered an object of Divine displeasure."
+      },
+      {
+        "section": 355,
+        "name": "Misconduct in public by a drunken person."
+      }
+    ]
+  }
+}
